@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="198px" height="173px" viewBox="0 0 198 173" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pixel-2" transform="translate(-8.000000, -1883.000000)">
+            <g id="Group-15" transform="translate(8.000000, 1883.000000)">
+                <g id="Group-13">
+                    <path d="M13.4311927,0 L148.899083,0 C160.552797,-2.13520436e-15 170,9.42271755 170,21.0462287 L170,151.953771 C170,163.577282 160.552797,173 148.899083,173 L13.4311927,173 C29.8103976,159.07371 38,147.07371 38,137 L38.1583333,39 C38.1583333,28.9262903 29.9159531,15.9262903 13.4311927,0 Z" id="Rectangle" fill="#FFFFFF"></path>
+                    <path d="M39,39 L-4.26325641e-14,39 L-4.26325641e-14,19.5 C-4.3951454e-14,8.73044738 8.73044738,1.97833472e-15 19.5,0 C30.2695526,-1.97833472e-15 39,8.73044738 39,19.5 L39,39 Z M39,137 L39,153.5 C39,164.269553 30.2695526,173 19.5,173 C8.73044738,173 -4.13136743e-14,164.269553 -4.26325641e-14,153.5 L-4.26325641e-14,137 L39,137 Z" id="Combined-Shape" fill="#D6E8F2"></path>
+                </g>
+                <g id="Group-12" transform="translate(143.000000, 21.000000)">
+                    <polygon id="Rectangle" fill="#F8E71C" points="9.5 0.193242009 19 30.2465753 0 30.2465753"></polygon>
+                    <polygon id="Rectangle" fill="#FFF46E" points="9.5 0.193242009 9.5 30.1205479 1.77635684e-15 30.2465753"></polygon>
+                    <polygon id="Rectangle" fill="#F8E71C" points="0 30.2465753 19 30.2465753 14.7777778 42.8493151 4.22222222 42.8493151"></polygon>
+                    <path d="M9.5,1.05022831 L9.5,30.2465753" id="Path-10" stroke="#2B2B2B"></path>
+                    <ellipse id="Oval" fill="#2B2B2B" cx="9.5" cy="30.0365297" rx="1.05555556" ry="1.05022831"></ellipse>
+                    <rect id="Rectangle" fill="#235288" x="4.22222222" y="42.8493151" width="10.5555556" height="2.10045662"></rect>
+                    <polygon id="Rectangle" fill="#002B5D" points="4.22222222 44.9497717 14.7777778 44.9497717 19 92 4.97379915e-14 91.5799087"></polygon>
+                </g>
+                <g id="Group-14" transform="translate(125.000000, 97.000000)">
+                    <rect id="Rectangle" fill="#D5E9FF" x="0" y="22.2541436" width="73" height="53.7458564" rx="14"></rect>
+                    <rect id="Rectangle" fill="#0C4689" x="4.66860465" y="52.0662983" width="64.0872093" height="16.7955801" rx="8.39779006"></rect>
+                    <path d="M25.2219832,22.2541436 L60.6918605,22.2541436 C67.4894583,22.2541436 73,27.7058807 73,34.4309392 L73,63.8232044 C73,70.548263 67.4894583,76 60.6918605,76 L25.2219832,76 L25.2219832,22.2541436 Z" id="Rectangle" fill="#A4CFFF"></path>
+                    <rect id="Rectangle-Copy-26" fill="#A4CFFF" x="21" y="6" width="30.9825581" height="16.3756906"></rect>
+                    <rect id="Rectangle-Copy-27" fill="#353460" x="4.66860465" y="0" width="63.2383721" height="16.3756906" rx="8"></rect>
+                    <path d="M25.2219832,52.0662983 L64.0872093,52.0662983 C66.6656083,52.0662983 68.755814,54.1341987 68.755814,56.6850829 L68.755814,64.2430939 C68.755814,66.7939781 66.6656083,68.8618785 64.0872093,68.8618785 L25.2219832,68.8618785 L25.2219832,52.0662983 Z" id="Rectangle" fill-opacity="0.6" fill="#0C4689"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
