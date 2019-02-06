@@ -1,0 +1,3 @@
+[submodule "animatedModal.js"]
+	path = animatedModal.js
+	url = ./vendor/animatedModal.js
