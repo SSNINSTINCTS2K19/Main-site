@@ -1,0 +1,13 @@
+{
+    "title":"design club",
+    "events":[
+        {
+            "title":"art display",
+            "description":"art display of modern arts"
+        },
+        {
+            "title":"svg contest",
+            "description":"design svgthon"
+        }
+    ]
+}
