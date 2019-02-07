@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="215px" height="253px" viewBox="0 0 215 253" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="852px" height="999px" viewBox="0 0 852 999" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>film</title>
+    <title>film copy</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="-0.00531443756%" y1="49.9955207%" x2="100.0124%" y2="49.9955207%" id="linearGradient-1">
@@ -11,197 +11,208 @@
         </linearGradient>
     </defs>
     <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Pixel-2" transform="translate(-28.000000, -661.000000)">
-            <g id="film" transform="translate(28.000000, 661.000000)">
-                <ellipse id="Oval" fill="#000000" opacity="0.1" cx="98" cy="243.5" rx="98" ry="9.5"></ellipse>
-                <path d="M123,118.86046 L79.1786879,133 L77.1316716,126.961238 C76.6767791,125.562013 77.4349333,124.015501 78.8754262,123.57364 L117.465474,111.127899 C118.905967,110.686039 120.498091,111.422473 120.952984,112.821698 L123,118.86046 Z" id="Path" fill="#606163"></path>
-                <polygon id="Path" fill="#111010" points="85.0813953 110 55 74.0668414 57.9476744 71.750983 86.6686047 106.040629 100.877907 104.173001 113.197674 98.1218873 116.22093 53 120 53.2241153 116.825581 100.512451 102.011628 107.833552"></polygon>
-                <path d="M91.6505104,36.0754852 L98.3260542,94.8784688 L91.6505104,36.0754852 Z M92.3436307,36 L99,94.8294034 L97.6577896,95 L91,36.1743708 L92.3436307,36 Z" id="Shape" fill="#F5A623" fill-rule="nonzero"></path>
-                <circle id="Oval" fill="#F5A623" cx="111.5" cy="31.5" r="22.5"></circle>
-                <path d="M111.462237,63 C106.553072,63 101.719432,61.8676899 97.1878952,59.5275823 C89.7108589,55.6777279 84.1219631,49.1858166 81.5540921,41.1841585 C78.986221,33.1825003 79.590426,24.6524308 83.4422326,17.179184 C87.2940391,9.70593726 93.7892424,4.11987403 101.794958,1.55330444 C109.800674,-1.01326516 118.335069,-0.409366428 125.812105,3.44048796 C133.289141,7.29034235 138.878037,13.7822537 141.445908,21.7839118 C144.013779,29.78557 143.409574,38.3156395 139.557767,45.7888863 C135.705961,53.262133 129.210758,58.8481962 121.205042,61.4147658 C118.032966,62.547076 114.785364,63 111.462237,63 Z M111.537763,3.81792467 C108.667789,3.81792467 105.72229,4.27084871 102.927842,5.17669681 C95.9039597,7.44131703 90.1640126,12.3479942 86.7653598,18.9908802 C83.3667069,25.6337662 82.8380276,33.107013 85.1037962,40.1273357 C87.3695647,47.1476584 92.27873,52.8846963 98.9249844,56.2816267 C105.495713,59.678557 113.048275,60.2069684 120.072158,57.9423482 C127.09604,55.6777279 132.835987,50.7710508 136.23464,44.1281648 C139.633293,37.5607661 140.161972,30.012032 137.896204,22.9917093 C135.630435,15.9713866 130.72127,10.2343487 124.075016,6.83741831 C120.147683,4.7992601 115.842723,3.81792467 111.537763,3.81792467 Z" id="Shape" fill="#606163" fill-rule="nonzero"></path>
-                <path d="M111.462237,63 C106.553072,63 101.719432,61.8676899 97.1878952,59.5275823 C89.7108589,55.6777279 84.1219631,49.1858166 81.5540921,41.1841585 C78.986221,33.1825003 79.590426,24.6524308 83.4422326,17.179184 C87.2940391,9.70593726 93.7892424,4.11987403 101.794958,1.55330444 C109.800674,-1.01326516 118.335069,-0.409366428 125.812105,3.44048796 C133.289141,7.29034235 138.878037,13.7822537 141.445908,21.7839118 C144.013779,29.78557 143.409574,38.3156395 139.557767,45.7888863 C135.705961,53.262133 129.210758,58.8481962 121.205042,61.4147658 C118.032966,62.547076 114.785364,63 111.462237,63 Z M111.537763,3.81792467 C108.667789,3.81792467 105.72229,4.27084871 102.927842,5.17669681 C95.9039597,7.44131703 90.1640126,12.3479942 86.7653598,18.9908802 C83.3667069,25.6337662 82.8380276,33.107013 85.1037962,40.1273357 C87.3695647,47.1476584 92.27873,52.8846963 98.9249844,56.2816267 C105.495713,59.678557 113.048275,60.2069684 120.072158,57.9423482 C127.09604,55.6777279 132.835987,50.7710508 136.23464,44.1281648 C139.633293,37.5607661 140.161972,30.012032 137.896204,22.9917093 C135.630435,15.9713866 130.72127,10.2343487 124.075016,6.83741831 C120.147683,4.7992601 115.842723,3.81792467 111.537763,3.81792467 Z" id="Shape" fill="#111010" fill-rule="nonzero"></path>
-                <polygon id="Path" fill="#111010" points="103.60861 3 122 58.8420845 118.390631 60 100 4.15641753"></polygon>
-                <polygon id="Path" fill="#111010" points="122.662588 4 126 5.69957296 99.3411577 58 96 56.300427"></polygon>
-                <polygon id="Path" fill="#111010" points="85.6988242 16 138 42.6621713 136.300427 46 84 19.3423241"></polygon>
-                <polygon id="Path" fill="#111010" points="138.843674 20 140 23.6121216 84.1563264 42 83 38.389397"></polygon>
-                <circle id="Oval" fill="#111010" cx="111.5" cy="31.5" r="3.5"></circle>
-                <path d="M142,106.479493 L69.1174677,130 L58.3284386,96.9664216 C57.1967223,93.5956483 59.0829162,89.9252507 62.553513,88.8016596 L122.987165,69.3260806 C126.382315,68.2024895 130.079255,70.0751413 131.210971,73.5208207 L142,106.479493 Z" id="Path" fill="#222222"></path>
-                <path d="M133,108.916437 L117.039149,114 L115.608696,109.653185 C115.23226,108.400713 115.909844,107.074567 117.189723,106.706193 L128.558065,103.096126 C129.837945,102.727752 131.193111,103.390826 131.569546,104.643298 L133,108.916437 Z M99.4805195,100.213502 L94.3971391,101.830664 L92,94.6134786 L97.0833804,93 L99.4805195,100.213502 Z" id="Shape" fill="#181818" fill-rule="nonzero"></path>
-                <circle id="Oval" fill="#85FF00" opacity="0.6" cx="121.5" cy="79.5" r="2.5"></circle>
-                <circle id="Oval" fill="#FF0000" opacity="0.6" cx="114" cy="82" r="2"></circle>
-                <polygon id="Path" fill="#222222" points="126 82.7589425 140.685177 78 145 91.2410575 130.311868 96"></polygon>
-                <polygon id="Path" fill="#222222" points="152 96 130 88.7613636 143.527027 70"></polygon>
-                <polygon id="Path" fill="#606163" points="155 97.4963708 150.442662 99 141 69.5051496 145.55659 68"></polygon>
-                <path d="M70,64 L96,102 L70,64 Z M70.2582276,63 L96,101.153214 L94.7417724,102 L69,63.8467861 L70.2582276,63 Z" id="Shape" fill="#F5A623" fill-rule="nonzero"></path>
-                <circle id="Oval" fill="#F5A623" cx="56.5" cy="71.5" r="16.5"></circle>
-                <path d="M56.4622773,103 C40.0906363,103 26.2086917,90.2494188 25.0770115,73.651029 C23.8698859,56.3736142 36.9973769,41.284169 54.3498075,40.0770134 C71.7022381,38.8698578 86.7158629,51.9976751 87.9229885,69.3505371 C89.1301141,86.6279519 76.0026231,101.717397 58.6501925,102.924553 C57.9711843,102.924553 57.2167308,103 56.4622773,103 Z M56.5377227,43.7739275 C55.9341599,43.7739275 55.2551517,43.7739275 54.6515889,43.8493747 C39.4116281,44.9056359 27.8684895,58.1843477 28.9247244,73.4246874 C29.9809593,88.665027 43.1838956,100.208453 58.4993018,99.1521915 C73.7392626,98.0959303 85.2824012,84.8172185 84.2261663,69.5768788 C83.1699314,55.0155642 70.9477846,43.7739275 56.5377227,43.7739275 Z" id="Shape" fill="#606163" fill-rule="nonzero"></path>
-                <path d="M56.4622773,103 C40.0906363,103 26.2086917,90.2494188 25.0770115,73.651029 C23.8698859,56.3736142 36.9973769,41.284169 54.3498075,40.0770134 C71.7022381,38.8698578 86.7158629,51.9976751 87.9229885,69.3505371 C89.1301141,86.6279519 76.0026231,101.717397 58.6501925,102.924553 C57.9711843,102.924553 57.2167308,103 56.4622773,103 Z M56.5377227,43.7739275 C55.9341599,43.7739275 55.2551517,43.7739275 54.6515889,43.8493747 C39.4116281,44.9056359 27.8684895,58.1843477 28.9247244,73.4246874 C29.9809593,88.665027 43.1838956,100.208453 58.4993018,99.1521915 C73.7392626,98.0959303 85.2824012,84.8172185 84.2261663,69.5768788 C83.1699314,55.0155642 70.9477846,43.7739275 56.5377227,43.7739275 Z" id="Shape" fill="#111010" fill-rule="nonzero"></path>
-                <polygon id="Path" fill="#111010" points="56.8563707 42 61 100.743158 57.1467181 101 53 42.2568417"></polygon>
-                <polygon id="Path" fill="#111010" points="75.1356729 48 78 50.4746358 38.8643271 95 36 92.5253642"></polygon>
-                <polygon id="Path" fill="#111010" points="35.4774902 50 80 89.1355693 77.5255229 92 33 52.8629111"></polygon>
-                <polygon id="Path" fill="#111010" points="85.74163 68 86 71.849508 27.25837 76 27 72.150492"></polygon>
-                <circle id="Oval" fill="#111010" cx="56.5" cy="71.5" r="3.5"></circle>
-                <polygon id="Path" fill="#181818" points="142 106.401026 69.1691553 129.9 68 126.099818 140.602865 102"></polygon>
-                <path d="M167,116 C118.608428,132.519435 69.4665982,139.05212 21,142.65636 L21,201 L167,201 L167,116 Z" id="Path" fill="#4A90E2"></path>
-                <polygon id="Rectangle" fill="#606163" points="93 126 102.224468 123 102.878472 133 93.632141 134.1"></polygon>
-                <polygon id="Path" fill="#4A90E2" points="21 152 167 152 167 198 21 198"></polygon>
-                <polygon id="Path" fill="#FEF6E0" points="20 157 168 157 168 194 20 194"></polygon>
-                <polygon id="Path" fill="#284F7C" points="14 143 27 143 27 242 14 242"></polygon>
-                <polygon id="Path" fill="#4A90E2" points="27 202 162 202 162 242 27 242"></polygon>
-                <path d="M170,197.642755 L24,197.642755 L24,201 L170,201 L170,197.642755 Z M170,149 L24,149 L24,152.357245 L170,152.357245 L170,149 Z" id="Shape" fill="#3E0B49" fill-rule="nonzero"></path>
-                <polygon id="Path" fill="#000000" opacity="0.2" points="27 201 162 214 162 201"></polygon>
-                <polygon id="Path" fill="#000000" opacity="0.45" points="52 220 63 220 63 242 52 242"></polygon>
-                <polygon id="Path" fill="#85837D" points="60 229 62 229 62 233 60 233"></polygon>
-                <polygon id="Path" fill="#000000" opacity="0.45" points="63 220 74 220 74 242 63 242"></polygon>
-                <polygon id="Path" fill="#85837D" points="64 229 66 229 66 233 64 233"></polygon>
-                <polygon id="Path" fill="#000000" opacity="0.45" points="81 220 92 220 92 242 81 242"></polygon>
-                <polygon id="Path" fill="#85837D" points="90 229 92 229 92 233 90 233"></polygon>
-                <polygon id="Path" fill="#000000" opacity="0.45" points="92 220 103 220 103 242 92 242"></polygon>
-                <polygon id="Path" fill="#85837D" points="93 229 95 229 95 233 93 233"></polygon>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="29" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="28" cy="153" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="28.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="35" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="35" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="34.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="41" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="41" cy="153" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="40.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="47" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="47" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="47.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="54" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="53" cy="153" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="53.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="60" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="60" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="59.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="66" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="66" cy="153" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="66.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="73" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="73" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="72.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="79" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="79" cy="153" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="78.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="85" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="85" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="85.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="92" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="91" cy="153" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="91.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="98" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="98" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="97.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="104" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="104" cy="153" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="104.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="111" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="110" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="110.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="117" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="116" cy="153" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="116.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="123" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="123" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="122.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="129" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="129" cy="153" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="129.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="136" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="136" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="135.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="142" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="142" cy="153" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="141.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="148" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="148" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="148.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="155" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="154" cy="153" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="154.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="161" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="161" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="160.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="167" cy="154" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="167" cy="153" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="167.5" cy="153.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="29" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="28" cy="197" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="28.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="35" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="35" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="34.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="41" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="41" cy="197" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="40.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="47" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="47" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="47.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="54" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="53" cy="197" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="53.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="60" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="60" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="59.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="66" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="66" cy="197" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="66.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="73" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="73" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="72.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="79" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="79" cy="197" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="78.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="85" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="85" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="85.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="92" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="91" cy="197" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="91.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="98" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="98" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="97.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="104" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="104" cy="197" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="104.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="111" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="110" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="110.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="117" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="116" cy="197" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="116.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="123" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="123" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="122.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="129" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="129" cy="197" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="129.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="136" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="136" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="135.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="142" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="142" cy="197" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="141.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="148" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="148" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="148.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="155" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="154" cy="197" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="154.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="161" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="161" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="160.5" cy="197.5" r="1.5"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="167" cy="198" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="167" cy="197" r="2"></circle>
-                <circle id="Oval" fill="#FFF170" cx="167.5" cy="197.5" r="1.5"></circle>
-                <path d="M27,165 L57.0406175,165 L57.0406175,169.556017 L27,169.556017 L27,165 Z M27,178.443983 L57.0406175,178.443983 L57.0406175,183 L27,183 L27,178.443983 Z M27,171.721992 L53.3227193,171.721992 L53.3227193,176.278008 L27,176.278008 L27,171.721992 Z M133.790729,165 L147.6,165 L147.6,169.556017 L133.790729,169.556017 L133.790729,165 Z M133.790729,178.443983 L147.6,178.443983 L147.6,183 L133.790729,183 L133.790729,178.443983 Z M133.790729,171.721992 L145.890932,171.721992 L145.890932,176.278008 L133.790729,176.278008 L133.790729,171.721992 Z M152.925,165 L162,165 L162,169.556017 L152.925,169.556017 L152.925,165 Z M152.925,178.443983 L162,178.443983 L162,183 L152.925,183 L152.925,178.443983 Z M152.925,171.721992 L160.65,171.721992 L160.65,176.278008 L152.925,176.278008 L152.925,171.721992 Z" id="Shape" fill="#000000" fill-rule="nonzero" opacity="0.11"></path>
-                <polygon id="Path" fill="url(#linearGradient-1)" opacity="0.27" points="231 90.8230683 154.507529 96 146 69.9652856 211.726306 29"></polygon>
-                <g id="Group-2-Copy" transform="translate(131.000000, 219.000000)">
-                    <polygon id="Path" fill="#F0F0F0" points="1 0 11 0 11 10 1 10"></polygon>
-                    <polygon id="Path-Copy-4" fill="#4A90E2" points="5 0 7 0 7 10 5 10"></polygon>
-                    <polygon id="Path-Copy-2" fill="#4A90E2" transform="translate(6.000000, 5.000000) rotate(90.000000) translate(-6.000000, -5.000000) " points="5 -1 7 -1 7 11 5 11"></polygon>
+        <g id="Desktop-HD" transform="translate(0.000000, -4801.000000)">
+            <g id="film-copy" transform="translate(0.000000, 4801.000000)">
+                <ellipse id="Oval" fill="#000000" opacity="0.1" cx="387.5" cy="961.5" rx="387.5" ry="37.5"></ellipse>
+                <path d="M486,469.084547 L312.620026,525 L304.520962,501.119442 C302.721169,495.586142 305.720823,489.470389 311.420165,487.723032 L464.102529,438.505784 C469.801871,436.758426 476.101143,439.670689 477.900935,445.203989 L486,469.084547 Z" id="Path" fill="#606163"></path>
+                <polygon id="Path" fill="#111010" points="335.937209 434 217 292.158585 228.654651 283.017038 342.212791 418.370904 398.394186 410.998689 447.104651 387.112713 459.05814 209 474 209.884666 461.448837 396.549148 402.876744 425.448231"></polygon>
+                <path d="M361.602042,142.298103 L388.304217,374.520055 L361.602042,142.298103 Z M364.374523,142 L391,374.326288 L385.631158,375 L359,142.688617 L364.374523,142 Z" id="Shape" fill="#F5A623" fill-rule="nonzero"></path>
+                <circle id="Oval" fill="#F5A623" cx="441" cy="124" r="89"></circle>
+                <path d="M440.350747,249 C420.947856,249 401.843471,244.524679 383.93311,235.275682 C354.381014,220.059591 332.291569,194.401085 322.142364,162.775483 C311.993159,131.149882 314.381207,97.4357978 329.605014,67.8986797 C344.828821,38.3615616 370.500339,16.2833116 402.141977,6.13925087 C433.783615,-4.0048099 467.514795,-1.61797207 497.06689,13.5981191 C526.618986,28.8142103 548.708431,54.4727169 558.857636,86.0983182 C569.006841,117.723919 566.618793,151.438004 551.394986,180.975122 C536.171179,210.51224 510.499661,232.59049 478.858023,242.734551 C466.320771,247.209872 453.485012,249 440.350747,249 Z M440.649253,15.0898927 C429.306024,15.0898927 417.66429,16.8800211 406.619567,20.4602778 C378.858507,29.4109197 356.17205,48.8039771 342.739279,75.0591932 C329.306508,101.314409 327.216966,130.851527 336.172147,158.598517 C345.127327,186.345507 364.530218,209.020466 390.798748,222.446429 C416.768772,235.872392 446.619373,237.960875 474.380433,229.010233 C502.141493,220.059591 524.82795,200.666534 538.260721,174.411318 C551.693492,148.454456 553.783034,118.618984 544.827853,90.8719938 C535.872673,63.125004 516.469782,40.4500447 490.201252,27.0240819 C474.678939,18.9685042 457.664096,15.0898927 440.649253,15.0898927 Z" id="Shape" fill="#606163" fill-rule="nonzero"></path>
+                <path d="M440.350747,249 C420.947856,249 401.843471,244.524679 383.93311,235.275682 C354.381014,220.059591 332.291569,194.401085 322.142364,162.775483 C311.993159,131.149882 314.381207,97.4357978 329.605014,67.8986797 C344.828821,38.3615616 370.500339,16.2833116 402.141977,6.13925087 C433.783615,-4.0048099 467.514795,-1.61797207 497.06689,13.5981191 C526.618986,28.8142103 548.708431,54.4727169 558.857636,86.0983182 C569.006841,117.723919 566.618793,151.438004 551.394986,180.975122 C536.171179,210.51224 510.499661,232.59049 478.858023,242.734551 C466.320771,247.209872 453.485012,249 440.350747,249 Z M440.649253,15.0898927 C429.306024,15.0898927 417.66429,16.8800211 406.619567,20.4602778 C378.858507,29.4109197 356.17205,48.8039771 342.739279,75.0591932 C329.306508,101.314409 327.216966,130.851527 336.172147,158.598517 C345.127327,186.345507 364.530218,209.020466 390.798748,222.446429 C416.768772,235.872392 446.619373,237.960875 474.380433,229.010233 C502.141493,220.059591 524.82795,200.666534 538.260721,174.411318 C551.693492,148.454456 553.783034,118.618984 544.827853,90.8719938 C535.872673,63.125004 516.469782,40.4500447 490.201252,27.0240819 C474.678939,18.9685042 457.664096,15.0898927 440.649253,15.0898927 Z" id="Shape" fill="#111010" fill-rule="nonzero"></path>
+                <polygon id="Path" fill="#111010" points="409.270413 12 482 232.429281 467.726586 237 395 16.5648061"></polygon>
+                <polygon id="Path" fill="#111010" points="484.761599 16 498 22.7038711 392.253259 229 379 222.296129"></polygon>
+                <polygon id="Path" fill="#111010" points="338.700918 63 545 167.871207 538.296129 181 332 76.1464749"></polygon>
+                <polygon id="Path" fill="#111010" points="548.435554 79 553 93.2842992 332.564446 166 328 151.721706"></polygon>
+                <circle id="Oval" fill="#111010" cx="441" cy="124" r="14"></circle>
+                <path d="M561,420.074718 L272.940468,513 L230.298115,382.490289 C225.82514,369.172971 233.280097,354.671892 246.997218,350.232786 L485.854035,273.288286 C499.272957,268.84918 513.884673,276.247689 518.357647,289.860947 L561,420.074718 Z" id="Path" fill="#222222"></path>
+                <path d="M526,429.907823 L462.935175,450 L457.283139,432.819733 C455.795761,427.869487 458.473041,422.628049 463.530126,421.172094 L508.44894,406.903737 C513.506025,405.447782 518.860586,408.068501 520.347964,413.018747 L526,429.907823 Z M393.557175,395.510507 L373.471623,401.902149 L364,373.377082 L384.085552,367 L393.557175,395.510507 Z" id="Shape" fill="#181818" fill-rule="nonzero"></path>
+                <circle id="Oval" fill="#85FF00" opacity="0.6" cx="480" cy="314" r="10"></circle>
+                <circle id="Oval" fill="#FF0000" opacity="0.6" cx="451" cy="324" r="8"></circle>
+                <polygon id="Path" fill="#222222" points="498 326.771384 555.967802 308 573 360.228616 515.020532 379"></polygon>
+                <polygon id="Path" fill="#222222" points="601 379 514 350.323864 567.493243 276"></polygon>
+                <polygon id="Path" fill="#606163" points="612 385.082491 594.09617 391 557 274.923492 574.900888 269"></polygon>
+                <path d="M276.962963,252.948718 L380,403 L276.962963,252.948718 Z M277.986309,249 L380,399.656281 L375.013691,403 L273,252.343719 L277.986309,249 Z" id="Shape" fill="#F5A623" fill-rule="nonzero"></path>
+                <circle id="Oval" fill="#F5A623" cx="223" cy="282" r="65"></circle>
+                <path d="M223.350906,407 C158.643943,407 103.77721,356.604846 99.3043787,291.001686 C94.5333585,222.714761 146.418204,163.075525 215.00162,158.304386 C283.585036,153.533247 342.924601,205.419383 347.695621,274.004504 C352.466642,342.291429 300.581796,401.930665 231.99838,406.701804 C229.314681,406.701804 226.332793,407 223.350906,407 Z M223.649094,172.915999 C221.263584,172.915999 218.579885,172.915999 216.194375,173.214195 C155.960244,177.388942 110.337363,229.871469 114.512006,290.107098 C118.686649,350.342726 170.869683,395.966741 231.402002,391.791995 C291.636133,387.617248 337.259014,335.134721 333.084372,274.899092 C328.909729,217.34723 280.603149,172.915999 223.649094,172.915999 Z" id="Shape" fill="#606163" fill-rule="nonzero"></path>
+                <path d="M223.350906,407 C158.643943,407 103.77721,356.604846 99.3043787,291.001686 C94.5333585,222.714761 146.418204,163.075525 215.00162,158.304386 C283.585036,153.533247 342.924601,205.419383 347.695621,274.004504 C352.466642,342.291429 300.581796,401.930665 231.99838,406.701804 C229.314681,406.701804 226.332793,407 223.350906,407 Z M223.649094,172.915999 C221.263584,172.915999 218.579885,172.915999 216.194375,173.214195 C155.960244,177.388942 110.337363,229.871469 114.512006,290.107098 C118.686649,350.342726 170.869683,395.966741 231.402002,391.791995 C291.636133,387.617248 337.259014,335.134721 333.084372,274.899092 C328.909729,217.34723 280.603149,172.915999 223.649094,172.915999 Z" id="Shape" fill="#111010" fill-rule="nonzero"></path>
+                <polygon id="Path" fill="#111010" points="224.425483 166 241 397.985693 225.586873 399 209 167.014307"></polygon>
+                <polygon id="Path" fill="#111010" points="296.679088 189 308 198.793239 153.320912 375 142 365.206761"></polygon>
+                <polygon id="Path" fill="#111010" points="139.804536 197 316 351.678679 306.207388 363 130 208.315315"></polygon>
+                <polygon id="Path" fill="#111010" points="338.979657 268 340 283.398032 108.020343 300 107 284.601968"></polygon>
+                <circle id="Oval" fill="#111010" cx="223" cy="282" r="14"></circle>
+                <polygon id="Path" fill="#181818" points="561 420.351714 273.613424 513 269 498.017204 555.48698 403"></polygon>
+                <path d="M660,458 C468.753854,523.300353 274.542652,549.123675 83,563.371025 L83,794 L660,794 L660,458 Z" id="Path" fill="#4A90E2"></path>
+                <polygon id="Rectangle" fill="#606163" points="368 497.891892 404.418007 486 407 525.63964 370.495679 530"></polygon>
+                <polygon id="Path" fill="#4A90E2" points="83 600 660 600 660 782 83 782"></polygon>
+                <polygon id="Path" fill="#FEF6E0" points="79 620 664 620 664 766 79 766"></polygon>
+                <polygon id="Path" fill="#284F7C" points="56 565 107 565 107 956 56 956"></polygon>
+                <polygon id="Path" fill="#4A90E2" points="107 798 641 798 641 956 107 956"></polygon>
+                <g id="Group-7" transform="translate(282.000000, 814.000000)">
+                    <path d="M15,0 L54,0 L54,19.5 C54,30.2695526 45.2695526,39 34.5,39 L34.5,39 C23.7304474,39 15,30.2695526 15,19.5 L15,0 Z" id="Rectangle-2" fill="#E76160"></path>
+                    <path d="M37,5 L49,5 L49,22.4 C49,28.8065031 43.8065031,34 37.4,34 C37.2661249,34 37.1327794,33.9977321 37,33.9932327 L37,5 Z" id="Combined-Shape-Copy" fill="#B73D56"></path>
+                    <path d="M30,22 L42,22 C41.2727273,25.3333333 39.2727273,27 36,27 C32.7272727,27 30.7272727,25.3333333 30,22 Z" id="Path-9-Copy" fill="#FFFFFF" transform="translate(36.000000, 24.500000) scale(1, -1) translate(-36.000000, -24.500000) "></path>
+                    <ellipse id="Oval-Copy-6" fill="#FFFFFF" cx="40.5" cy="12.5" rx="3.5" ry="2.5"></ellipse>
+                    <path d="M0,0 L39,0 L39,19.5 C39,30.2695526 30.2695526,39 19.5,39 L19.5,39 C8.73044738,39 1.31888981e-15,30.2695526 0,19.5 L0,0 Z" id="Rectangle-Copy-19" fill="#FFC876"></path>
+                    <path d="M20,5 L32,5 L32,22.4 C32,28.8065031 26.8065031,34 20.4,34 C20.2661249,34 20.1327794,33.9977321 20,33.9932327 L20,5 Z" id="Combined-Shape" fill="#FF9065"></path>
+                    <ellipse id="Oval" fill="#FFFFFF" cx="25.5" cy="12.5" rx="3.5" ry="2.5"></ellipse>
+                    <ellipse id="Oval-Copy-5" fill="#FFFFFF" cx="11.5" cy="12.5" rx="3.5" ry="2.5"></ellipse>
+                    <path d="M12,22 L24,22 C23.2727273,25.3333333 21.2727273,27 18,27 C14.7272727,27 12.7272727,25.3333333 12,22 Z" id="Path-9" fill="#FFFFFF"></path>
+                </g>
+                <path d="M672,780.764706 L95,780.764706 L95,794 L672,794 L672,780.764706 Z M672,589 L95,589 L95,602.235294 L672,602.235294 L672,589 Z" id="Shape" fill="#3E0B49" fill-rule="nonzero"></path>
+                <polygon id="Path" fill="#000000" opacity="0.2" points="107 794 641 845 641 794"></polygon>
+                <polygon id="Path" fill="#000000" opacity="0.45" points="206 869 249 869 249 956 206 956"></polygon>
+                <polygon id="Path" fill="#85837D" points="237 904 245 904 245 920 237 920"></polygon>
+                <polygon id="Path" fill="#000000" opacity="0.45" points="249 869 292 869 292 956 249 956"></polygon>
+                <polygon id="Path" fill="#85837D" points="253 904 261 904 261 920 253 920"></polygon>
+                <polygon id="Path" fill="#000000" opacity="0.45" points="320 869 363 869 363 956 320 956"></polygon>
+                <polygon id="Path" fill="#85837D" points="356 904 364 904 364 920 356 920"></polygon>
+                <polygon id="Path" fill="#000000" opacity="0.45" points="364 869 407 869 407 956 364 956"></polygon>
+                <polygon id="Path" fill="#85837D" points="368 904 376 904 376 920 368 920"></polygon>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="115" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="111" cy="604" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="113" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="138" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="138" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="136" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="162" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="162" cy="604" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="160" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="186" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="186" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="188" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="213" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="209" cy="604" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="211" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="237" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="237" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="235" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="261" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="261" cy="604" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="263" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="289" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="289" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="287" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="312" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="312" cy="604" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="310" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="336" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="336" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="338" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="364" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="360" cy="604" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="362" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="387" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="387" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="385" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="411" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="411" cy="604" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="413" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="439" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="435" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="437" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="462" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="458" cy="604" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="460" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="486" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="486" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="484" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="510" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="510" cy="604" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="512" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="538" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="538" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="536" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="561" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="561" cy="604" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="559" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="585" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="585" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="587" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="613" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="609" cy="604" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="611" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="636" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="636" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="634" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="660" cy="608" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="660" cy="604" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="662" cy="606" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="115" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="111" cy="778" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="113" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="138" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="138" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="136" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="162" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="162" cy="778" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="160" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="186" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="186" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="188" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="213" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="209" cy="778" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="211" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="237" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="237" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="235" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="261" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="261" cy="778" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="263" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="289" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="289" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="287" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="312" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="312" cy="778" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="310" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="336" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="336" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="338" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="364" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="360" cy="778" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="362" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="387" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="387" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="385" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="411" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="411" cy="778" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="413" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="439" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="435" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="437" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="462" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="458" cy="778" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="460" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="486" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="486" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="484" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="510" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="510" cy="778" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="512" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="538" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="538" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="536" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="561" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="561" cy="778" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="559" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="585" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="585" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="587" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="613" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="609" cy="778" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="611" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.21" cx="636" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" opacity="0.1" cx="636" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="634" cy="780" r="6"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="660" cy="782" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" opacity="0.2" cx="660" cy="778" r="8"></circle>
+                <circle id="Oval" fill="#FFF170" cx="662" cy="780" r="6"></circle>
+                <path d="M107,652 L225.827331,652 L225.827331,669.970954 L107,669.970954 L107,652 Z M107,705.029046 L225.827331,705.029046 L225.827331,723 L107,723 L107,705.029046 Z M107,678.514523 L211.120978,678.514523 L211.120978,696.485477 L107,696.485477 L107,678.514523 Z M529.416663,652 L584.04,652 L584.04,669.970954 L529.416663,669.970954 L529.416663,652 Z M529.416663,705.029046 L584.04,705.029046 L584.04,723 L529.416663,723 L529.416663,705.029046 Z M529.416663,678.514523 L577.279686,678.514523 L577.279686,696.485477 L529.416663,696.485477 L529.416663,678.514523 Z M605.103333,652 L641,652 L641,669.970954 L605.103333,669.970954 L605.103333,652 Z M605.103333,705.029046 L641,705.029046 L641,723 L605.103333,723 L605.103333,705.029046 Z M605.103333,678.514523 L635.66,678.514523 L635.66,696.485477 L605.103333,696.485477 L605.103333,678.514523 Z" id="Shape" fill="#000000" fill-rule="nonzero" opacity="0.11"></path>
+                <polygon id="Path" fill="url(#linearGradient-1)" opacity="0.27" points="913 358.524076 610.629761 379 577 276.026876 836.812223 114"></polygon>
+                <g id="Group-2-Copy" transform="translate(518.000000, 865.000000)">
+                    <polygon id="Path" fill="#F0F0F0" points="3.91666667 0 43.0833333 0 43.0833333 39 3.91666667 39"></polygon>
+                    <polygon id="Path-Copy-4" fill="#4A90E2" points="19.5833333 0 27.4166667 0 27.4166667 39 19.5833333 39"></polygon>
+                    <polygon id="Path-Copy-2" fill="#4A90E2" transform="translate(23.500000, 19.500000) rotate(90.000000) translate(-23.500000, -19.500000) " points="19.6 -4 27.4 -4 27.4 43 19.6 43"></polygon>
                 </g>
             </g>
         </g>
