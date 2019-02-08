@@ -7,6 +7,7 @@
       infor(event.target.textContent);
     }
   function infor(data){
+    //   local storage 
       fetch(data+".json").then(function (response) { return response.json(); }).then(function (e) {
            console.log(e.head);
            e.events.forEach((d)=>{
