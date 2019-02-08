@@ -79,10 +79,117 @@ position: fixed;
   {
     margin-top:8%;
     width: 25%;
-    margin-left: 5%";
+    position: fixed;
+    top: 4vh;
+    left: 4vw;
   }
 
   .layerct
   {
-    width: 20%;
+    width: 100%;
   }
+
+ .road1{
+    width:100%;
+   }
+
+   .road2
+   {
+      width:100%;
+   }
+   .gate
+   {
+      position:fixed;
+      width:15%;  
+      left: 58vw;
+      top: 25vw;   
+   }
+   .fixed
+   {
+     position: fixed;
+   }
+   .toplayer
+   {
+     width: 25%;
+   }
+
+   .sebuilding
+   {
+    position: fixed;
+    width: 59%;
+    left: 36vw;
+   }
+
+   .evebuilding
+   {
+    position: fixed;
+    width: 38%;
+    left: 6vw;
+   }
+
+   .flmbuilding
+   {
+     position: fixed;
+     width:38%;
+   }
+
+   .potobuilding
+   {
+    position: fixed; 
+    width:38%;
+     left: 40vw;
+   }
+
+   .desbuilding
+   {
+     position: fixed;
+     width:38%;
+
+   }
+   
+   .fabuilding
+   {
+     position: fixed;
+     width: 38%;
+     left:25vw;
+   }
+
+   .dcbuilding
+   {
+      position:fixed;
+      width: 38%;
+      left: 60vw;
+   }
+
+   .lopbuilding
+   {
+     position:fixed;
+     width:38%;
+     left:10vw;
+   }
+
+   .elcbuilding
+   {
+     position:fixed;
+     width:35%;
+     left:0vw;
+   }
+
+   .sabuilding
+   {
+     position: fixed;
+     width: 40%;
+     left: 55vw;
+   }
+
+   .mbuilding{
+     position: fixed;
+     width: 38%;
+
+   }
+   .qbuilding
+   {
+     position: fixed;
+     width: 38%;
+     left: 50vw;
+   }
