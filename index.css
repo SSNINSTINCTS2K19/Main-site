@@ -159,6 +159,9 @@ position: fixed;
 
    @media(min-width:768px)
    {
+    .clock_tower{
+      top: 8vh;
+    }
     .sebuilding
     {
      position: fixed;
