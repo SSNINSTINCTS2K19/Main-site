@@ -243,5 +243,20 @@ position: fixed;
       left: 55vw;
     }
    }
+   .sabuilding
+    {
+      position: fixed;
+      width: 27%;
+      left: 64vw;
+    }
+
+
+    .elcbuilding
+    {
+      position:fixed;
+      width:29%;
+      left:5vw;
+    }
+ 
 
    
