@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    border:2px solid red;
 }
 body {
     width: 100%;
@@ -30,8 +31,8 @@ position: fixed;
       border:0px solid white;
   }
 
-  .clipit{
-
+  #panel{
+    will-change: transform;
   }
   .pad{
       padding:1rem;
@@ -239,3 +240,5 @@ position: fixed;
       left: 55vw;
     }
    }
+
+   
