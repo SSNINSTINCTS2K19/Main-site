@@ -10,16 +10,7 @@
     <link rel="stylesheet" href="./vendor/animatedModal.js-master/demo/css/animate.min.css">
 </head>
 <body>
-      <div id="animatedModal">
-            <div class="close-animatedModal"> 
-                CLOSE MODAL
-            </div>
-                
-            <div class="modal-content">
-            </div>
-        </div>
       
-      <main id="panel">
           <div class="svg-hero">
               <img class="extend" src="svg/sky.svg" alt="">
               <img class="img-fluid extend" src="svg/background.svg" alt="">
@@ -49,7 +40,7 @@
           <div class="svg-hero">
               <img class="layerct" src="./svg/placeholder1.svg">
               <img class="layerct" src="./svg/placeholder.svg">
-              <img class="evebuilding" src="./svg/events.svg">
+              <img class="evebuilding" href="animatedModal" id="demo01" src="./svg/events.svg">
           </div>
           <div class="svg-hero">
               <img class="layerct" src="./svg/placeholder.svg">
@@ -105,28 +96,15 @@
               <img class="layerct" src="./svg/placeholder.svg">
               <img class="sabuilding" src="./svg/saaral.svg">
           </div>
-          <button class="toggle-button abs">☰</button>
         
-      </main>
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <script src="vendor/animatedModal.js-master/animatedModal.min.js"></script>
-      <script src="slideout/dist/slideout.min.js"></script>
     <script>
-      var slideout = new Slideout({
-        'panel': document.getElementById('panel'),
-        'menu': document.getElementById('menu'),
-        'padding': 256,
-        'tolerance': 70
-      });
-
-      // Toggle button
-      document.querySelector('.toggle-button').addEventListener('click', function() {
-        slideout.toggle();
-      });
-      $("#demo01").animatedModal({
-          animatedIn:"zoomIn",
-          animatedOut:"zoomOut"
-      });
+  
+    //   $("#demo01").animatedModal({
+    //       animatedIn:"zoomIn",
+    //       animatedOut:"zoomOut"
+    //   });
 
     </script>
 </body>
