@@ -7,44 +7,6 @@ body {
     width: 100%;
     height: 100%;
   }
-  
-  .slideout-menu {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 256px;
-    min-height: 100vh;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    z-index: 0;
-    display: none;
-  }
-  
-  .slideout-menu-left {
-    left: 0;
-  }
-  
-  .slideout-menu-right {
-    right: 0;
-  }
-  
-  .slideout-panel {
-    position: relative;
-    z-index: 1;
-    will-change: transform;
-    background-color: #FFF; /* A background-color is required */
-    min-height: 100vh;
-  }
-  
-  .slideout-open,
-  .slideout-open body,
-  .slideout-open .slideout-panel {
-    overflow: hidden;
-  }
-  
-  .slideout-open .slideout-menu {
-    display: block;
-  }
 
   .svg-hero{
 width: 100vw;
@@ -190,6 +152,90 @@ position: fixed;
    .qbuilding
    {
      position: fixed;
-     width: 38%;
+     width: 40%;
      left: 50vw;
+   }
+
+   @media(min-width:768px)
+   {
+    .sebuilding
+    {
+     position: fixed;
+     width: 40%;
+     left: 38vw;
+    }
+ 
+    .evebuilding
+    {
+     position: fixed;
+     width: 35%;
+     left: 6vw;
+    }
+ 
+    .flmbuilding
+    {
+      position: fixed;
+      width:35%;
+    }
+ 
+    .potobuilding
+    {
+     position: fixed; 
+     width:33%;
+      left: 44vw;
+    }
+ 
+    .desbuilding
+    {
+      position: fixed;
+      width:32%;
+ 
+    }
+    
+    .fabuilding
+    {
+      position: fixed;
+      width: 35%;
+      left:30vw;
+    }
+ 
+    .dcbuilding
+    {
+       position:fixed;
+       width: 35%;
+       left: 60vw;
+    }
+ 
+    .lopbuilding
+    {
+      position:fixed;
+      width:35%;
+      left:25vw;
+    }
+ 
+    .elcbuilding
+    {
+      position:fixed;
+      width:29%;
+      left:5vw;
+    }
+ 
+    .sabuilding
+    {
+      position: fixed;
+      width: 27%;
+      left: 64vw;
+    }
+ 
+    .mbuilding{
+      position: fixed;
+      width: 25%;
+      left: 10vw;
+    }
+    .qbuilding
+    {
+      position: fixed;
+      width: 25%;
+      left: 55vw;
+    }
    }
