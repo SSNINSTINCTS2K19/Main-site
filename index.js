@@ -2,6 +2,7 @@
 //localStorage.removeItem("ELC");
 
 (function () {
+
     document.querySelectorAll(".stars").forEach(e=>{
         e.addEventListener("click",listen);
     });
@@ -10,6 +11,7 @@
       infor(event.target.textContent);
     }
   function infor(data){
+      
       if(localStorage.getItem(data)){
           console.log(199);
           let e = JSON.parse(localStorage.getItem(data));
