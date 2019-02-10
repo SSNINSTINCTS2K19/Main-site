@@ -131,31 +131,54 @@ position: fixed;
      left:10vw;
    }
 
-   .elcbuilding
-   {
-     position:fixed;
-     width:35%;
-     left:0vw;
-   }
-
    .sabuilding
    {
      position: fixed;
-     width: 40%;
-     left: 55vw;
+     width: 27%;
+     left: 64vw;
+   }
+
+
+   .elcbuilding
+   {
+     position:fixed;
+     width:29%;
+     left:5vw;
    }
 
    .mbuilding{
-     position: fixed;
-     width: 38%;
-
-   }
-   .qbuilding
-   {
-     position: fixed;
-     width: 40%;
-     left: 50vw;
-   }
+    position: fixed;
+    width: 24.1%;
+    left: 10vw;
+  }
+  .qbuilding
+  {
+    position: fixed;
+    width: 25%;
+    left: 55vw;
+  }
+  .building
+  {
+    position:fixed;
+    width:100%;
+  }
+  .hbuilding
+  {
+    position:fixed;
+    width:25%;
+    left:10vw;
+  }
+  .bus{
+    position: fixed;
+    width:30%;
+    left:15vw;
+  }
+  .sponsors
+  {
+    position: fixed;
+    width:27.5%;
+    left:55vw;
+  }
 
    @media(min-width:768px)
    {
@@ -233,7 +256,7 @@ position: fixed;
  
     .mbuilding{
       position: fixed;
-      width: 25%;
+      width: 24.1%;
       left: 10vw;
     }
     .qbuilding
@@ -242,21 +265,30 @@ position: fixed;
       width: 25%;
       left: 55vw;
     }
-   }
-   .sabuilding
-    {
-      position: fixed;
-      width: 27%;
-      left: 64vw;
-    }
-
-
-    .elcbuilding
+    .building
     {
       position:fixed;
-      width:29%;
-      left:5vw;
+      width:100%;
     }
+    .hbuilding
+    {
+      position:fixed;
+      width:25%;
+      left:10vw;
+    }
+    .bus{
+      position: fixed;
+      width:30%;
+      left:15vw;
+    }
+    .sponsors
+    {
+      position: fixed;
+      width:27.5%;
+      left:55vw;
+    }
+   }
+  
  
 
    
