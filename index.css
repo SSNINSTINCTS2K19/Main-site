@@ -26,7 +26,7 @@ body {
   --color-menu: #000000;
   --color-menu-hover: #fff;
   --font-family-menu: 'Arapey', serif;
-  --font-size-menu: 4vmax;
+  --font-size-menu: 2rem;
   --font-weight-menu: 400;
   --button-bg: #fff;
   --button-circle: #ada4a4;
@@ -36,7 +36,55 @@ body {
   }
 .bgcheck{
 }
-  .svg-hero{
+.anc{
+  width:100%;
+  height: 100%;
+  margin: 1.66% 1.66%;
+  border: 2px solid black;
+  background-size: cover;
+}
+.asc{
+   min-height: 30vh; 
+   border: 2px solid black;
+   background-size: 100% 100%;
+}
+.bg1{
+  background: url("./svg/star_events.svg");
+  background-size: 100% 100%;
+}
+.bg2{
+  background: url("./svg/film.svg");
+  background-size: 100% 100%;
+}
+.bg3{
+  background: url("./svg/fine_arts.svg");
+  background-size: 100% 100%;
+}
+.bg4{
+  background: url("./svg/hospitality.svg");
+  background-size: 100% 100%;
+}
+.bg5{
+  background: url("./svg/sponsors.svg");
+  background-size: 100% 100%;
+}
+.bg6{
+  background: url("./svg/design.svg");
+  background-size: 100% 100%;
+}
+.bg7{
+  background: url("./svg/photography.svg");
+  background-size: 100% 100%;
+}
+.bg8{
+  background: url("./svg/dance.svg");
+  background-size: 100% 100%;
+}
+.bg9{
+  background: url("./svg/fine_arts.svg");
+  background-size: 100% 100%;
+}
+.svg-hero{
 width: 100%;
 position: fixed;
   }

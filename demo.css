@@ -339,7 +339,7 @@ a.demo--current {
 
 .global-menu {
 	width: 100vw;
-	height: 90vh;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -355,6 +355,9 @@ a.demo--current {
 }
 
 .global-menu__item {
+	 width:33.3%;
+  height: 33.3%;
+  /*margin: 1.66% 1.66%;*/ 
 	color: var(--color-menu);
 	font-family: var(--font-family-menu);
 	font-size: var(--font-size-menu);
@@ -363,9 +366,10 @@ a.demo--current {
 	transform: translateY(-100%);
 	pointer-events: none;
 	display: block;
-	margin: 0.25em 0;
+	/*margin: 0.25em 0;*/
 	transition: transform 0.3s, opacity 0.3s;
 	transition-timing-function: ease-in;
+
 }
 
 .global-menu__item--demo-2:nth-child(odd) {
