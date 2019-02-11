@@ -65,10 +65,9 @@ position: fixed;
 
   .clock_tower
   {
-    margin-top:8%;
     width: 25%;
     position: fixed;
-    top: 4vh;
+    top: 9vh;
     left: 4vw;
   }
 
@@ -103,217 +102,232 @@ position: fixed;
 
    .sebuilding
    {
-    position: fixed;
+    position: absolute;
     width: 59%;
     left: 36vw;
+    top:7%;
    }
 
    .evebuilding
    {
-    position: fixed;
+    position: absolute;
     width: 38%;
     left: 6vw;
+    top:9%;
    }
 
    .flmbuilding
    {
-     position: fixed;
+     position: absolute;
      width:38%;
+     top:16%;
    }
 
    .potobuilding
    {
-    position: fixed; 
+    position: absolute; 
     width:38%;
      left: 40vw;
+     top:20%;
    }
 
    .desbuilding
    {
-     position: fixed;
+     position: absolute;
      width:38%;
+     top:22.5%;
 
    }
    
    .fabuilding
    {
-     position: fixed;
+     position: absolute;
      width: 38%;
      left:25vw;
+     top:28%;
    }
 
    .dcbuilding
    {
-      position:fixed;
+      position:absolute;
       width: 38%;
       left: 60vw;
+      top:36%;
    }
 
    .lopbuilding
    {
-     position:fixed;
+     position:absolute;
      width:38%;
      left:10vw;
+     top:38%
    }
 
    .sabuilding
    {
-     position: fixed;
+     position: absolute;
      width: 27%;
      left: 64vw;
+     top:45.5%;
    }
 
 
    .elcbuilding
    {
-     position:fixed;
+     position:absolute;
+     width:29%;
+     left:5vw;
+     top:46.4%;
+   }
+
+   .mbuilding{
+    position: absolute;
+    width: 24.1%;
+    left: 10vw;
+    top:52%;
+  }
+  .qbuilding
+  {
+    position: absolute;
+    width: 25%;
+    left: 55vw;
+    top:52%;
+  }
+  .building
+  {
+    position:absolute;
+    width:100%;
+    top:54%;
+  }
+  .hbuilding
+  {
+    position:absolute;
+    width:25%;
+    left:10vw;
+    top:60%;
+  }
+  .bus{
+    position: absolute;
+    width:30%;
+    left:15vw;
+    top:65%;
+  }
+  .sponsors
+  {
+    position: absolute;
+    width:27.5%;
+    left:55vw;
+    top:60%;
+  }
+
+  @media(min-width:768px)
+  {
+   .clock_tower{
+     top: 25vh;
+   }
+   .sebuilding
+   {
+    position: absolute;
+    width: 40%;
+    left: 38vw;
+    top:9%;
+   }
+
+   .evebuilding
+   {
+    position: absolute;
+    width: 35%;
+    left: 6vw;
+   }
+
+   .flmbuilding
+   {
+     position: absolute;
+     width:35%;
+   }
+
+   .potobuilding
+   {
+    position: absolute; 
+    width:33%;
+    left: 44vw;
+    top:20.5%;
+   }
+
+   .desbuilding
+   {
+     position: absolute;
+     width:32%;
+
+   }
+   
+   .fabuilding
+   {
+     position: absolute;
+     width: 35%;
+     left:30vw;
+   }
+
+   .dcbuilding
+   {
+      position:absolute;
+      width: 35%;
+      left: 64vw;
+   }
+
+   .lopbuilding
+   {
+     position:absolute;
+     width:35%;
+     left:15vw;
+     top:38%;
+   }
+
+   .elcbuilding
+   {
+     position:absolute;
      width:29%;
      left:5vw;
    }
 
-   .mbuilding{
-    position: fixed;
-    width: 24.1%;
-    left: 10vw;
-  }
-  .qbuilding
-  {
-    position: fixed;
-    width: 25%;
-    left: 55vw;
-  }
-  .building
-  {
-    position:fixed;
-    width:100%;
-  }
-  .hbuilding
-  {
-    position:fixed;
-    width:25%;
-    left:10vw;
-  }
-  .bus{
-    position: fixed;
-    width:30%;
-    left:15vw;
-  }
-  .sponsors
-  {
-    position: fixed;
-    width:27.5%;
-    left:55vw;
-  }
-
-   @media(min-width:768px)
+   .sabuilding
    {
-    .clock_tower{
-      top: 8vh;
-    }
-    .sebuilding
-    {
-     position: fixed;
-     width: 40%;
-     left: 38vw;
-    }
- 
-    .evebuilding
-    {
-     position: fixed;
-     width: 35%;
-     left: 6vw;
-    }
- 
-    .flmbuilding
-    {
-      position: fixed;
-      width:35%;
-    }
- 
-    .potobuilding
-    {
-     position: fixed; 
-     width:33%;
-      left: 44vw;
-    }
- 
-    .desbuilding
-    {
-      position: fixed;
-      width:32%;
- 
-    }
-    
-    .fabuilding
-    {
-      position: fixed;
-      width: 35%;
-      left:30vw;
-    }
- 
-    .dcbuilding
-    {
-       position:fixed;
-       width: 35%;
-       left: 60vw;
-    }
- 
-    .lopbuilding
-    {
-      position:fixed;
-      width:35%;
-      left:25vw;
-    }
- 
-    .elcbuilding
-    {
-      position:fixed;
-      width:29%;
-      left:5vw;
-    }
- 
-    .sabuilding
-    {
-      position: fixed;
-      width: 27%;
-      left: 64vw;
-    }
- 
-    .mbuilding{
-      position: fixed;
-      width: 24.1%;
-      left: 10vw;
-    }
-    .qbuilding
-    {
-      position: fixed;
-      width: 25%;
-      left: 55vw;
-    }
-    .building
-    {
-      position:fixed;
-      width:100%;
-    }
-    .hbuilding
-    {
-      position:fixed;
-      width:25%;
-      left:10vw;
-    }
-    .bus{
-      position: fixed;
-      width:30%;
-      left:15vw;
-    }
-    .sponsors
-    {
-      position: fixed;
-      width:27.5%;
-      left:55vw;
-    }
+     position: absolute;
+     width: 27%;
+     left: 64vw;
    }
-  
- 
 
-   
+   .mbuilding{
+     position: absolute;
+     width: 24.1%;
+     left: 10vw;
+   }
+   .qbuilding
+   {
+     position: absolute;
+     width: 25%;
+     left: 55vw;
+   }
+   .building
+   {
+     position:absolute;
+     width:100%;
+   }
+   .hbuilding
+   {
+     position:absolute;
+     width:25%;
+     left:10vw;
+   }
+   .bus{
+     position: absolute;
+     width:30%;
+     left:15vw;
+   }
+   .sponsors
+   {
+     position: absolute;
+     width:27.5%;
+     left:55vw;
+   }
+  }
