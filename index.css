@@ -6,52 +6,17 @@
 body {
     width: 100%;
     height: 100%;
-  }
-  
-  .slideout-menu {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 256px;
-    min-height: 100vh;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    z-index: 0;
-    display: none;
-  }
-  
-  .slideout-menu-left {
-    left: 0;
-  }
-  
-  .slideout-menu-right {
-    right: 0;
-  }
-  
-  .slideout-panel {
-    position: relative;
-    z-index: 1;
     will-change: transform;
-    background-color: #FFF; /* A background-color is required */
-    min-height: 100vh;
+    overflow-x: hidden;
   }
-  
-  .slideout-open,
-  .slideout-open body,
-  .slideout-open .slideout-panel {
-    overflow: hidden;
-  }
-  
-  .slideout-open .slideout-menu {
-    display: block;
-  }
-
+.bgcheck{
+}
   .svg-hero{
-width: 100vw;
+width: 100%;
 position: fixed;
   }
   .extend{
-      width: 100vw;
+      width: 100%;
   }
   .relative{
       position: relative;
@@ -68,9 +33,7 @@ position: fixed;
       border:0px solid white;
   }
 
-  .clipit{
 
-  }
   .pad{
       padding:1rem;
   }
@@ -168,28 +131,164 @@ position: fixed;
      left:10vw;
    }
 
-   .elcbuilding
-   {
-     position:fixed;
-     width:35%;
-     left:0vw;
-   }
-
    .sabuilding
    {
      position: fixed;
-     width: 40%;
-     left: 55vw;
+     width: 27%;
+     left: 64vw;
+   }
+
+
+   .elcbuilding
+   {
+     position:fixed;
+     width:29%;
+     left:5vw;
    }
 
    .mbuilding{
-     position: fixed;
-     width: 38%;
+    position: fixed;
+    width: 24.1%;
+    left: 10vw;
+  }
+  .qbuilding
+  {
+    position: fixed;
+    width: 25%;
+    left: 55vw;
+  }
+  .building
+  {
+    position:fixed;
+    width:100%;
+  }
+  .hbuilding
+  {
+    position:fixed;
+    width:25%;
+    left:10vw;
+  }
+  .bus{
+    position: fixed;
+    width:30%;
+    left:15vw;
+  }
+  .sponsors
+  {
+    position: fixed;
+    width:27.5%;
+    left:55vw;
+  }
 
-   }
-   .qbuilding
+   @media(min-width:768px)
    {
+    .clock_tower{
+      top: 8vh;
+    }
+    .sebuilding
+    {
      position: fixed;
-     width: 38%;
-     left: 50vw;
+     width: 40%;
+     left: 38vw;
+    }
+ 
+    .evebuilding
+    {
+     position: fixed;
+     width: 35%;
+     left: 6vw;
+    }
+ 
+    .flmbuilding
+    {
+      position: fixed;
+      width:35%;
+    }
+ 
+    .potobuilding
+    {
+     position: fixed; 
+     width:33%;
+      left: 44vw;
+    }
+ 
+    .desbuilding
+    {
+      position: fixed;
+      width:32%;
+ 
+    }
+    
+    .fabuilding
+    {
+      position: fixed;
+      width: 35%;
+      left:30vw;
+    }
+ 
+    .dcbuilding
+    {
+       position:fixed;
+       width: 35%;
+       left: 60vw;
+    }
+ 
+    .lopbuilding
+    {
+      position:fixed;
+      width:35%;
+      left:25vw;
+    }
+ 
+    .elcbuilding
+    {
+      position:fixed;
+      width:29%;
+      left:5vw;
+    }
+ 
+    .sabuilding
+    {
+      position: fixed;
+      width: 27%;
+      left: 64vw;
+    }
+ 
+    .mbuilding{
+      position: fixed;
+      width: 24.1%;
+      left: 10vw;
+    }
+    .qbuilding
+    {
+      position: fixed;
+      width: 25%;
+      left: 55vw;
+    }
+    .building
+    {
+      position:fixed;
+      width:100%;
+    }
+    .hbuilding
+    {
+      position:fixed;
+      width:25%;
+      left:10vw;
+    }
+    .bus{
+      position: fixed;
+      width:30%;
+      left:15vw;
+    }
+    .sponsors
+    {
+      position: fixed;
+      width:27.5%;
+      left:55vw;
+    }
    }
+  
+ 
+
+   
