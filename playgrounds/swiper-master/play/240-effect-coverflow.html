@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Swiper demo</title>
@@ -7,71 +8,236 @@
 
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="../dist/css/swiper.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
 
   <!-- Demo styles -->
   <style>
+    body{
+      font-family: 'Halis';
+
+    }
+    @font-face{
+      src: url("./Halis-Font/otha/font.otf");
+      font-family: 'Halis';
+    }
+    *{
+      box-sizing:border-box;
+    }
+    .extend{
+      width: 100%;
+    }
+   
+    .card-body{
+      background: linear-gradient(135deg, #0FF0B3 0%,#036ED9 100%);
+      border-top-left-radius: 22px;
+      border-top-right-radius: 22px;
+
+
+      padding:15% 0 0 0;
+    }
+    img {
+      border-radius: 20px;
+    }
+    .btn{
+     
+    padding:20px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    background: white;
+}
+
+    .card {
+      box-shadow: 0 0px 10px 2px rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      border-radius: 22px;
+      width: 100%;
+      height: 100%;
+    }
+
+
+
+    .container {
+      padding: 2px 16px;
+    }
+
     body {
       background: #fff;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
-      color:#000;
+      color: #000;
       margin: 0;
       padding: 0;
     }
+
     .swiper-container {
       width: 100%;
       padding-top: 50px;
       padding-bottom: 50px;
     }
+
     .swiper-slide {
       background-position: center;
       background-size: cover;
       width: 300px;
-      height: 300px;
+      height: 400px;
 
     }
+
   </style>
 </head>
+
 <body>
   <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/1)"></div>
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/2)"></div>
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/3)"></div>
+      <div class="swiper-slide">
+        <div class="card" style="position:relative">
+            <div class="card-body">
+              </div>
+              <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)" class="text-center">Reel of fire</h3>
+            
+            <button class="btn text-center extend">Explore</button>
+        </div>
+      </div>
+      <div class="swiper-slide">
+          <div class="card" style="position:relative">
+              <div class="card-body">
+                </div>
+                <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)" class="text-center">Reel of fire</h3>
+              
+              <button class="btn text-center extend">Explore</button>
+          </div>
+        </div><div class="swiper-slide">
+            <div class="card" style="position:relative">
+                <div class="card-body">
+                  </div>
+                  <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)" class="text-center">Reel of fire</h3>
+                
+                <button class="btn text-center extend">Explore</button>
+            </div>
+          </div><div class="swiper-slide">
+              <div class="card" style="position:relative">
+                  <div class="card-body">
+                    </div>
+                    <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)" class="text-center">Reel of fire</h3>
+                  
+                  <button class="btn text-center extend">Explore</button>
+              </div>
+            </div><div class="swiper-slide">
+                <div class="card" style="position:relative">
+                    <div class="card-body">
+                      </div>
+                      <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)" class="text-center">Reel of fire</h3>
+                    
+                    <button class="btn text-center extend">Explore</button>
+                </div>
+              </div><div class="swiper-slide">
+                  <div class="card" style="position:relative">
+                      <div class="card-body">
+                        </div>
+                        <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)" class="text-center">Reel of fire</h3>
+                      
+                      <button class="btn text-center extend">Explore</button>
+                  </div>
+                </div><div class="swiper-slide">
+                    <div class="card" style="position:relative">
+                        <div class="card-body">
+                          </div>
+                          <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)" class="text-center">Reel of fire</h3>
+                        
+                        <button class="btn text-center extend">Explore</button>
+                    </div>
+                  </div>
+
+
+ 
+
+
+      <!-- <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/3)"></div>
       <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/4)"></div>
       <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/5)"></div>
       <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/6)"></div>
       <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/7)"></div>
       <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/8)"></div>
       <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/9)"></div>
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/10)"></div>
+      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/10)"></div> -->
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
   </div>
-
+ 
   <!-- Swiper JS -->
   <script src="../dist/js/swiper.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
+   let master;
+    var arr=[
+  "linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%)",
+    "linear-gradient(135deg, #13f1fc 0%,#0470dc 100%)",
+"linear-gradient(135deg, #CE9FFC 0%,#7367F0 100%)",
+"linear-gradient(135deg, #F36265 0%,#961276 100%)",
+"linear-gradient(135deg, #0FF0B3 0%,#036ED9 100%)",
+"linear-gradient(135deg, #7117ea 0%,#ea6060 100%)",
+"linear-gradient(135deg, #17ead9 0%,#6078ea 100%)",
+"linear-gradient( 135deg, #6B73FF 10%, #000DFF 100%)",
+"linear-gradient(to right top, #350537, #680045, #9c0045, #c90036, #eb3812)",
+"linear-gradient(to right, #6a11cb 0%, #2575fc 100%)",
+"linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);",
+"linear-gradient(to top, #09203f 0%, #537895 100%);",
+"linear-gradient(to top, #f77062 0%, #fe5196 100%);",
+"linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);",
+"linear-gradient(to right, #00dbde 0%, #fc00ff 100%);",
+"linear-gradient(-225deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%);"
+    ];
+    master=arr.map((data)=>{
+  return {
+    color:data,
+    used:false
+  }
+});
+
+    function randomGen(master){
+      let o=rand(master.length);
+      while(master[o].used){
+         o=rand(arr.length);
+      }
+      return o;
+    }
+
+    function rand(n){
+      return Math.floor(Math.random()*(n-0)+0);
+    }
+
+    function render(master,n){
+      let i=0;
+      while(i<n){
+        console.log(arr[randomGen(master)]);
+        i+=1;
+      }
+    }
+    render(master,3);
+
     var swiper = new Swiper('.swiper-container', {
       effect: 'coverflow',
       grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
+      initialSlide:3,
+      slidesPerView:3,
       coverflowEffect: {
         rotate: 10,
         stretch: -50,
         depth: 250,
         modifier: 1,
-        slideShadows : true,
+     
+        slideShadows: true,
       },
       pagination: {
         el: '.swiper-pagination',
       },
     });
+
   </script>
 </body>
+
 </html>
