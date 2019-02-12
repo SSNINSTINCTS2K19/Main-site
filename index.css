@@ -120,6 +120,11 @@ body {
     overflow-x: hidden; */
 }
 
+.position{
+  position: absolute !important;
+  top:69%;
+  left:18vw;
+}
 .bgcheck {}
 
 .svg-hero {
