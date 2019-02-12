@@ -2,6 +2,7 @@ var a = document.querySelector("#inp");
 var sicon = document.querySelector(".plusdisplay");
 var cb = document.querySelector(".closeboxclose");
 var ul = document.querySelector("#query");
+var timer;
 sicon.addEventListener("click",function(){
     a.classList.remove("tasktxtclose");
     a.classList.add("tasktxtdisplay");
@@ -72,3 +73,22 @@ fetch("event_title.json").then(function (response) {
             });
         });
     });
+
+   
+function set(){
+    timer=setInterval(()=>{
+        document.querySelector("#arrow").click();
+    },3000);
+}
+function clear(){
+    clearInterval(timer);
+}
+set();
+document.querySelector(".wrapper").addEventListener("mouseover",function(){
+    console.log(1);
+    clear();
+});
+document.querySelector(".wrapper").addEventListener("mouseout",function(){
+    console.log(2);
+    set();
+});
