@@ -219,6 +219,11 @@ position: fixed;
     left:55vw;
     top:60%;
   }
+  .position{
+    position: absolute !important;
+    top:69%;
+    left:20vw;
+  }
 
   @media(min-width:768px)
   {
