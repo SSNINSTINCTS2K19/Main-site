@@ -1,0 +1,15 @@
+{
+    "title": "SPC",
+    "name": "SPC",
+    "events": [{
+                "title": "Online Photography Competition ",
+                "description":"We want to see the world in your eyes, but behind a computer screen. Do you think you can woo us with just two snaps? <br>Sign up for this event and sign in with your emails; our prompts are ready. <br>But do you have the photos? "
+            },
+            {
+                "title": "Live Photography Competition ",
+                "description": "Capture the essence of Instincts 2019 with your camera. Show us a side we've never seen before. <br>Explore, experiment and exceed expectations with our Live Photography Event. "
+            },{
+                "title":"Let Experts Talk",
+                "description":"Participate in discussions, engage with fellow enthusiasts and learn from experts in our exclusive talk show. Listen and learn as leading professionals of the industry explain the nuance and subtlety behind the perfect photograph. . "
+            }]
+}

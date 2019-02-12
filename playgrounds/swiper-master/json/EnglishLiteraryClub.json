@@ -1,0 +1,42 @@
+{
+    "title":"EnglishLiteraryClub",
+    "name":"English Literary Club",
+    "events":[
+        {
+            "title":"SSN Debates",
+            "description":"Our flagship event, SSN Debates has evolved into one of the most popular parliamentary style debates in the city.",
+            "rules":"Three rounds; Three per team; Be there; Be funny; Have fun; Make money",
+            "contact":"Ganapathi Ramanathan - 9003134586"
+        },
+        {
+            "title":"JAM",
+            "description":"6 people. 6 buzzers. 1 minute. 1 insufferable mod.",
+            "rules":"Three rounds; Three per team; Be there; Be funny; Have fun; Make money",
+            "contact":"Ganapathi Ramanathan - 9003134586"
+        },
+        {
+            "title":"Potpourri",
+            "description":"Chaos comes calling. Will you rise above the others?",
+            "rules":"Three rounds; Three per team; Be there; Be funny; Have fun; Make money",
+            "contact":"Ganapathi Ramanathan - 9003134586"
+        },
+        {
+            "title":"Stand Up Comedy Contest (SUCC)",
+            "description":"If you do this right, we laugh with you. Do it wrong and we'll be laughing at you. :)",
+            "rules":"Three rounds; Three per team; Be there; Be funny; Have fun; Make money",
+            "contact":"Ganapathi Ramanathan - 9003134586"
+        },
+        {
+            "title":"Character Showdown",
+            "description":"Hold your breath! <br> Time to deck up and narrate <br> As we head into Character Debate !",
+            "rules":"Three rounds; Three per team; Be there; Be funny; Have fun; Make money",
+            "contact":"Ganapathi Ramanathan - 9003134586"
+        },
+        {
+            "title":"A Musing Affair",
+            "description":"Our flagship event, SSN Debates has evolved into one of the most popular parliamentary style debates in the city.",
+            "rules":"Three rounds; Three per team; Be there; Be funny; Have fun; Make money",
+            "contact":"Ganapathi Ramanathan - 9003134586"
+        }
+    ]
+}

@@ -10,12 +10,13 @@
 <link rel="stylesheet" href="./vendor/animatedModal.js-master/demo/css/animate.min.css">
 <link rel="stylesheet" type="text/css" href="normalize.css" />
 <link rel="stylesheet" type="text/css" href="demo.css" />
+<link rel="stylesheet" href="./vendor/swiper/css/swiper.min.css">
 <link rel="stylesheet" type="text/css" href="Slicebox/css/slicebox.css" />
 <link rel="stylesheet" type="text/css" href="Slicebox/css/custom.css" />
-<script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script>
 </head>
 
 <body>
+    <!-- Main panel -->
     <main id="panel">
         <div class="svg-hero">
             <img class="extend" src="./svg/sky.svg" alt="">
@@ -32,233 +33,420 @@
             <img class="clock_tower" src="./svg/clock_tower.svg" alt="">
             <div class="relative">
                 <img class="img-fluid extend" style="visibility: hidden" src="./svg/background.svg" alt="">
-                <img class="sebuilding" src="./svg/star_events.svg" alt="">
-                <img class="evebuilding" src="./svg/events.svg" alt="">
-                <img class="flmbuilding" src="./svg/film.svg" alt="">
-                <img class="potobuilding" src="./svg/photography.svg" alt="">
-                <img class="desbuilding" src="./svg/design.svg" alt="">
-                <img class="fabuilding" src="./svg/fine_arts.svg" alt="">
-                <img class="dcbuilding" src="./svg/dance.svg" alt="">
-                <img class="lopbuilding" src="./svg/LOP.svg" alt="">
-                <img class="elcbuilding" src="./svg/ELC.svg" alt="">
-                <img class="sabuilding" src="./svg/saaral.svg" alt="">
-                <img class="building" src="./svg/buildings.svg" alt="">
-                <img class="mbuilding" src="./svg/music.svg" alt="">
-                <img class="qbuilding" src="./svg/quiz.svg" alt="">
-                <img class="hbuilding" src="./svg/hospitality.svg" alt="">
-                <img class="bus" src="./svg/bus.svg" alt="">
-                <img class="sponsors" src="./svg/sponsors.svg" alt="">
-                
-            <div class="wrapper position">
+                <a id="modal01" href="#starEventsModal">
+                    <img class="sebuilding" src="./svg/star_events.svg" alt="">
+                </a>
+                <a id="modal02" href="#eventsModal">
+                    <img class="evebuilding" src="./svg/events.svg" alt="">
+                </a>
+                <a id="modal03" href="#LopModal">
+                    <img class="flmbuilding" src="./svg/film.svg" alt="">
+                </a>
+                <a id="modal04" href="#SpcModal">
+                    <img class="potobuilding" src="./svg/photography.svg" alt="">
+                </a>
+                <a id="modal05" href="#DesignModal">
+                    <img class="desbuilding" src="./svg/design.svg" alt="">
+                </a>
+                <a id="modal06" href="#FineArtsModal">
+                    <img class="fabuilding" src="./svg/fine_arts.svg" alt="">
+                </a>
+                <a id="modal07" href="#DanceModal">
+                    <img class="dcbuilding" src="./svg/dance.svg" alt="">
+                </a>
+                <a id="modal08" href="#FilmClubModal">
+                    <img class="lopbuilding" src="./svg/LOP.svg" alt="">
+
+                </a>
+                <a id="modal09" href="#ElcModal">
+                    <img class="elcbuilding" src="./svg/ELC.svg" alt="">
+                </a>
+                <a id="modal10" href="#LiteratureModal">
+                    <img class="sabuilding" src="./svg/saaral.svg" alt="">
+                </a>
+                <a id="modal11" href="#HospitalityModal">
+                    <img class="building" src="./svg/buildings.svg" alt="">
+                </a>
+
+                <a id="modal12" href="#MusicModal">
+                    <img class="mbuilding" src="./svg/music.svg" alt="">
+                </a>
+
+                <a id="modal13" href="#QuizModal">
+                    <img class="qbuilding" src="./svg/quiz.svg" alt="">
+                </a>
+
+                <a id="modal14" href="#HospitalityModal">
+                    <img class="hbuilding" src="./svg/hospitality.svg" alt="">
+                </a>
+
+                <a id="modal15" href="#BusModal">
+                    <img class="bus" src="./svg/bus.svg" alt="">
+                </a>
+
+                <a id="modal16" href="#SponsorsModal">
+                    <img class="sponsors" src="./svg/sponsors.svg" alt="">
+                </a>
+
+
+
+                <div class="wrapper position">
                     <h3 style="align-content: center;text-align: center;line-height: 1.5" ;> Gallery </h3>
-                <ul id="sb-slider" class="sb-slider">
-                    <li>
-                        <img src="Slicebox/images/15.jpg" alt="image1" /></a>
+                    <ul id="sb-slider" class="sb-slider">
+                        <li>
+                            <img src="Slicebox/images/15.jpg" alt="image1" /></a>
 
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/25.jpg" alt="image2" /></a>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/25.jpg" alt="image2" /></a>
 
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/35.jpg" alt="image1" /></a>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/35.jpg" alt="image1" /></a>
 
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/45.jpg" alt="image1" /></a>
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/55.jpg" alt="image1" /></a>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/45.jpg" alt="image1" /></a>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/55.jpg" alt="image1" /></a>
 
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/65.jpg" alt="image1" /></a>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/65.jpg" alt="image1" /></a>
 
 
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/75.jpg" alt="image1" /></a>
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/85.jpg" alt="image1" /></a>
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/95.jpg" alt="image1" /></a>
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/105.jpg" alt="image1" /></a>
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/115.jpg" alt="image1" /></a>
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/125.jpg" alt="image1" /></a>
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/135.jpg" alt="image1" /></a>
-                    </li>
-                    <li>
-                        <img src="Slicebox/images/145.jpg" alt="image1" /></a>
-                    </li>
-                </ul>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/75.jpg" alt="image1" /></a>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/85.jpg" alt="image1" /></a>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/95.jpg" alt="image1" /></a>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/105.jpg" alt="image1" /></a>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/115.jpg" alt="image1" /></a>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/125.jpg" alt="image1" /></a>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/135.jpg" alt="image1" /></a>
+                        </li>
+                        <li>
+                            <img src="Slicebox/images/145.jpg" alt="image1" /></a>
+                        </li>
+                    </ul>
 
-                <!-- <div id="shadow" class="shadow"></div> -->
 
-                <div id="nav-arrows" class="nav-arrows">
-                    <a href="#"><img class="imgs" src="Slicebox/images/ra.svg" /></a>
-                    <a href="#"><img class="imgs" src="Slicebox/images/la.svg" /></a>
+                    <div id="nav-arrows" class="nav-arrows">
+                        <a href="#"><img class="imgs" src="Slicebox/images/ra.svg" /></a>
+                        <a href="#"><img class="imgs" src="Slicebox/images/la.svg" /></a>
+                    </div>
+
                 </div>
-
-                <!-- <div id="nav-dots" class="nav-dots">
-                        <span class="nav-dot-current"></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div> -->
-
-            </div>
 
             </div>
         </div>
-       
+    </main>
+    <!-- Modal windows -->
 
-
-
-        </main>
-        <div class="content content--demo-3">
-            <div class="hamburger hamburger--demo-3 js-hover">
-                <div class="hamburger__line hamburger__line--01">
-                    <div class="hamburger__line-in hamburger__line-in--01"></div>
-                </div>
-                <div class="hamburger__line hamburger__line--02">
-                    <div class="hamburger__line-in hamburger__line-in--02"></div>
-                </div>
-                <div class="hamburger__line hamburger__line--03">
-                    <div class="hamburger__line-in hamburger__line-in--03"></div>
-                </div>
-                <div class="hamburger__line hamburger__line--cross01">
-                    <div class="hamburger__line-in hamburger__line-in--cross01"></div>
-                </div>
-                <div class="hamburger__line hamburger__line--cross02">
-                    <div class="hamburger__line-in hamburger__line-in--cross02"></div>
-                </div>
-            </div>
-            <div class="global-menu">
-                <div class="global-menu__wrap">
-                    <a class="anc global-menu__item global-menu__item--demo-3" href="#">About</a>
-                    <a class="anc global-menu__item global-menu__item--demo-3" href="#">Home</a>
-                    <a class="anc global-menu__item global-menu__item--demo-3" href="#">Events</a>
-                    <a class="anc global-menu__item global-menu__item--demo-3" href="#">Hospitality</a>
-                    <a class="anc global-menu__item global-menu__item--demo-3" href="#">Sponsors</a>
-                    <a class="anc global-menu__item global-menu__item--demo-3" href="#">Gallery</a>
-                    <a class="anc global-menu__item global-menu__item--demo-3" href="#">Contact</a>
-                    <a class="anc global-menu__item global-menu__item--demo-3" href="#">Schedule</a>
-                    <a class="anc global-menu__item global-menu__item--demo-3" href="#">Register</a>
-                </div>
-            </div>
-            <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
-                <path class="shape-overlays__path"></path>
-                <path class="shape-overlays__path"></path>
-                <path class="shape-overlays__path"></path>
-            </svg>
+    <!--DEMO01-->
+    <div id="starEventsModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-starEventsModal">
+            CLOSE MODAL
         </div>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="vendor/animatedModal.js-master/animatedModal.min.js"></script>
-        <script type="text/javascript" src="Slicebox/js/jquery.slicebox.js"></script>
-        <script src="demo.js"></script>
-        <div class="hamburger__line hamburger__line--cross01">
-            <div class="hamburger__line-in hamburger__line-in--cross01"></div>
-        </div>
-        <div class="hamburger__line hamburger__line--cross02">
-            <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+
+        <div class="modal-content">
+            <!--Your modal content goes here-->
+
+            <!-- Swiper -->
+          
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card" style="position:relative">
+                            <div class="card-body">
+                            </div>
+                            <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)"
+                                class="text-center">Reel
+                                of fire</h3>
+
+                            <button class="btn text-center extend">Explore</button>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
         </div>
     </div>
-  
+    <!-- Exceptional -->
+    <div id="eventsModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-eventsModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+    <div id="LopModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-LopModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+    <div id="SpcModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-SpcModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+    <div id="DesignModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-DesignModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+    <div id="FineArtsModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-FineArtsModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+    <div id="DanceModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-DanceModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+    <div id="FilmClubModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-FilmClubModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+    <div id="ElcModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-ElcModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+    <div id="LiteratureModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-LiteratureModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+    <div id="MusicModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-MusicModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+    <div id="QuizModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-QuizModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+    <div id="HospitalityModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-HospitalityModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+    <div id="SponsorsModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-SponsorsModal">
+            CLOSE MODAL
+        </div>
+
+        <div class="modal-content">
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- ---------------------------- -->
+
+    <!-- Navbar -->
+    <div class="content content--demo-3">
+        <div class="hamburger hamburger--demo-3 js-hover">
+            <div class="hamburger__line hamburger__line--01">
+                <div class="hamburger__line-in hamburger__line-in--01"></div>
+            </div>
+            <div class="hamburger__line hamburger__line--02">
+                <div class="hamburger__line-in hamburger__line-in--02"></div>
+            </div>
+            <div class="hamburger__line hamburger__line--03">
+                <div class="hamburger__line-in hamburger__line-in--03"></div>
+            </div>
+            <div class="hamburger__line hamburger__line--cross01">
+                <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+            </div>
+            <div class="hamburger__line hamburger__line--cross02">
+                <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+            </div>
+        </div>
+        <div class="global-menu">
+            <div class="global-menu__wrap">
+                <a class="anc global-menu__item global-menu__item--demo-3" href="#">About</a>
+                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Home</a>
+                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Events</a>
+                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Hospitality</a>
+                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Sponsors</a>
+                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Gallery</a>
+                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Contact</a>
+                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Schedule</a>
+                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Register</a>
+            </div>
+        </div>
+        <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path class="shape-overlays__path"></path>
+            <path class="shape-overlays__path"></path>
+            <path class="shape-overlays__path"></path>
+        </svg>
+    </div>
+
+    <div class="hamburger__line hamburger__line--cross01">
+        <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+    </div>
+    <div class="hamburger__line hamburger__line--cross02">
+        <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+    </div>
+    </div>
+    <!-- Page end -->
+
+
+    <!-- Template -->
+    <script id="cardtemplate" type="text/template">
+        <div class="swiper-slide">
+            <div class="card" style="position:relative">
+              <div class="card-body">
+              </div>
+              <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)" class="text-center">Reel
+                of fire</h3>
+    
+              <button class="btn text-center extend">Explore</button>
+            </div>
+          </div>
+      </script>
+
+    <!-- ---------------------------- -->
+<script src="swiper-4.4.6/dist/js/swiper.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="vendor/animatedModal.js-master/animatedModal.min.js"></script>
+    <script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script>
+    <script type="text/javascript" src="Slicebox/js/jquery.slicebox.js"></script>
     <script src="easings.js"></script>
     <script src="demo3.js"></script>
-    <script type="text/javascript">
-        $(function () {
+    <script src="events.js"></script>
+    <script src="navbar.js"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+  effect: 'coverflow',
+  grabCursor: true,
+  coverflowEffect: {
+    rotate: 10,
+    stretch: -50,
+    depth: 250,
+    modifier: 1,
 
-            var Page = (function () {
+    slideShadows: true,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
 
-                var $navArrows = $('#nav-arrows').hide(),
-                    $navDots = $('#nav-dots').hide(),
-                    $nav = $navDots.children('span'),
-                    $shadow = $('#shadow').hide(),
-                    slicebox = $('#sb-slider').slicebox({
-                        onReady: function () {
+$("#modal01").animatedModal();
+$("#modal02").animatedModal();
+$("#modal03").animatedModal();
+$("#modal04").animatedModal();
+$("#modal05").animatedModal();
+$("#modal06").animatedModal();
+$("#modal07").animatedModal();
+$("#modal08").animatedModal();
+$("#modal09").animatedModal();
+$("#modal10").animatedModal();
+$("#modal11").animatedModal();
+$("#modal12").animatedModal();
+$("#modal13").animatedModal();
+$("#modal14").animatedModal();
+$("#modal15").animatedModal();
 
-                            $navArrows.show();
-                            $navDots.show();
-                            $shadow.show();
-
-                        },
-                        onBeforeChange: function (pos) {
-
-                            $nav.removeClass('nav-dot-current');
-                            $nav.eq(pos).addClass('nav-dot-current');
-
-                        }
-                    }),
-
-                    init = function () {
-
-                        initEvents();
-
-                    },
-                    initEvents = function () {
-
-                        // add navigation events
-                        $navArrows.children(':first').on('click', function () {
-
-                            slicebox.next();
-                            return false;
-
-                        });
-
-                        $navArrows.children(':last').on('click', function () {
-
-                            slicebox.previous();
-                            return false;
-
-                        });
-
-                        $nav.each(function (i) {
-
-                            $(this).on('click', function (event) {
-
-                                var $dot = $(this);
-
-                                if (!slicebox.isActive()) {
-
-                                    $nav.removeClass('nav-dot-current');
-                                    $dot.addClass('nav-dot-current');
-
-                                }
-
-                                slicebox.jump(i + 1);
-                                return false;
-
-                            });
-
-                        });
-
-
-                    };
-                return {
-                    init: init
-                };
-
-            })();
-
-            Page.init();
-
-        });
-    </script>
-
+</script>
 
 
 </body>
