@@ -1,16 +1,101 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-#panel{
+
+#panel {
   will-change: transform;
 }
+
+#query {
+  position: absolute;
+  top: 9%;
+  left: 24vw;
+  width: 50%;
+}
+
+.licss {
+  padding: 6px;
+  left: 25vw;
+  background: rgb(254, 255, 255);
+  font-size: 15px;
+  line-height: 20px;
+}
+.licss:hover{
+  background : rgb(224,224,224);
+}
+
+.plusdisplay {
+  position: fixed;
+  top: 2%;
+  left: 83%;
+  border-radius: 50%;
+  color: black;
+  background: white;
+  width: 2em;
+  height: 2em;
+  font-size: 1.6em;
+  line-height: 10px;
+  transform: scale(0.75);
+}
+
+.plusclose {
+  position: fixed;
+  top: 2.5%;
+  left: 15vw;
+  border-radius: 50%;
+  color: black;
+  outline: none;
+  background: white;
+  width: 2em;
+  height:
+    2em;
+  font-size: 1.6em;
+  line-height: 10px;
+  transform: scale(0.75);
+}
+
+.closeboxdisplay {
+  position: absolute;
+  top: 2.5%;
+  left: 83%;
+  border-radius: 50%;
+  color: black;
+  background: white;
+  width: 2em;
+  height: 2em;
+  font-size: 1.6em;
+  line-height: 10px;
+  transform: scale(0.75);
+}
+
+.closeboxhide {
+  display: none;
+}
+
+.tasktxtdisplay {
+  position: absolute;
+  top: 5%;
+  left: 25vw;
+  width: 50vw;
+  border-radius: 35px;
+  background: transparent;
+  border: none;
+  outline: none important;
+  line-height: 10px;
+}
+
+.tasktxtclose {
+  display: none;
+}
+
 body {
-    width: 100%;
-    height: 100%;
-    line-height: 1;
-    --color-text: #fbd54a;
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  --color-text: #fbd54a;
   --color-bg: #333;
   --color-link: #4d4f5f;
   --color-link-hover: #bfb5b5;
@@ -31,303 +116,350 @@ body {
   --button-bg: #fff;
   --button-circle: #ada4a4;
   --button-line: #222;
-    /* will-change: transform;
+  /* will-change: transform;
     overflow-x: hidden; */
-  }
-.bgcheck{
 }
-  .svg-hero{
-width: 100%;
-position: fixed;
+
+.bgcheck {}
+
+.svg-hero {
+  width: 100%;
+  position: fixed;
+}
+
+.extend {
+  width: 100%;
+}
+
+.relative {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+button {
+  padding: 16px;
+  background: white;
+  outline: none;
+  border: 0px solid white;
+}
+
+
+.pad {
+  padding: 1rem;
+}
+
+.clock_tower {
+  width: 25%;
+  position: fixed;
+  top: 9vh;
+  left: 4vw;
+}
+
+.layerct {
+  width: 100%;
+}
+
+.road1 {
+  width: 100%;
+}
+
+.road2 {
+  width: 100%;
+}
+
+.gate {
+  position: fixed;
+  width: 15%;
+  left: 58vw;
+  top: 25vw;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.toplayer {
+  width: 25%;
+}
+
+.sebuilding {
+  position: absolute;
+  width: 59%;
+  left: 36vw;
+  top: 7%;
+}
+
+.evebuilding {
+  position: absolute;
+  width: 38%;
+  left: 6vw;
+  top: 9%;
+}
+
+.flmbuilding {
+  position: absolute;
+  width: 38%;
+  top: 16%;
+}
+
+.potobuilding {
+  position: absolute;
+  width: 38%;
+  left: 40vw;
+  top: 20%;
+}
+
+.desbuilding {
+  position: absolute;
+  width: 38%;
+  top: 22.5%;
+
+}
+
+.fabuilding {
+  position: absolute;
+  width: 38%;
+  left: 25vw;
+  top: 28%;
+}
+
+.dcbuilding {
+  position: absolute;
+  width: 38%;
+  left: 60vw;
+  top: 36%;
+}
+
+.lopbuilding {
+  position: absolute;
+  width: 38%;
+  left: 10vw;
+  top: 38%
+}
+
+.sabuilding {
+  position: absolute;
+  width: 27%;
+  left: 64vw;
+  top: 45.5%;
+}
+
+
+.elcbuilding {
+  position: absolute;
+  width: 29%;
+  left: 5vw;
+  top: 46.4%;
+}
+
+.mbuilding {
+  position: absolute;
+  width: 24.1%;
+  left: 10vw;
+  top: 52%;
+}
+
+.qbuilding {
+  position: absolute;
+  width: 25%;
+  left: 55vw;
+  top: 52%;
+}
+
+.building {
+  position: absolute;
+  width: 100%;
+  top: 54%;
+}
+
+.hbuilding {
+  position: absolute;
+  width: 25%;
+  left: 10vw;
+  top: 60%;
+}
+
+.bus {
+  position: absolute;
+  width: 30%;
+  left: 15vw;
+  top: 65%;
+}
+
+.sponsors {
+  position: absolute;
+  width: 27.5%;
+  left: 55vw;
+  top: 60%;
+}
+
+@media(min-width:768px) {
+  .clock_tower {
+    top: 25vh;
   }
-  .extend{
-      width: 100%;
-  }
-  .relative{
-      position: relative;
-  }
-  .abs{
-      position: absolute;
-      top:0;
-      left: 0;
-  }
-  button{
-      padding:16px;
-      background: white;
-      outline: none;
-      border:0px solid white;
-  }
 
-
-  .pad{
-      padding:1rem;
-  }
-
-  .clock_tower
-  {
-    width: 25%;
-    position: fixed;
-    top: 9vh;
-    left: 4vw;
-  }
-
-  .layerct
-  {
-    width: 100%;
-  }
-
- .road1{
-    width:100%;
-   }
-
-   .road2
-   {
-      width:100%;
-   }
-   .gate
-   {
-      position:fixed;
-      width:15%;  
-      left: 58vw;
-      top: 25vw;   
-   }
-   .fixed
-   {
-     position: fixed;
-   }
-   .toplayer
-   {
-     width: 25%;
-   }
-
-   .sebuilding
-   {
-    position: absolute;
-    width: 59%;
-    left: 36vw;
-    top:7%;
-   }
-
-   .evebuilding
-   {
-    position: absolute;
-    width: 38%;
-    left: 6vw;
-    top:9%;
-   }
-
-   .flmbuilding
-   {
-     position: absolute;
-     width:38%;
-     top:16%;
-   }
-
-   .potobuilding
-   {
-    position: absolute; 
-    width:38%;
-     left: 40vw;
-     top:20%;
-   }
-
-   .desbuilding
-   {
-     position: absolute;
-     width:38%;
-     top:22.5%;
-
-   }
-   
-   .fabuilding
-   {
-     position: absolute;
-     width: 38%;
-     left:25vw;
-     top:28%;
-   }
-
-   .dcbuilding
-   {
-      position:absolute;
-      width: 38%;
-      left: 60vw;
-      top:36%;
-   }
-
-   .lopbuilding
-   {
-     position:absolute;
-     width:38%;
-     left:10vw;
-     top:38%
-   }
-
-   .sabuilding
-   {
-     position: absolute;
-     width: 27%;
-     left: 64vw;
-     top:45.5%;
-   }
-
-
-   .elcbuilding
-   {
-     position:absolute;
-     width:29%;
-     left:5vw;
-     top:46.4%;
-   }
-
-   .mbuilding{
-    position: absolute;
-    width: 24.1%;
-    left: 10vw;
-    top:52%;
-  }
-  .qbuilding
-  {
-    position: absolute;
-    width: 25%;
-    left: 55vw;
-    top:52%;
-  }
-  .building
-  {
-    position:absolute;
-    width:100%;
-    top:54%;
-  }
-  .hbuilding
-  {
-    position:absolute;
-    width:25%;
-    left:10vw;
-    top:60%;
-  }
-  .bus{
-    position: absolute;
-    width:30%;
-    left:15vw;
-    top:65%;
-  }
-  .sponsors
-  {
-    position: absolute;
-    width:27.5%;
-    left:55vw;
-    top:60%;
-  }
-
-  @media(min-width:768px)
-  {
-   .clock_tower{
-     top: 25vh;
-   }
-   .sebuilding
-   {
+  .sebuilding {
     position: absolute;
     width: 40%;
     left: 38vw;
-    top:9%;
-   }
+    top: 9%;
+  }
 
-   .evebuilding
-   {
+  .evebuilding {
     position: absolute;
     width: 35%;
     left: 6vw;
-   }
-
-   .flmbuilding
-   {
-     position: absolute;
-     width:35%;
-   }
-
-   .potobuilding
-   {
-    position: absolute; 
-    width:33%;
-    left: 44vw;
-    top:20.5%;
-   }
-
-   .desbuilding
-   {
-     position: absolute;
-     width:32%;
-
-   }
-   
-   .fabuilding
-   {
-     position: absolute;
-     width: 35%;
-     left:30vw;
-   }
-
-   .dcbuilding
-   {
-      position:absolute;
-      width: 35%;
-      left: 64vw;
-   }
-
-   .lopbuilding
-   {
-     position:absolute;
-     width:35%;
-     left:15vw;
-     top:38%;
-   }
-
-   .elcbuilding
-   {
-     position:absolute;
-     width:29%;
-     left:5vw;
-   }
-
-   .sabuilding
-   {
-     position: absolute;
-     width: 27%;
-     left: 64vw;
-   }
-
-   .mbuilding{
-     position: absolute;
-     width: 24.1%;
-     left: 10vw;
-   }
-   .qbuilding
-   {
-     position: absolute;
-     width: 25%;
-     left: 55vw;
-   }
-   .building
-   {
-     position:absolute;
-     width:100%;
-   }
-   .hbuilding
-   {
-     position:absolute;
-     width:25%;
-     left:10vw;
-   }
-   .bus{
-     position: absolute;
-     width:30%;
-     left:15vw;
-   }
-   .sponsors
-   {
-     position: absolute;
-     width:27.5%;
-     left:55vw;
-   }
   }
+
+  .flmbuilding {
+    position: absolute;
+    width: 35%;
+  }
+
+  .potobuilding {
+    position: absolute;
+    width: 33%;
+    left: 44vw;
+    top: 20.5%;
+  }
+
+  .desbuilding {
+    position: absolute;
+    width: 32%;
+
+  }
+
+  .fabuilding {
+    position: absolute;
+    width: 35%;
+    left: 30vw;
+  }
+
+  .dcbuilding {
+    position: absolute;
+    width: 35%;
+    left: 64vw;
+  }
+
+  .lopbuilding {
+    position: absolute;
+    width: 35%;
+    left: 15vw;
+    top: 38%;
+  }
+
+  .elcbuilding {
+    position: absolute;
+    width: 29%;
+    left: 5vw;
+  }
+
+  .sabuilding {
+    position: absolute;
+    width: 27%;
+    left: 64vw;
+  }
+
+  .mbuilding {
+    position: absolute;
+    width: 24.1%;
+    left: 10vw;
+  }
+
+  .qbuilding {
+    position: absolute;
+    width: 25%;
+    left: 55vw;
+  }
+
+  .building {
+    position: absolute;
+    width: 100%;
+  }
+
+  .hbuilding {
+    position: absolute;
+    width: 25%;
+    left: 10vw;
+  }
+
+  .bus {
+    position: absolute;
+    width: 30%;
+    left: 15vw;
+  }
+
+  .sponsors {
+    position: absolute;
+    width: 27.5%;
+    left: 55vw;
+  }
+}
+
+@media(min-width:1000px)
+{
+  .plusdisplay
+  {
+    top: 2%;
+    left: 88%;
+  }
+}
+
+@media(min-width:695px) and (max-width:768px)
+{
+  .plusdisplay
+  {
+    top: 2%;
+    left: 74%;
+  }
+}
+
+@media(max-width:695px) and (min-width:475px)
+{
+  .plusdisplay
+  {
+    top: 2%;
+    left: 74%;
+  }
+} 
+
+@media(min-width:400px) and (max-width:475px)
+{
+  .plusdisplay
+  {
+    top: 2%;
+    left: 70%;
+  }
+}
+
+@media(min-width:300px) and (max-width:400px)
+{
+  .plusdisplay
+  {
+    top: 2%;
+    left: 60%;
+  }
+}
+
+@media(min-width:240px) and (max-width:300px)
+{
+  .plusdisplay
+  {
+    top: 2%;
+    left: 50%;
+  }
+}
+
+@media(min-width:150px) and (max-width:240px)
+{
+  .plusdisplay
+  {
+    top: 2%;
+    left: 40%;
+  }
+}

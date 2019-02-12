@@ -8,6 +8,8 @@
 <link rel="stylesheet" type="text/css" href="./vendor/bootstrap/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
 <link rel="stylesheet" href="./vendor/animatedModal.js-master/demo/css/animate.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="normalize.css" />
 <link rel="stylesheet" type="text/css" href="demo.css" />
 <link rel="stylesheet" type="text/css" href="Slicebox/css/slicebox.css" />
@@ -17,6 +19,7 @@
 
 <body>
     <main id="panel">
+        <!-- <img style="visibilty:hidden" class="extend" src="./svg/sky.svg" alt=""> -->
         <div class="svg-hero">
             <img class="extend" src="./svg/sky.svg" alt="">
             <img class="gate" src="./svg/gate.svg" alt="">
@@ -34,38 +37,25 @@
                 <img class="img-fluid extend" style="visibility: hidden" src="./svg/background.svg" alt="">
                 <img class="sebuilding" src="./svg/star_events.svg" alt="">
                 <img class="evebuilding" src="./svg/events.svg" alt="">
-                <img class="flmbuilding" src="./svg/film.svg" alt="">
-                <img class="potobuilding" src="./svg/photography.svg" alt="">
-                <img class="desbuilding" src="./svg/design.svg" alt="">
+                <img id="SFC" class="flmbuilding" src="./svg/film.svg" alt="">
+                <img id="SPC" class="potobuilding" src="./svg/photography.svg" alt="">
+                <img id="Design Club" class="desbuilding" src="./svg/design.svg" alt="">
                 <img class="fabuilding" src="./svg/fine_arts.svg" alt="">
-                <img class="dcbuilding" src="./svg/dance.svg" alt="">
-                <img class="lopbuilding" src="./svg/LOP.svg" alt="">
-                <img class="elcbuilding" src="./svg/ELC.svg" alt="">
-                <img class="sabuilding" src="./svg/saaral.svg" alt="">
+                <img id="N2K" class="dcbuilding" src="./svg/dance.svg" alt="">
+                <img id="Lights Out Please" class="lopbuilding" src="./svg/LOP.svg" alt="">
+                <img id="English Literary Club" class="elcbuilding" src="./svg/ELC.svg" alt="">
+                <img id="Saaral" class="sabuilding" src="./svg/saaral.svg" alt="">
                 <img class="building" src="./svg/buildings.svg" alt="">
-                <img class="mbuilding" src="./svg/music.svg" alt="">
-                <img class="qbuilding" src="./svg/quiz.svg" alt="">
+                <img id="SMC" class="mbuilding" src="./svg/music.svg" alt="">
+                <img id="Q!" class="qbuilding" src="./svg/quiz.svg" alt="">
                 <img class="hbuilding" src="./svg/hospitality.svg" alt="">
                 <img class="bus" src="./svg/bus.svg" alt="">
                 <img class="sponsors" src="./svg/sponsors.svg" alt="">
             </div>
         </div>
         <div class="svg-hero">
-            <img class="layerct" src="./svg/placeholder1.svg">
-            <img class="layerct" src="./svg/placeholder1.svg">
-            <img class="layerct" src="./svg/placeholder1.svg">
-            <img class="layerct" src="./svg/placeholder1.svg">
-            <img class="layerct" src="./svg/placeholder1.svg">
-            <img class="layerct" src="./svg/placeholder1.svg">
-            <img class="layerct" src="./svg/placeholder1.svg">
-            <img class="layerct" src="./svg/placeholder1.svg">
-            <img class="layerct" src="./svg/placeholder1.svg">
-            <img class="layerct" src="./svg/placeholder1.svg">
-            <img class="layerct" src="./svg/placeholder.svg">
-            <img class="layerct" src="./svg/placeholder.svg">
-            <img class="layerct" src="./svg/placeholder.svg">
-            <img class="layerct" src="./svg/placeholder.svg">
-            <h3 style="align-content: center;text-align: center;line-height: 1.5" ;> Gallery </h3>
+            <img style="visibility: hidden" class="extend" src="./svg/background.svg" alt="">
+            <h3 style="align-content: center;text-align: center;line-height: 1.5;top:80%"> Gallery </h3>
             <div class="wrapper">
                 <ul id="sb-slider" class="sb-slider">
                     <li>
@@ -124,6 +114,17 @@
             </div>
         </div>
     </main>
+    <div>
+            <input id="inp" class="tasktxtclose" type="text" name="task" placeholder=" Search">
+            <button class="plusdisplay" href="#"><i class="fas fa-search"></i></button>
+            <button class="closeboxclose"><i class="far fa-times-circle"></i></button>
+            <ul id="query">
+                <!-- <li class="licss">dsfnksdfj</li>
+                        <li class="licss">dnfksdnf</li>
+                        <li class="licss">dnksdmlks</li>
+                        <li class="licss">sdscvsdv</li> -->
+            </ul>
+        </div>
     <div class="content content--demo-3">
         <div class="hamburger hamburger--demo-3 js-hover">
             <div class="hamburger__line hamburger__line--01">
@@ -164,12 +165,12 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="vendor/animatedModal.js-master/animatedModal.min.js"></script>
-    <!-- <script src="slideout/slideout.min.js"></script> -->
     <script type="text/javascript" src="Slicebox/js/jquery.slicebox.js"></script>
 
     <script src="demo.js"></script>
     <script src="easings.js"></script>
     <script src="demo3.js"></script>
+    <script src="search.js"></script>
     <script type="text/javascript">
         $(function () {
 
