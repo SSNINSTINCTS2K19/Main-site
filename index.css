@@ -17,10 +17,11 @@
   will-change: transform;
 }
 body {
-    width: 100%;
-    height: 100%;
-    line-height: 1;
-    --color-text: #fbd54a;
+
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  --color-text: #fbd54a;
   --color-bg: #333;
   --color-link: #4d4f5f;
   --color-link-hover: #bfb5b5;
@@ -41,9 +42,11 @@ body {
   --button-bg: #fff;
   --button-circle: #ada4a4;
   --button-line: #222;
-    /* will-change: transform;
-    overflow-x: hidden; */
-  }
+  /*will-change: transform;
+  overflow-x: hidden;
+  */:;
+  -webkit-backface-visibility:hidden;
+}
 .bgcheck{
 }
   .svg-hero{
@@ -351,12 +354,19 @@ position: fixed;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-  }
+    top:50%;
+    left:50%;
+    transform:  translate(-50%,-50%) ;
+    -webkit-transform:  translate(-50%,-50%) ;
+    -moz-transform:  translate(-50%,-50%) ;
+    -ms-transform:  translate(-50%,-50%) ;
+    -o-transform:  translate(-50%,-50%) ;
+}
 
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 300px;
+    width: 100%;
     height: 400px;
 
   }
@@ -364,8 +374,7 @@ position: fixed;
   .btn {
 
     padding: 20px;
-    border-bottom-left-radius: 22px;
-    border-bottom-right-radius: 22px;
+ 
     background: white;
   }
 
@@ -374,14 +383,32 @@ position: fixed;
     transition: 0.3s;
     border-radius: 22px;
     width: 100%;
-    height: 100%;
-  }
+    height: 80%;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
 
   .card-body {
     background: linear-gradient(135deg, #0FF0B3 0%, #036ED9 100%);
-    border-top-left-radius: 22px;
-    border-top-right-radius: 22px;
 
-
-    padding: 15% 0 0 0;
+    padding: 85% 0 0 0;
   }
+  .modal-content{
+    height: 100%;
+    padding:24px;
+
+  }
+  .center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+  
