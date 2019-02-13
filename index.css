@@ -232,6 +232,11 @@ button {
   left: 25vw;
   top: 28%;
 }
+#credits{
+  position: absolute;
+  top:77%;
+  left:7vw;
+}
 
 .dcbuilding {
   position: absolute;
