@@ -580,17 +580,16 @@
     <script src="demo3.js"></script>
     <script src="events.js"></script>
     <script>
-        function sel(d) {
-            return document.querySelector(d);
-        }
-
-        sel(".flmbuilding").addEventListener("click", function () {
             eventModule.start("LightsOutPlease", ".m03", document.querySelector("#cardtemplate"));
-        });
-
-        sel(".elcbuilding").addEventListener("click", function () {
             eventModule.start("EnglishLiteraryClub", ".m09", document.querySelector("#cardtemplate"));
-        });
+            eventModule.start("EnglishLiteraryClub", ".m09", document.querySelector("#cardtemplate"));
+            eventModule.start("EnglishLiteraryClub", ".m09", document.querySelector("#cardtemplate"));
+            eventModule.start("EnglishLiteraryClub", ".m09", document.querySelector("#cardtemplate"));
+            eventModule.start("EnglishLiteraryClub", ".m09", document.querySelector("#cardtemplate"));
+            eventModule.start("EnglishLiteraryClub", ".m09", document.querySelector("#cardtemplate"));
+            eventModule.start("EnglishLiteraryClub", ".m09", document.querySelector("#cardtemplate"));
+            eventModule.start("EnglishLiteraryClub", ".m09", document.querySelector("#cardtemplate"));
+            eventModule.start("EnglishLiteraryClub", ".m09", document.querySelector("#cardtemplate"));
     </script>
     <script src="navbar.js"></script>
     <script>
@@ -621,7 +620,6 @@
                 stretch: -50,
                 depth: 250,
                 modifier: 1,
-
                 slideShadows: true,
             },
             pagination: {
@@ -667,6 +665,7 @@
                 clickable: false
             },
         });
+
 
 
         $("#modal01").animatedModal();
