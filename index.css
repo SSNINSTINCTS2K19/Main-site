@@ -303,6 +303,68 @@ button {
   top: 60%;
 }
 
+.sponon{
+  position: absolute;
+  top: 80%;
+  left:-40vw;
+  width: 50%;
+  animation: move 4s;
+}
+
+.sponoff{
+  display: none;
+}
+
+.pwroff{
+  display: none;
+}
+ 
+.pwron{
+  position: absolute;
+  top: 80%;
+  left:-20vw;
+  width: 20%;
+  opacity:1;
+  animation: push 2s; 
+  animation-delay: 2s;
+}
+
+
+
+@keyframes push
+{
+  0%{
+
+  }
+  1%{
+    opacity: 1;
+  }
+  /* 50%{
+    transform: translateX(50vw);
+    opacity: 1;
+  } */
+  100%{
+    transform: translateX(159vw); 
+    opacity: 1;
+  }
+}
+
+
+@keyframes move
+{
+  0%{
+
+  }
+  50%{
+    transform: translateX(40vw);
+  }
+  100%
+  {
+    transform: translateX(200vw);
+  }
+}
+
+
 @media(min-width:768px) {
   .clock_tower {
     top: 25vh;
