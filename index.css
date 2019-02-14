@@ -4,8 +4,14 @@
   url("fonts/leaguespartan-bold.woff") format("woff"),
   url("fonts/LeagueSpartan-Bold.otf") format("opentype"),
   url("fonts/leaguespartan-bold.ttf") format("truetype");
+  }
+  @font-face {
+  font-family: "Fipps";
+  src: 
+  url("fonts/Fipps-Regular.otf") format("opentype");
 
   }
+
  @font-face {
   src: url("assets/fonts/font.ttf");
   font-family: 'primary';
@@ -14,11 +20,18 @@
   font-family: 'primary';
    font-size:1.5rem;
 }
-
+.fon{
+  font-family: Fipps;
+  font-size: 2vh;
+}
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+html{
+  width: 100%;
+   height: 100%;
 }
 #panel{
   will-change: transform;
@@ -56,8 +69,8 @@ body {
   --button-bg: #fff;
   --button-circle: #ada4a4;
   --button-line: #222;
-overflow-x: hidden;
-  -webkit-backface-visibility:hidden;*/
+  overflow-x: hidden;
+  -webkit-backface-visibility:hidden;
 }
 .bgcheck{
 }
@@ -82,6 +95,18 @@ position: fixed;
       outline: none;
       border:0px solid white;
   }
+  #stareventstxt {
+    position: absolute;
+    top: 9.9%;
+    left: 52vw;
+    width: 25%;
+}
+#filmtxt {
+  position: absolute;
+  top: 19.6%;
+  left: 16vw;
+  width: 10%;
+}
 
   /* .thala{
     position: absolute;
@@ -252,7 +277,7 @@ position: fixed;
   .position{
     position: absolute !important;
     top:69%;
-    left:20vw;
+    left:17vw;
   }
   #query {
     position: absolute;
@@ -656,8 +681,8 @@ position: fixed;
   #credits{
     position: absolute;
     width:20%;
-    left:10vw;
-    top:100%;     
+    left:31vw;
+    top:105%;     
     /* bottom:0%; */
   }
   
@@ -715,6 +740,101 @@ position: fixed;
   }
 } */
 
+/* #stareventstxt{
+  position: absolute;
+  top:10%;
+  left:20vw;
+  width:10%;
+} */
+/* #filmtxt{
+  position: absolute;
+  top:10%;
+  left:20vw;
+  width:10%;
+} */
+#destxt {
+  position: absolute;
+  top: 26.9%;
+  left: 17vw;
+  width: 10%;
+}
+#eventtxt {
+  position: absolute;
+  top: 10.5%;
+  left: 18vw;
+  width: 10%;
+  transform: rotate(-10deg);
+}
+#spctxt {
+  position: absolute;
+  top: 22.7%;
+  left: 57vw;
+  width: 10%;
+}
+#finartstxt {
+  position: absolute;
+  top: 31%;
+  left: 28vw;
+  width: 10%;
+}
+#n2ktxt {
+  position: absolute;
+  top: 38.5%;
+  left: 69vw;
+  width: 10%;
+}
+#loptxt {
+  position: absolute;
+  top: 42%;
+  left: 17vw;
+  width: 10%;
+}
+#elctxt {
+  position: absolute;
+  top: 47%;
+  left: 18vw;
+  width: 10%;
+}
+#saaraltxt {
+  position: absolute;
+  top: 48.8%;
+  left: 70vw;
+  width: 10%;
+}
+#smctxt {
+  position: absolute;
+  top: 56.8%;
+  left: 15vw;
+  width: 10%;
+}
+#quiztxt {
+  position: absolute;
+  top: 53.5%;
+  left: 62vw;
+  width: 18%;
+}
+
+#hostxt {
+  position: absolute;
+  top: 63.5%;
+  left: 22vw;
+  width: 18%;
+}
+#spontxt {
+  position: absolute;
+  top: 63.5%;
+  left: 71vw;
+  width: 18%;
+}
+#tspontxt {
+  position: absolute;
+  top: 77.5%;
+  left: 35vw;
+  width: 40%;
+  font-family: Fipps;
+  font-size: 3vh;
+}
+
   @media(min-width:768px)
   {
    
@@ -724,6 +844,44 @@ position: fixed;
     top: 38.5%;
     left: 4vw;
     } */
+    #spctxt {
+      position: absolute;
+      top: 23.9%;
+      left: 57vw;
+      width: 10%;
+  }
+    #destxt {
+      position: absolute;
+      top: 26.2%;
+      left: 15vw;
+      width: 10%;
+  }
+  #loptxt {
+    position: absolute;
+    top: 41.7%;
+    left: 24vw;
+    width: 10%;
+}
+#n2ktxt {
+  position: absolute;
+  top: 38.5%;
+  left: 74vw;
+  width: 10%;
+}
+#smctxt {
+  position: absolute;
+  top: 57%;
+  left: 18vw;
+  width: 10%;
+}
+#tspontxt {
+  position: absolute;
+  top: 77%;
+  left: 35vw;
+  width: 70%;
+  font-family: Fipps;
+  font-size: 3vh;
+}
     .logo{
       width:40%;
       top: -3vw;
@@ -1016,6 +1174,41 @@ position: fixed;
      width:27.5%;
      left:55vw;
    }
+  }
+  @media(min-width:500px) and (max-width:768px){
+    #stareventstxt {
+      position: absolute;
+      top: 8.2%;
+      left: 55vw;
+      width: 36%;
+  }
+  #tspontxt {
+    position: absolute;
+    top: 77%;
+    left: 35vw;
+    width: 70%;
+    font-family: Fipps;
+    font-size: 3vh;
+}
+  }
+  @media(max-width:500px){
+    #stareventstxt {
+      position: absolute;
+      top: 8.2%;
+      left: 55vw;
+      width: 36%;
+  }
+  #tspontxt {
+    position: absolute;
+    top: 80%;
+    left: 35vw;
+    width: 70%;
+    font-family: Fipps;
+    font-size: 1.5vh;
+}
+    .fon{
+      font-size: 1.3vh;
+    }
   }
 
   .swiper-container {

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="./vendor/bootstrap/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-<link rel="stylesheet" href="./vendor/animatedModal.js-master/demo/css/animate.min.css">
+<!-- <link rel="stylesheet" href="./vendor/animatedModal.js-master/demo/css/animate.min.css"> -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
     crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="normalize.css" />
@@ -81,7 +81,7 @@
                 <img class="img-fluid extend" style="visibility: hidden" src="./svg/background.svg" alt="">
                 <!-- <img class="thala" src="./svg/thalaivar.png" alt=""> -->
                 <img class="sebuilding" src="./svg/star_events.svg" alt="">
-                <img class="evebuilding" src="./svg/events.svg" alt="">
+                <img id="event" class="evebuilding" src="./svg/events.svg" alt="">
                 <img id="SFC" class="flmbuilding" src="./svg/film.svg" alt="">
                 <img id="SPC" class="potobuilding" src="./svg/photography.svg" alt="">
                 <img id="DesignClub" class="desbuilding" src="./svg/design.svg" alt="">
@@ -93,9 +93,9 @@
                 <img class="building" src="./svg/buildings.svg" alt="">
                 <img id="SMC" class="mbuilding" src="./svg/music.svg" alt="">
                 <img id="Q!" class="qbuilding" src="./svg/quiz.svg" alt="">
-                <img class="hbuilding" src="./svg/hospitality.svg" alt="">
+                <img id="hosp" class="hbuilding" src="./svg/hospitality.svg" alt="">
                 <img class="bus" src="./svg/bus.svg" alt="">
-                <img class="sponsors" src="./svg/sponsors.svg" alt="">
+                <img id="spid" class="sponsors" src="./svg/sponsors.svg" alt="">
                 <img class="mario" src="./svg/Mario_300x375.svg" alt="">
                 <img class="owl1" src="./svg/Mario_enemy_300x375.svg" alt="">
                 <img class="owl2" src="./svg/Mario_enemy_300x375.svg" alt="">
@@ -105,14 +105,34 @@
                 <img id="gh2" class="g2" src="./svg/Blue_ghost_300x375.svg" alt="">
                 <img class="pika" src="./svg/Pikachu.svg" alt="">
                 <img class="ball" src="./svg/Pokeball_300x375.svg" alt="">
+                <span id="stareventstxt" class="fon">VARIETY CLUB</span>  
+                <span ID="eventtxt"class="fon">EVENTS</span>  
+                <span id="filmtxt" class="fon">FILM</span>  
+                <span ID="spctxt"class="fon">SPC(PHOTO)</span>  
+                <span ID="destxt"class="fon">DESIGN</span>  
+                <span ID="finartstxt"class="fon">FINE ARTS</span>  
+                <span ID="n2ktxt"class="fon">N2K(DANCE)</span>  
+                <span ID="loptxt"class="fon">LOP(THEATRE)</span>  
+                <span ID="elctxt"class="fon">ELC</span>  
+                <span ID="saaraltxt"class="fon">SAARAL</span> 
+                <span ID="smctxt"class="fon">MUSIC</span> 
+                <span ID="quiztxt"class="fon">Q! (QUIZ)</span> 
+                <span ID="hostxt"class="fon">HOSPITALITY</span>  
+                <span ID="spontxt"class="fon">SPONSORS</span>  
+                <span ID="tspontxt">TITLE SPONSORS</span>  
+
+
+
+ 
+
                 <!-- <img id="mj1" class="dan1off" src="./svg/jackson-1.svg" alt=""> -->
                 <!-- <img id="mj2" class="dan2off" src="./svg/jackson-2.svg" alt=""> -->
                 <a id="credits" href="#animatedModal">
-                    <img style="width: 300px;" class="credits" src="title-contributors.png" alt="">
+                    <img style="position: absolute; bottom: 0; width: 30vw;" class="credits" src="title-contributors.png" alt="">
                 </a>
                 <div id="carouselExampleSlidesOnly" style="position: absolute;
                 top: 60.56%;
-                left: 57.6%;
+                left: 56.5%;
                 width: 25%;
                 height: 2.25%;"
                     class="carousel slide 
@@ -165,8 +185,8 @@
                     <img id="pwr3" class="pwroff" src="./svg/Buttercup_300x375.svg" alt="">
                 </div>
                 <div id="Gal" class="wrapper position">
-                    <h3 style="align-content: center;text-align: center;line-height: 1.5" ;> Gallery </h3>
-                    <ul id="sb-slider" class="sb-slider">
+                    <h3 style="align-content: center;text-align: center;line-height: 1.5;font-family: Fipps" ;> GALLERY </h3>
+                    <ul id="sb-slider" style="overflow: hidden !important" class="sb-slider">
                         <li>
                             <img src="Slicebox/images/15.jpg" alt="image1" /></a>
 
@@ -225,7 +245,7 @@
                         <a href="#"><img class="imgs" src="Slicebox/images/la.svg" /></a>
                     </div>
                 </div>
-                <!-- <div id="contact-container">
+                <div id="contact-container">
                     <div class="section-title text-center spartan">Contact Us</div>
                     <div class="contact-content spartan">
                         <div class="contact-item">
@@ -264,7 +284,7 @@
                         </p>
                         <p>2019 &copy; All rights reserved.</p>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
         
@@ -304,11 +324,11 @@
         position: absolute;" class="global-menu__wrap">
                 <a class="global-menu__item global-menu__item--demo-3" href="#">About</a>
                 <a class="global-menu__item global-menu__item--demo-3" href="#">Home</a>
-                <a class="global-menu__item global-menu__item--demo-3" href="#">Events</a>
-                <a class="global-menu__item global-menu__item--demo-3" href="#">Hospitality</a>
-                <a class="global-menu__item global-menu__item--demo-3" href="#">Sponsors</a>
-                <a class="global-menu__item global-menu__item--demo-3" href="#">Gallery</a>
-                <a class="global-menu__item global-menu__item--demo-3" href="#">Contact</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#event">Events</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#hosp">Hospitality</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#spid">Sponsors</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#Gal">Gallery</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#contact-container">Contact</a>
                 <a class="global-menu__item global-menu__item--demo-3" href="#">Schedule</a>
                 <a class="global-menu__item global-menu__item--demo-3" href="#">Register</a>
             </div>
@@ -360,7 +380,6 @@
                                 <h4>
                                     Social
                                 </h4>
-                                <a class="fa fa-fw fa-instagram zoom" href="https://www.instagram.com/nitinnikamanth/"></a>
                                 <a class="fa fa-fw fa-github-square zoom" href="https://github.com/nikamanthab"></a>
                                 <a class="fa fa-fw fa-linkedin zoom" href="https://www.linkedin.com/in/nitin-nikamanth-appiah-23744b143/"></a>
                                 <!-- <a class="fa fa-fw fa-google-plus-square zoom"></a> -->
@@ -394,8 +413,7 @@
                                 <h4>
                                     Social
                                 </h4>
-                                <a class="fa fa-fw fa-instagram zoom" href="https://www.instagram.com/kandavel_ak/"></a>
-                                <a class="fa fa-fw fa-github-square zoom" href="https://github.com/AK5123"></a>
+                                      <a class="fa fa-fw fa-github-square zoom" href="https://github.com/AK5123"></a>
                                 <!-- <a class="fa fa-fw fa-linkedin zoom"></a> -->
                                 <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
                             </div>
@@ -429,7 +447,7 @@
                                 <h4>
                                     Social
                                 </h4>
-                                <a class="fa fa-fw fa-instagram zoom" href="https://www.instagram.com/piercemohan/"></a>
+                                
                                 <a class="fa fa-fw fa-github-square zoom" href="https://github.com/mohanpierce99"></a>
                                 <!-- <a class="fa fa-fw fa-linkedin zoom"></a> -->
                                 <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
@@ -464,7 +482,7 @@
                                 <h4>
                                     Social
                                 </h4>
-                                <a class="fa fa-fw fa-instagram" href="https://www.instagram.com/roccaro21_12/"></a>
+                                
                                 <a class="fa fa-fw fa-github-square" href="https://github.com/rakeshavm"></a>
                                 <a class="fa fa-fw fa-linkedin" href="https://www.linkedin.com/in/rakesh-m-69474b170/"></a>
                                 <!-- <a class="fa fa-fw fa-google-plus-square"></a> -->
@@ -499,7 +517,7 @@
                                 <h4>
                                     Social
                                 </h4>
-                                <a class="fa fa-fw fa-instagram zoom" href="https://www.instagram.com/kanishq_3110/"></a>
+                                
                                 <a class="fa fa-fw fa-github-square zoom" href="https://github.com/Stalemate99"></a>
                                 <a class="fa fa-fw fa-linkedin zoom" href="https://www.linkedin.com/in/sunil-kanishq-3478a4131/"></a>
                                 <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
@@ -535,7 +553,7 @@
                                 <h4>
                                     Social
                                 </h4>
-                                <a class="fa fa-fw fa-instagram zoom" href="https://www.instagram.com/pooja_sudhakar_/"></a>
+                                
                                 <a class="fa fa-fw fa-github-square zoom" href="https://github.com/Pooja-Sudhakar"></a>
                                 <a class="fa fa-fw fa-linkedin zoom" href="https://www.linkedin.com/in/pooja-sudhakar-5b505b17a/"></a>
                                 <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->

@@ -104,23 +104,27 @@ class ShapeOverlays {
         gNavItems[i].classList.remove('is-opened');
       }
     }
+    var ever = document.querySelector(".sebuilding");
+    console.log(ever);
+    console.log(k);
     if(k===0){
-      document.querySelector(".clock_tower").scrollIntoView();
+      ever.scrollIntoView();
     }
     else if(k===1){
       document.querySelector(".sebuilding").scrollIntoView();
     } 
     else if(k===2){
-      document.querySelector(".flmbuilding").scrollIntoView();
+      ever.scrollIntoView();
     }
     else if(k===3){
-      document.querySelector("").scrollIntoView();
+      console.log("h");
+      document.querySelector(".hbuilding").scrollIntoView();
     }
     else if(k===4){
-      document.querySelector(".lopbuilding").scrollIntoView();
+      document.querySelector(".sponsors").scrollIntoView();
     }
     else if(k===5){
-      document.querySelector("").scrollIntoView();
+      document.querySelector("#Gal").scrollIntoView();
     }
     else if(k===6){
       document.querySelector("").scrollIntoView();
