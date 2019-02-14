@@ -46,7 +46,9 @@ fetch("event_title.json").then(function (response) {
                     ul.appendChild(item);
                     item.addEventListener("click",function(){
                         ul.style.display="none";
-                        document.getElementById(element).scrollIntoView();
+                        var srch = element.replace(/\s+/g,"");
+                        console.log(srch);
+                        document.getElementById(srch).scrollIntoView();
                     });
                 }
             arr[element].forEach(function (e, j) {
@@ -65,7 +67,9 @@ fetch("event_title.json").then(function (response) {
                         ul.appendChild(item);    
                         item.addEventListener("click",function(){
                             ul.style.display="none";
-                            document.getElementById(element).scrollIntoView();
+                            var srch = element.replace(/\s+/g,"");
+                        console.log(srch);
+                            document.getElementById(srch).scrollIntoView();
                         });
                     }
                 })
