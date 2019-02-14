@@ -1,10 +1,15 @@
-let eventModule = (function () {
+let swiper99;
+
+let eventModule = function () {
     let flag = 0;
     let parent, template;
+    let surr;
+    let surrel;
     let parentel;
     var club;
+    var mid=0;
     var master = document.querySelector("#masterModal");
-    var masterify=master.children[1];
+    var masterify=sel("#maincontent");
 
 
     function sel(d) {
@@ -16,61 +21,71 @@ let eventModule = (function () {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-function modalmanp(){
-    if(master.classList.contains("masterModal-off")){
-        master.classList.remove("masterModal-off");
-        master.classList.remove("zoomOut");
-    }
-    master.classList.toggle(master.id + "-on");
-    master.classList.toggle("zoomIn");
-    master.style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(57, 190, 185); overflow-y: auto; z-index: 100000;  animation-duration: 0.6s;"
+
+
+    
+function swiperinit(cl) {
+      
+    let swiper=new Swiper(cl, {
+        effect: 'coverflow',
+        preventInteractionOnTransition: true,
+        allowSlidePrev: true,
+        allowSlideNext: true,
+        grabCursor: true,
+        initialSlide:mid,
+        centeredSlides: true,
+        slidesPerView: 3,
+        mousewheel: {
+            invert: true,
+          },
+          keyboard: {
+            enabled: true,
+            onlyInViewport: false,
+          },
+        breakpoints: {
+            // when window width is <= 320px
+            320: {
+                slidesPerView: 1,
+            },
+            // when window width is <= 480px
+            480: {
+                slidesPerView: 1,
+            },
+            // when window width is <= 640px
+            768: {
+                slidesPerView: 2,
+            }
+        },
+        coverflowEffect: {
+            rotate: 10,
+            stretch: -50,
+            depth: 250,
+            modifier: 1,
+
+            slideShadows: true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: false
+        },
+    });
+  
+    parentel.parentElement.children[0].children[0].children[0].addEventListener("click",function(){
+        console.log("lol")
+        swiper.slidePrev(700);
+    })
+    parentel.parentElement.children[0].children[0].children[1].addEventListener("click",function(){
+        swiper.slideNext(700);
+    });
+
 }
-
-//     function swiperinit(cl) {
-//         console.log(cl);
-// console.log("hello");
-//         var swiper1=new Swiper(cl, {
-//             effect: 'coverflow',
-//             preventInteractionOnTransition: true,
-//             allowSlidePrev: true,
-//             allowSlideNext: true,
-//             grabCursor: true,
-//             centeredSlides: true,
-//             slidesPerView: 3,
-//             breakpoints: {
-//                 // when window width is <= 320px
-//                 320: {
-//                     slidesPerView: 1,
-//                 },
-//                 // when window width is <= 480px
-//                 480: {
-//                     slidesPerView: 1,
-//                 },
-//                 // when window width is <= 640px
-//                 768: {
-//                     slidesPerView: 2,
-//                 }
-//             },
-//             coverflowEffect: {
-//                 rotate: 10,
-//                 stretch: -50,
-//                 depth: 250,
-//                 modifier: 1,
-
-//                 slideShadows: true,
-//             },
-//             pagination: {
-//                 el: '.swiper-pagination',
-//                 type: 'bullets',
-//                 clickable: false
-//             },
-//         });
-
-
-//     }
 
 
     function renderTitle(events) {
+        console.log("wathaaa")
+  console.log(parent);
+  console.log(parentel);
         events.forEach((data) => {
             parentel.children[0].innerHTML += template.replace(/{{title}}/, data);
         });
@@ -78,31 +93,46 @@ function modalmanp(){
 
 
     function gatherEvents(d) {
+        console.log("Gather-------"+d);
+        console.log(d);
         let eventsbarlist = [];
+
         for (var i = 0; i < d.events.length; i++) {
             eventsbarlist.push(d.events[i].title);
         }
+        mid=Math.floor(eventsbarlist.length/2);
+        console.log(mid+"mohan pierce");
         renderTitle(eventsbarlist);
+        console.log("ohmygod")
+        console.log(parent);
         parentel.addEventListener("click", controller);
+        swiperinit(parent);
     }
 
 
     function controller(e) {
         if (e.target.tagName === "BUTTON") {
-            console.log(e.target.parentElement.children[1]);
+            console.log(master.children);
+            // sel("#mtitle").innerHTML="";
+            sel("#maincontent").innerHTML="";
+       
             var previous2 = e.target.parentElement.children[1].innerHTML;
             previous = previous2.replace(/\s+/g, "");
+            console.log(club);
+            console.log(JSON.parse(localStorage.getItem(club)));
             let data = JSON.parse(localStorage.getItem(club));
-            sel("#mtitle").innerHTML = previous;
-            console.log(previous);
+            console.log(previous2+"mohanpierce");
+            sel("#mtitle").innerHTML = previous2;
+            console.log(previous,data);
             rendercontent(data, previous2);
-            modalmanp();
+            $("#mastersof").trigger('click');
+
         }
     }
 
     function rendercontent(d, pre) {
         var title, ruleitem, rulelist;
-        console.log(pre);
+        console.log(d);
         var b = d.events.find((data) => data.title.includes(pre));
         for (let property in b) {
             let a;
@@ -134,117 +164,33 @@ function modalmanp(){
 
     }
 
-    // function render(d) {
-    //     //console.log(d);
-
-
-
-
-    //     document.querySelector("#" + d.title + "eventlist").innerHTML = "";
-    //     document.querySelector("#" + d.title + "clubtitle").textContent = d.name;
-    //     eventsbarlist.length = 0;
-
-    //     console.log(eventsbarlist);
-    //     eventsbarlist.forEach((data, i) => {
-    //       let ele = document.createElement("div");
-    //       ele.textContent = data;
-    //       ele.addEventListener("click", function () {
-    //         //contents setting
-    //         document.querySelector("#" + d.title + "eventcontents").innerHTML = "";
-    //         for (var property in d.events[i]) {
-    //           var a;
-    //           var title;
-    //           if (property == "title") {
-    //             console.log(55);
-    //             a = document.createElement("h2");
-    //             a.innerHTML = d.events[i][property];
-    //             document.querySelector("#" + d.title + "eventcontents").appendChild(a);
-
-    //           } else {
-    //             title = document.createElement("h3");
-    //             title.innerHTML = property.capitalize();
-    //             document.querySelector("#" + d.title + "eventcontents").appendChild(title);
-
-    //             if (d.events[i][property].includes(';')) {
-    //               let list = document.createElement("ul");
-    //               let rulelist = d.events[i][property].split(';');
-    //               let ruleitem;
-    //               rulelist.forEach((rule, j) => {
-    //                 ruleitem = document.createElement("li");
-    //                 ruleitem.textContent = rule;
-    //                 list.appendChild(ruleitem);
-    //               })
-    //               document.querySelector("#" + d.title + "eventcontents").appendChild(list);
-    //             } else {
-    //               a = document.createElement("p");
-    //               a.innerHTML = d.events[i][property];
-    //               document.querySelector("#" + d.title + "eventcontents").appendChild(a);
-    //             }
-
-    //           }
-
-    //         }
-    //       });
-    //       document.querySelector("#" + d.title + "eventlist").appendChild(ele);
-    //       console.log(ele);
-    //     });
-    //     //console.log(d.events[0]);
-    //     document.querySelector("#" + d.title + "eventcontents").innerHTML = "";
-    //     for (let property in d.events[0]) {
-    //       let a;
-    //       if (property == "title") {
-    //         //console.log(55);
-    //         a = document.createElement("h2");
-    //         a.innerHTML = d.events[0][property];
-    //         document.querySelector("#" + d.title + "eventcontents").appendChild(a);
-
-    //       } else {
-    //         title = document.createElement("h3");
-    //         title.innerHTML = property.capitalize();
-    //         document.querySelector("#" + d.title + "eventcontents").appendChild(title);
-    //         if (d.events[0][property].includes(';')) {
-    //           let list = document.createElement("ul");
-    //           let rulelist = d.events[0][property].split(';');
-    //           let ruleitem;
-    //           rulelist.forEach((rule, j) => {
-    //             ruleitem = document.createElement("li");
-    //             ruleitem.textContent = rule;
-    //             list.appendChild(ruleitem);
-    //           })
-    //           document.querySelector("#" + d.title + "eventcontents").appendChild(list);
-    //         } else {
-    //           a = document.createElement("p");
-    //           a.innerHTML = d.events[0][property];
-    //           document.querySelector("#" + d.title + "eventcontents").appendChild(a);
-    //         }
-
-    //       }
-
-    //     }
-
-    //   };
-
-
-
 
     function init(clubname, loc, temp) {
         club=clubname;
         parent = loc;
-        console.log(loc);
         parentel = sel(loc);
+   
         parentel.children[0].innerHTML="";
-        console.log(parentel);
+        console.log(parent);
+        surr=parent;
+        surrel=parentel;
+        console.log(surr,surrel+"safjdfjdsfjjd");
         template = temp.innerHTML;
+        var flag=1;
         if (localStorage.getItem(clubname) && flag === 0) {
             let e = JSON.parse(localStorage.getItem(clubname));
             gatherEvents(e);
 
-        } else {
-            fetch("assets/json/" + clubname + ".json").then(function (response) {
+        }
+         else {
+            console.log("Kandavel"+parent);
+            fetch("assets/json/"+clubname+".json").then(function (response) {
                 return response.json();
             }).then(function (e) {
+                console.log("Mosklsakmasf",parent);
                 localStorage.setItem(e.title, JSON.stringify(e));
                 console.log(e.title);
+                console.log("Parent........."+parent);
                 gatherEvents(e);
             });
         }
@@ -261,7 +207,7 @@ function modalmanp(){
 
 
 
-})();
+};
 
 
 
