@@ -84,7 +84,7 @@ class ShapeOverlays {
   // var list = document.querySelectorAll(".anc");
   const overlay = new ShapeOverlays(elmOverlay);
   // console.log(list);
-  gNavItems.forEach(function(element,i){
+  gNavItems.forEach(function(element,k){
     element.addEventListener("click",function(){
     //   element.classList.remove('is-opened');
     //   elmHamburger.classList.remove('is-opened-navi');
@@ -104,9 +104,36 @@ class ShapeOverlays {
         gNavItems[i].classList.remove('is-opened');
       }
     }
-    document.querySelector(".evebuilding").scrollIntoView();
+    if(k===0){
+      document.querySelector(".clock_tower").scrollIntoView();
+    }
+    else if(k===1){
+      document.querySelector(".sebuilding").scrollIntoView();
+    } 
+    else if(k===2){
+      document.querySelector(".flmbuilding").scrollIntoView();
+    }
+    else if(k===3){
+      document.querySelector("").scrollIntoView();
+    }
+    else if(k===4){
+      document.querySelector(".lopbuilding").scrollIntoView();
+    }
+    else if(k===5){
+      document.querySelector("").scrollIntoView();
+    }
+    else if(k===6){
+      document.querySelector("").scrollIntoView();
+    }
+    else if(k===7){
+      document.querySelector("").scrollIntoView();
+    }
+    else if(k===8){
+      document.querySelector("").scrollIntoView();
+    }
+  
+  })
   });
-});
   elmHamburger.addEventListener('click', () => {
     if (overlay.isAnimating) {
       return false;
@@ -114,9 +141,10 @@ class ShapeOverlays {
     overlay.toggle();
     if (overlay.isOpened === true) {
       elmHamburger.classList.add('is-opened-navi');
-      for (var i = 0; i < gNavItems.length; i++) {
-        gNavItems[i].classList.add('is-opened');
-      }
+        setTimeout(() => {
+          for (var i = 0; i < gNavItems.length; i++) {
+            gNavItems[i].classList.add('is-opened');}
+        }, 1000); 
     } else {
       elmHamburger.classList.remove('is-opened-navi');
       for (var i = 0; i < gNavItems.length; i++) {

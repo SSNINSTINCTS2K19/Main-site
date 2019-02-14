@@ -76,3 +76,20 @@ fetch("event_title.json").then(function (response) {
             });
         });
     });
+function set(){
+    timer=setInterval(()=>{
+        document.querySelector("#arrow").click();
+    },3000);
+}
+function clear(){
+    clearInterval(timer);
+}
+set();
+document.querySelector(".wrapper").addEventListener("mouseover",function(){
+    console.log(1);
+    clear();
+});
+document.querySelector(".wrapper").addEventListener("mouseout",function(){
+    console.log(2);
+    set();
+});

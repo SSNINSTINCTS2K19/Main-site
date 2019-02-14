@@ -12,8 +12,48 @@
     crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="normalize.css" />
 <link rel="stylesheet" type="text/css" href="demo.css" />
+<link rel="stylesheet" type="text/css" href="contact.css" />
 <link rel="stylesheet" type="text/css" href="Slicebox/css/slicebox.css" />
 <link rel="stylesheet" type="text/css" href="Slicebox/css/custom.css" />
+<style type="text/css">
+    .zoom {
+        background-color: green;
+        transition: transform .2s;
+        /* Animation */
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .zoom:hover {
+        transform: scale(1.5);
+        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+
+    body {
+        background-color: #ECEFF1;
+        color: #37474F;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-weight: 200;
+    }
+</style>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="material-cards.css">
+<link rel="stylesheet" href="animate.css">
 <script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script>
 </head>
 
@@ -67,6 +107,63 @@
                 <img class="ball" src="./svg/Pokeball_300x375.svg" alt="">
                 <!-- <img id="mj1" class="dan1off" src="./svg/jackson-1.svg" alt=""> -->
                 <!-- <img id="mj2" class="dan2off" src="./svg/jackson-2.svg" alt=""> -->
+                <a id="credits" href="#animatedModal">
+                    <img style="width: 300px;" class="credits" src="title-contributors.png" alt="">
+                </a>
+                <div id="carouselExampleSlidesOnly" style="position: absolute;
+                top: 60.56%;
+                left: 57.6%;
+                width: 25%;
+                height: 2.25%;"
+                    class="carousel slide 
+                    har" data-ride="carousel">
+                    <div style="height: 100%" class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./logo/ags.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./logo/behindwoods2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./logo/bpcl.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 active" src="./logo/CTS.png" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 active" src="./logo/HCL.png" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 active" src="./logo/justtickets.png" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 active" src="./logo/lalithaa.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 active" src="./logo/LIC.svg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 active" src="./logo/metroplus.png" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 active" src="./logo/radiomirchi.png" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 active" src="./logo/ubereats.png" alt="Third slide">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img id="spon1" class="sponoff" src="./logo/HCL.png" alt="">
+                    <img id="spon2" class="sponoff" src="./logo/ags.png" alt="">
+                    <img id="spon3" class="sponoff" src="./logo/radiomirchi.png" alt="">
+                    <img id="tag1" class="tagoff" src="./svg/Blossom_trail_300x1275.svg" alt="">
+                    <img id="pwr1" class="pwroff" src="./svg/Blossom_300x375.svg" alt="">
+                    <img id="tag2" class="tagoff" src="./svg/Bubbles_trail_300x1275.svg" alt="">
+                    <img id="pwr2" class="pwroff" src="./svg/Bubbles_300x375.svg" alt="">
+                    <img id="tag3" class="tagoff" src="./svg/Butturcup_trail_300x1275.svg" alt="">
+                    <img id="pwr3" class="pwroff" src="./svg/Buttercup_300x375.svg" alt="">
+                </div>
                 <div id="Gal" class="wrapper position">
                     <h3 style="align-content: center;text-align: center;line-height: 1.5" ;> Gallery </h3>
                     <ul id="sb-slider" class="sb-slider">
@@ -119,24 +216,58 @@
                             <img src="Slicebox/images/145.jpg" alt="image1" /></a>
                         </li>
                     </ul>
+                    
+                    <br>
+                    <br>
+                   
                     <div id="nav-arrows" class="nav-arrows">
-                        <a href="#"><img class="imgs" src="Slicebox/images/ra.svg" /></a>
+                        <a href="#" id="arrow"><img class="imgs" src="Slicebox/images/ra.svg" /></a>
                         <a href="#"><img class="imgs" src="Slicebox/images/la.svg" /></a>
                     </div>
                 </div>
-            </div>
-            <div>
-                <img id="spon1" class="sponoff" src="./logo/HCL.png" alt="">
-                <img id="spon2" class="sponoff" src="./logo/ags.png" alt="">
-                <img id="spon3" class="sponoff" src="./logo/radiomirchi.png" alt="">
-                <img id="tag1" class="tagoff" src="./svg/Blossom_trail_300x1275.svg" alt="">
-                <img id="pwr1" class="pwroff" src="./svg/Blossom_300x375.svg" alt="">
-                <img id="tag2" class="tagoff" src="./svg/Bubbles_trail_300x1275.svg" alt="">
-                <img id="pwr2" class="pwroff" src="./svg/Bubbles_300x375.svg" alt="">
-                <img id="tag3" class="tagoff" src="./svg/Butturcup_trail_300x1275.svg" alt="">
-                <img id="pwr3" class="pwroff" src="./svg/Buttercup_300x375.svg" alt="">
+                <!-- <div id="contact-container">
+                    <div class="section-title text-center spartan">Contact Us</div>
+                    <div class="contact-content spartan">
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><img src="icon_phone.png" /></div>
+                            <div class="contact-item-content">
+                                <a href="tel:9677519902">Pratheesshkumar-9677519902</a>
+                                <a href="tel:9840304031">Dharmasekaran-9840304031</a>
+                                <a href="tel:9965220466">Meyayappan-9965220466</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><img src="icon_mail.png" /></div>
+                            <div class="contact-item-content"><a href="mailto:contact.instinct@gmail.com">contact.instinct@gmail.com</a></div>
+                        </div>
+                        <div class="contact-item" style="line-height:1.5">
+                            <div class="contact-item-icon"><img src="icon_address.png" /></div>
+                            <div class="contact-item-content">
+                                <div>SSN College of Engineering,</div>
+                                <div>Old Mahabalipuram Road, Kalavakkam,</div>
+                                <div>Tamil Nadu 603110</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-ext-links">
+                        <a target="_blank" href="https://www.facebook.com/instincts.ssn"><img src="icon_facebook.svg"
+                                width="26px" /></a>
+                        <a target="_blank" style="padding-left: 2rem;" href="https://www.instagram.com/ssninstincts/"><img
+                                src="icon_instagram.svg" width="26px" /></a>
+                        <a target="_blank" style="padding-left: 2rem;" href="https://www.youtube.com/channel/UCeDnXeUJGgSR2-Dt-_qowKA"><img
+                                src="icon_youtube.svg" height="26px" /></a>
+                    </div>
+                    <div class="copyright-container montserrat">
+                        <p>SSN college of Engineering.</p>
+                        <p>Designed and Developed by
+                            <a href="#" data-toggle="modal" data-target="#creditsModal">Instincts Tech Team</a>
+                        </p>
+                        <p>2019 &copy; All rights reserved.</p>
+                    </div>
+                </div> -->
             </div>
         </div>
+        
     </main>
     <div>
         <input id="inp" class="tasktxtclose" type="text" name="task" placeholder=" Search">
@@ -164,17 +295,22 @@
                 <div class="hamburger__line-in hamburger__line-in--cross02"></div>
             </div>
         </div>
-        <div class="global-menu">
-            <div class="global-menu__wrap">
-                <a class="anc global-menu__item global-menu__item--demo-3" href="#">About</a>
-                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Home</a>
-                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Events</a>
-                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Hospitality</a>
-                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Sponsors</a>
-                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Gallery</a>
-                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Contact</a>
-                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Schedule</a>
-                <a class="anc global-menu__item global-menu__item--demo-3" href="#">Register</a>
+        <div class="global-menu" >
+            <div style="width: 50%;
+        /* padding-left: 20%; */
+        top: 50%;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        position: absolute;" class="global-menu__wrap">
+                <a class="global-menu__item global-menu__item--demo-3" href="#">About</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#">Home</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#">Events</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#">Hospitality</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#">Sponsors</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#">Gallery</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#">Contact</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#">Schedule</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#">Register</a>
             </div>
         </div>
         <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -183,7 +319,236 @@
             <path class="shape-overlays__path"></path>
         </svg>
     </div>
+    <div id="animatedModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-animatedModal">
+            CLOSE MODAL
+        </div>
 
+        <div class="modal-content">
+            <!--Your modal content goes here-->
+            <section style="padding:10px;width: 80%;margin-top: 10%" class="container">
+                <div class="page-header">
+                    <h1>Development Team<br>
+                    </h1>
+                </div>
+
+                <div class="row active-with-click">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <article class="material-card Purple">
+                            <h2>
+                                <span>Nitin Nikamanth</span>
+                                <strong>
+                                    <i class="fa fa-fw fa-star"></i>
+                                    Web Dev
+                                </strong>
+                            </h2>
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="nitin.png">
+                                </div>
+                                <div class="mc-description">
+                                    <!-- <h5>Contact:</h5> -->
+                                    <a hre\f="mailto:nitinnikamanth@gmail.com">nitinnikamanth@gmail.com</a>
+                                    <!-- <p>Ph No: 9840740948</p> -->
+                                </div>
+                            </div>
+                            <a class="mc-btn-action">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <div class="mc-footer">
+                                <h4>
+                                    Social
+                                </h4>
+                                <a class="fa fa-fw fa-instagram zoom" href="https://www.instagram.com/nitinnikamanth/"></a>
+                                <a class="fa fa-fw fa-github-square zoom" href="https://github.com/nikamanthab"></a>
+                                <a class="fa fa-fw fa-linkedin zoom" href="https://www.linkedin.com/in/nitin-nikamanth-appiah-23744b143/"></a>
+                                <!-- <a class="fa fa-fw fa-google-plus-square zoom"></a> -->
+                            </div>
+                        </article>
+                    </div>
+                    <!-- one element -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <article class="material-card Orange">
+                            <h2>
+                                <span>Kandavel A</span>
+                                <strong>
+                                    <i class="fa fa-fw fa-star"></i>
+                                    Web Dev
+                                </strong>
+                            </h2>
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="nitin.png">
+                                </div>
+                                <div class="mc-description">
+                                    <!-- <h5>Contact:</h5> -->
+                                    <a href="mailto:kanduarul@gmail.com">kanduarul@gmail.com</a>
+                                    <!-- <p>Ph No: +91 99628 57600 </p> -->
+                                </div>
+                            </div>
+                            <a class="mc-btn-action">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <div class="mc-footer">
+                                <h4>
+                                    Social
+                                </h4>
+                                <a class="fa fa-fw fa-instagram zoom" href="https://www.instagram.com/kandavel_ak/"></a>
+                                <a class="fa fa-fw fa-github-square zoom" href="https://github.com/AK5123"></a>
+                                <!-- <a class="fa fa-fw fa-linkedin zoom"></a> -->
+                                <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- one element -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <article class="material-card Red">
+                            <h2>
+                                <span>Mohana Sundar M</span>
+                                <strong>
+                                    <i class="fa fa-fw fa-star"></i>
+                                    Web Dev
+                                </strong>
+                            </h2>
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="nitin.png">
+                                </div>
+                                <div class="mc-description">
+                                    <!-- <h5>Contact:</h5> -->
+                                    <a href="mailto:itsmohanpierce@gmail.com">itsmohanpierce@gmail.com</a>
+                                    <!-- <p>Ph No: +91 95518 48851</p> -->
+                                </div>
+                            </div>
+                            <a class="mc-btn-action">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <div class="mc-footer">
+                                <h4>
+                                    Social
+                                </h4>
+                                <a class="fa fa-fw fa-instagram zoom" href="https://www.instagram.com/piercemohan/"></a>
+                                <a class="fa fa-fw fa-github-square zoom" href="https://github.com/mohanpierce99"></a>
+                                <!-- <a class="fa fa-fw fa-linkedin zoom"></a> -->
+                                <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
+                            </div>
+                        </article>
+                    </div>
+                    <!-- one element -->
+                    <!-- one element -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <article class="material-card Green">
+                            <h2>
+                                <span>Rakesh M</span>
+                                <strong>
+                                    <i class="fa fa-fw fa-star"></i>
+                                    Web Dev
+                                </strong>
+                            </h2>
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="nitin.png">
+                                </div>
+                                <div class="mc-description">
+                                    <!-- <h5>Contact:</h5> -->
+                                    <a href="mailto:rakesh.avm@gmail.com">rakesh.avm@gmail.com</a>
+                                    <!-- <p>Ph No: +91 80726 96493</p> -->
+                                </div>
+                            </div>
+                            <a class="mc-btn-action">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <div class="mc-footer">
+                                <h4>
+                                    Social
+                                </h4>
+                                <a class="fa fa-fw fa-instagram" href="https://www.instagram.com/roccaro21_12/"></a>
+                                <a class="fa fa-fw fa-github-square" href="https://github.com/rakeshavm"></a>
+                                <a class="fa fa-fw fa-linkedin" href="https://www.linkedin.com/in/rakesh-m-69474b170/"></a>
+                                <!-- <a class="fa fa-fw fa-google-plus-square"></a> -->
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- one element -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <article class="material-card Blue">
+                            <h2>
+                                <span>Kanishq S</span>
+                                <strong>
+                                    <i class="fa fa-fw fa-star"></i>
+                                    Web Dev
+                                </strong>
+                            </h2>
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="nitin.png">
+                                </div>
+                                <div class="mc-description">
+                                    <!-- <h5>Contact:</h5> -->
+                                    <a href="mailto:sunilkanishq@gmail.com">sunilkanishq@gmail.com</a>
+                                    <!-- <p>Ph No: 99402 69259 </p> -->
+                                </div>
+                            </div>
+                            <a class="mc-btn-action">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <div class="mc-footer">
+                                <h4>
+                                    Social
+                                </h4>
+                                <a class="fa fa-fw fa-instagram zoom" href="https://www.instagram.com/kanishq_3110/"></a>
+                                <a class="fa fa-fw fa-github-square zoom" href="https://github.com/Stalemate99"></a>
+                                <a class="fa fa-fw fa-linkedin zoom" href="https://www.linkedin.com/in/sunil-kanishq-3478a4131/"></a>
+                                <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
+                            </div>
+                        </article>
+                    </div>
+                    <!-- one element -->
+
+                    <!-- one element -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <article class="material-card Pink">
+                            <h2>
+                                <span>Pooja S</span>
+                                <strong>
+                                    <i class="fa fa-fw fa-star"></i>
+                                    Web Dev
+                                </strong>
+                            </h2>
+                            <div class="mc-content">
+                                <div class="img-container">
+                                    <img class="img-responsive" src="nitin.png">
+                                </div>
+                                <div class="mc-description">
+                                    <!-- <h5>Contact:</h5> -->
+                                    <a href="mailto:reachpj99@gmail.com">reachpj99@gmail.com</a>
+                                    <!-- <p>Ph No: </p> -->
+                                </div>
+                            </div>
+                            <a class="mc-btn-action">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <div class="mc-footer">
+                                <h4>
+                                    Social
+                                </h4>
+                                <a class="fa fa-fw fa-instagram zoom" href="https://www.instagram.com/pooja_sudhakar_/"></a>
+                                <a class="fa fa-fw fa-github-square zoom" href="https://github.com/Pooja-Sudhakar"></a>
+                                <a class="fa fa-fw fa-linkedin zoom" href="https://www.linkedin.com/in/pooja-sudhakar-5b505b17a/"></a>
+                                <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
+                            </div>
+                        </article>
+                    </div>
+                    <!-- one element -->
+
+                </div>
+            </section>
+
+        </div>
+        </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="vendor/animatedModal.js-master/animatedModal.min.js"></script>
     <script type="text/javascript" src="Slicebox/js/jquery.slicebox.js"></script>
@@ -194,6 +559,10 @@
     <script src="demo3.js"></script>
     <script src="./dance.js"></script>
     <script src="search.js"></script>
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <script></script>
+    $('.carousel').carousel();
+    </script>
     <script type="text/javascript">
         $(function () {
 
@@ -273,9 +642,39 @@
 
         });
     </script>
+    <script>
+        $(function () {
+            $('.material-card > .mc-btn-action').click(function () {
+                var card = $(this).parent('.material-card');
+                var icon = $(this).children('i');
+                icon.addClass('fa-spin-fast');
 
+                if (card.hasClass('mc-active')) {
+                    card.removeClass('mc-active');
 
+                    window.setTimeout(function () {
+                        icon
+                            .removeClass('fa-arrow-left')
+                            .removeClass('fa-spin-fast')
+                            .addClass('fa-bars');
 
+                    }, 800);
+                } else {
+                    card.addClass('mc-active');
+
+                    window.setTimeout(function () {
+                        icon
+                            .removeClass('fa-bars')
+                            .removeClass('fa-spin-fast')
+                            .addClass('fa-arrow-left');
+
+                    }, 800);
+                }
+            });
+        });
+    </script>
+    <script>
+        $("#credits").animatedModal();
+    </script>
 </body>
-
 </html>
