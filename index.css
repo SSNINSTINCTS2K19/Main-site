@@ -71,7 +71,12 @@ position: fixed;
       border:0px solid white;
   }
 
-
+  /* .thala{
+    position: absolute;
+    top: 38.1%;
+    width: 44%;
+    left: -6vw;
+  } */
   .pad{
       padding:1rem;
   }
@@ -636,7 +641,7 @@ position: fixed;
     left: 24vw;
   }
   
-  .dan1on{
+  /* .dan1on{
     position: absolute;
     width: 4.5%;
     top: 36%;
@@ -688,11 +693,17 @@ position: fixed;
   100%{
     transform: translateX(0vw);
   }
-}
+} */
 
   @media(min-width:768px)
   {
    
+    /* .thala{
+      position: absolute;
+    width: 34%;
+    top: 38.5%;
+    left: 4vw;
+    } */
     .logo{
       width:40%;
       top: -3vw;
@@ -720,7 +731,7 @@ position: fixed;
       left: 40vw;
     }
   
-    .dan2{
+    /* .dan2{
       position: absolute;
       width: 7%;
       top: 35.8%;
@@ -732,11 +743,11 @@ position: fixed;
       width: 4.5%;
       top: 35.7%;
       left: 91vw;
-    }
+    } */
   
     .sponon1{
       position: absolute;
-      top: 76%;
+      top: 78%;
       left:35vw;
       width: 35%;
       animation: move 4s;
@@ -744,7 +755,7 @@ position: fixed;
     
     .pwron1{
       position: absolute;
-      top: 76.5%;
+      top: 78.5%;
       left:-20vw;
       width: 12%;
       opacity:1;
@@ -754,7 +765,7 @@ position: fixed;
     
     .tagon1{
       position: absolute;
-      top: 76.7%;
+      top: 78.7%;
       left:-41vw;
       width: 34%;
       opacity:1;
@@ -779,7 +790,7 @@ position: fixed;
     
     .sponon2{
       position: absolute;
-      top: 78%;
+      top: 80%;
       left:35vw;
       width: 35%;
       animation: move 4s;
@@ -787,7 +798,7 @@ position: fixed;
     
     .pwron2{
       position: absolute;
-      top: 78.5%;
+      top: 80.5%;
       left:-20vw;
       width: 18%;
       opacity:1;
@@ -797,7 +808,7 @@ position: fixed;
     
     .tagon2{
       position: absolute;
-      top: 79%;
+      top: 81%;
       left:-35vw;
       width: 34%;
       opacity:1;
@@ -822,7 +833,7 @@ position: fixed;
     
     .sponon3{
       position: absolute;
-    top: 81%;
+    top: 83%;
     left: 35vw;
     width: 35%;
     animation: move 4s;
@@ -830,7 +841,7 @@ position: fixed;
     
     .pwron3{
       position: absolute;
-      top: 83%;
+      top: 85%;
       left:-20vw;
       width: 18%;
       opacity:1;
@@ -840,7 +851,7 @@ position: fixed;
     
     .tagon3{
       position: absolute;
-      top: 83.5%;
+      top: 85.5%;
       left:-42vw;
       width: 42%;
       opacity:1;
