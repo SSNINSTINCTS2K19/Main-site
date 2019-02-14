@@ -1,7 +1,7 @@
 let swiper99;
 
 let eventModule = function () {
-    let flag = 0;
+    let flag = 1;
     let parent, template;
     let surr;
     let surrel;
