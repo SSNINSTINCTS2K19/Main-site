@@ -129,7 +129,7 @@ button {
 #filmtxt {
   position: absolute;
   top: 19.6%;
-  left: 16vw;
+  left: 11vw;
   width: 10%;
 }
 
@@ -316,11 +316,11 @@ button {
 
 .plusdisplay {
   position: fixed;
-  top: 2%;
+  top: -1%;
   left: 83%;
   border-radius: 50%;
   color: black;
-  background: white;
+  background: transparent;
   width: 2em;
   height: 2em;
   font-size: 1.6em;
@@ -329,28 +329,16 @@ button {
 }
 
 .plusclose {
-  position: fixed;
-  top: 2.5%;
-  left: 15vw;
-  border-radius: 50%;
-  color: black;
-  outline: none;
-  background: white;
-  width: 2em;
-  height:
-    2em;
-  font-size: 1.6em;
-  line-height: 10px;
-  transform: scale(0.75);
+  display: none;
 }
 
 .closeboxdisplay {
   position: absolute;
-  top: 2.5%;
-  left: 83%;
+  top: -1%;
+  left: 15vw;
   border-radius: 50%;
   color: black;
-  background: white;
+  background:transparent;
   width: 2em;
   height: 2em;
   font-size: 1.6em;
@@ -364,14 +352,14 @@ button {
 
 .tasktxtdisplay {
   position: absolute;
-  top: 5%;
+  top: 2%;
   left: 25vw;
   width: 50vw;
   border-radius: 35px;
 
   background: transparent;
   border: none;
-  outline: none important;
+  outline: none !important;
   line-height: 25px;
 }
 
@@ -388,9 +376,9 @@ button {
 
 .ssn {
   position: fixed;
-  width: 9%;
-  top: 6vh;
-  left: -1vw;
+  width: 14%;
+  top: 1vh;
+  left: 85vw;
 }
 
 .sponoff {
@@ -593,9 +581,12 @@ button {
   0% {
     transform: translateX(0vw);
   }
-
+  40%{
+    opacity: 1;
+  }
   50% {
-    transform: translateX(80vw);
+    transform: translateX(60vw);
+    opacity: 0;
   }
 
   50.1% {
@@ -629,7 +620,7 @@ button {
   }
 
   35% {
-    transform: translateX(55vw);
+    transform: translateX(35vw);
   }
 
   36% {
@@ -711,7 +702,7 @@ button {
   /* bottom:0%; */
 }
 
-/* .dan1on{
+.dan1on{
     position: absolute;
     width: 4.5%;
     top: 36%;
@@ -763,7 +754,7 @@ button {
   100%{
     transform: translateX(0vw);
   }
-} */
+}
 
 /* #stareventstxt{
   position: absolute;
@@ -779,8 +770,8 @@ button {
 } */
 #destxt {
   position: absolute;
-  top: 26.9%;
-  left: 17vw;
+  top: 27.4%;
+  left: 8vw;
   width: 10%;
 }
 
@@ -794,9 +785,9 @@ button {
 
 #spctxt {
   position: absolute;
-  top: 22.7%;
-  left: 57vw;
-  width: 10%;
+    top: 23.2%;
+    left: 40vw;
+    width: 10%;
 }
 
 #finartstxt {
@@ -850,8 +841,8 @@ button {
 
 #hostxt {
   position: absolute;
-  top: 63.5%;
-  left: 22vw;
+  top: 60.5%;
+    left: 13.5vw;
   width: 18%;
 }
 
@@ -879,17 +870,19 @@ button {
     top: 38.5%;
     left: 4vw;
     } */
+
+
   #spctxt {
     position: absolute;
-    top: 23.9%;
-    left: 57vw;
+    top: 22.6%;
+    left: 74vw;
     width: 10%;
   }
 
   #destxt {
     position: absolute;
-    top: 26.2%;
-    left: 15vw;
+    top: 26.7%;
+    left: 9vw;
     width: 10%;
   }
 
@@ -931,9 +924,9 @@ button {
 
   .ssn {
     position: fixed;
-    width: 12%;
-    top: 16vh;
-    left: -1vw;
+    width: 10%;
+    top: 0vh;
+    left: 88vw;
   }
 
   .torch {
@@ -950,7 +943,7 @@ button {
     left: 40vw;
   }
 
-  /* .dan2{
+  .dan2{
       position: absolute;
       width: 7%;
       top: 35.8%;
@@ -962,7 +955,7 @@ button {
       width: 4.5%;
       top: 35.7%;
       left: 91vw;
-    } */
+    }
 
   .sponon1 {
     position: absolute;
@@ -1312,49 +1305,49 @@ button {
 
 @media(min-width:1000px) {
   .plusdisplay {
-    top: 2%;
+    top: 0%;
     left: 88%;
   }
 }
 
 @media(min-width:695px) and (max-width:768px) {
   .plusdisplay {
-    top: 2%;
+    top: -1%;
     left: 74%;
   }
 }
 
 @media(max-width:695px) and (min-width:475px) {
   .plusdisplay {
-    top: 2%;
+    top: -1%;
     left: 74%;
   }
 }
 
 @media(min-width:400px) and (max-width:475px) {
   .plusdisplay {
-    top: 2%;
+    top: -1%;
     left: 70%;
   }
 }
 
 @media(min-width:300px) and (max-width:400px) {
   .plusdisplay {
-    top: 2%;
+    top: -1%;
     left: 60%;
   }
 }
 
 @media(min-width:240px) and (max-width:300px) {
   .plusdisplay {
-    top: 2%;
+    top: 3%;
     left: 50%;
   }
 }
 
 @media(min-width:150px) and (max-width:240px) {
   .plusdisplay {
-    top: 2%;
+    top: 3%;
     left: 40%;
   }
 }
@@ -1454,3 +1447,11 @@ font-size: 40px;
 .swiper-pagination{
 display: none;
 }
+
+/* @media(min-width:500px) and (max-width:768px){
+  .ssn{
+    top: -4vh;
+    left: 84vw;
+  }
+} */
+

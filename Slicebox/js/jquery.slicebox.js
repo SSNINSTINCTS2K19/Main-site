@@ -509,7 +509,6 @@
 				self = this;
 				// console.log(boxStyle.width);
 				if(boxStyle.width === 0 && boxStyle.height === 0){
-					console.log("hey");
 					boxStyle.width = 288;
 					boxStyle.height = 173;
 				}
