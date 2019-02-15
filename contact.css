@@ -6,11 +6,11 @@
     font-family: "League Spartan", sans-serif;
 }
 
-@media(min-width:768px){
+/* @media(min-width:768px){
     #contact-container {
-        /* bottom: -10% !important; */
+        bottom: -10% !important;
         position: absolute;
-        /* min-height: 46.25vw; */
+        min-height: 46.25vw;
         text-align: center;
         bottom: -16%;
         left: 50%;
@@ -18,7 +18,7 @@
         transform: translate(-50%,-50%);
         top:101%;
     }
-}
+} */
 /* @media(min-width:450px) and (max-width:768px){
     #contact-container{
         bottom: -13% !important;
@@ -26,15 +26,16 @@
 } */
 
 .section-title {
-    padding: 1rem 0;
-    font-size: 1rem;
-    line-height: 1rem;
+    padding: 2rem 0;
+    font-size: 5rem;
+    line-height: 5rem;
+    
     color: #2d5f73;
 }
 
-#contact-container {
+/* #contact-container {
     position: absolute;
-    /* min-height: 46.25vw; */
+    min-height: 46.25vw;
     text-align: center;
     bottom: -16%;
     top: 98%;
@@ -47,7 +48,7 @@
     display: inline-flex;
     flex-direction: column;
     margin: auto;
-    /* max-width: 300px; */
+    max-width: 300px;
     text-align: center;
     padding: 1rem 0;
 }
@@ -60,14 +61,55 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    /* padding-left: 1rem;
-    padding-bottom: 1rem; */
+    padding-left: 1rem;
+    padding-bottom: 1rem;
 }
 
 .contact-ext-links {
-    /* padding-top: 2rem;
-    padding-bottom: 2rem; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
+}
+
+.copyright-container {
+    text-align: center;
+} */
+
+
+
+
+#contact-container {
+    position: relative;
+    min-height: 46.25vw;
+    margin: 10%;
+    text-align: center;
+}
+
+.contact-content {
+    display: inline-flex;
+    flex-direction: column;
+    margin: auto;
+    /* max-width: 300px; */
+    text-align: center;
+    padding:0;
+}
+
+.contact-item {
+    display: flex;
+}
+
+.contact-item-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 1.5;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.contact-ext-links {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .copyright-container {

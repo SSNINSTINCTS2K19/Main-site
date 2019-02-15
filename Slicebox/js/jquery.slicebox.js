@@ -507,6 +507,12 @@
 					o : orientation
 				} ),
 				self = this;
+				if(boxStyle.width === 0 && boxStyle.height === 0){
+					console.log("hey");
+					boxStyle.width = 288;
+					boxStyle.height = 173;
+				}
+
 
 			this.$box = $('<div>').addClass( 'sb-perspective' ).css( boxStyle ).appendTo( this.$el );
 

@@ -60,7 +60,7 @@ fetch("event_title.json").then(function (response) {
                         // outerli.style.listStyle="none";
                         item.classList.add("licss");
                         // anc.setAttribute("href","#"+element);
-                        item.innerHTML = e;
+                        item.innerHTML = e + "(" + element + ")";
                         // outerli.classList.add("licss");
                         // outerli.appendChild(anc);
                         // anc.appendChild(item);
