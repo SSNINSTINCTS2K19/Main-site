@@ -7,104 +7,103 @@ let eventModule = function () {
     let surrel;
     let parentel;
     var club;
-    var mid=0;
+    var mid = 0;
     var master = document.querySelector("#masterModal");
-    var masterify=sel("#maincontent");
+    var masterify = sel("#maincontent");
     let hashtable;
-  let btn1;
-  let btn2;
+    let btn1;
+    let btn2;
 
-hashtable = arr.map((data) => {
-  return {
-    color: data,
-    used: false
-  }
-});
+    hashtable = arr.map((data) => {
+        return {
+            color: data,
+            used: false
+        }
+    });
 
     function sel(d) {
         return document.querySelector(d);
     }
 
-    function cap(string) 
-{
-    return string.charAt(0).toUpperCase() + string.slice(1);
-}
+    function cap(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
 
 
 
-    
-function swiperinit(cl) {
-      
-    let swiper=new Swiper(cl, {
-        effect: 'coverflow',
-        preventInteractionOnTransition: true,
-        allowSlidePrev: true,
-        allowSlideNext: true,
-        grabCursor: true,
-        initialSlide:mid,
-        centeredSlides: true,
-        slidesPerView: 3,
-        mousewheel: {
-            invert: true,
-          },
-          keyboard: {
-            enabled: true,
-            onlyInViewport: false,
-          },
-        breakpoints: {
-            // when window width is <= 320px
-            320: {
-                slidesPerView: 1,
+
+    function swiperinit(cl) {
+
+        let swiper = new Swiper(cl, {
+            effect: 'coverflow',
+            preventInteractionOnTransition: true,
+            allowSlidePrev: true,
+            allowSlideNext: true,
+            grabCursor: true,
+            initialSlide: mid,
+            centeredSlides: true,
+            slidesPerView: 3,
+            mousewheel: {
+                invert: true,
             },
-            // when window width is <= 480px
-            480: {
-                slidesPerView: 1,
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false,
             },
-            // when window width is <= 640px
-            768: {
-                slidesPerView: 2,
-            }
-        },
-        coverflowEffect: {
-            rotate: 10,
-            stretch: -50,
-            depth: 250,
-            modifier: 1,
+            breakpoints: {
+                // when window width is <= 320px
+                320: {
+                    slidesPerView: 1,
+                },
+                // when window width is <= 480px
+                480: {
+                    slidesPerView: 1,
+                },
+                // when window width is <= 640px
+                768: {
+                    slidesPerView: 2,
+                }
+            },
+            coverflowEffect: {
+                rotate: 10,
+                stretch: -50,
+                depth: 250,
+                modifier: 1,
 
-            slideShadows: true,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-            clickable: false
-        },
-    });
-   
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: false
+            },
+        });
+        btn1.style.background = parentel.children[0].children[mid].children[0].children[0].style.background;
+        btn2.style.background = parentel.children[0].children[mid].children[0].children[0].style.background;
+        btn1.addEventListener("click", function () {
+            swiper.slidePrev(700);
+            btn1.style.background = parentel.children[0].children[swiper.activeIndex].children[0].children[0].style.background;
+            btn2.style.background = parentel.children[0].children[swiper.activeIndex].children[0].children[0].style.background;
+        });
+        btn2.addEventListener("click", function () {
+            swiper.slideNext(700);
+            btn1.style.background = parentel.children[0].children[swiper.activeIndex].children[0].children[0].style.background;
+            btn2.style.background = parentel.children[0].children[swiper.activeIndex].children[0].children[0].style.background;
+        });
 
-btn1.addEventListener("click",function(){
-    swiper.slidePrev(700);
-    btn1.style.background=parentel.children[0].children[swiper.activeIndex].children[0].children[0].style.background;
-    btn2.style.background=parentel.children[0].children[swiper.activeIndex].children[0].children[0].style.background;
-});
-btn2.addEventListener("click",function(){
-    swiper.slideNext(700);
-    btn1.style.background=parentel.children[0].children[swiper.activeIndex].children[0].children[0].style.background;
-    btn2.style.background=parentel.children[0].children[swiper.activeIndex].children[0].children[0].style.background;
-});
-   
 
-}
+    }
 
 
     function renderTitle(events) {
- 
-        events.forEach((data) => {
-            let temp=template.replace(/{{title}}/, data);   
 
-            parentel.children[0].innerHTML+=temp.replace(/{{pl}}/,randomGen(hashtable));
+        events.forEach((data) => {
+            let temp = template.replace(/{{title}}/, data);
+
+            parentel.children[0].innerHTML += temp.replace(/{{pl}}/, randomGen(hashtable));
         });
-        btn1=parentel.parentElement.children[2].children[0].children[0];
-        btn2=parentel.parentElement.children[2].children[0].children[1];
+        btn1 = parentel.parentElement.children[2].children[0].children[0];
+        btn2 = parentel.parentElement.children[2].children[0].children[1];
     }
 
 
@@ -114,8 +113,8 @@ btn2.addEventListener("click",function(){
         for (var i = 0; i < d.events.length; i++) {
             eventsbarlist.push(d.events[i].title);
         }
-        mid=Math.floor(eventsbarlist.length/2);
-        sel("#headingclub").innerHTML=club;
+        mid = Math.floor(eventsbarlist.length / 2);
+        
         renderTitle(eventsbarlist);
         parentel.addEventListener("click", controller);
         swiperinit(parent);
@@ -125,8 +124,8 @@ btn2.addEventListener("click",function(){
     function controller(e) {
         if (e.target.tagName === "BUTTON") {
             // sel("#mtitle").innerHTML="";
-            sel("#maincontent").innerHTML="";
-       
+            sel("#maincontent").innerHTML = "";
+          
             var previous2 = e.target.parentElement.children[1].innerHTML;
             previous = previous2.replace(/\s+/g, "");
             let data = JSON.parse(localStorage.getItem(club));
@@ -172,26 +171,25 @@ btn2.addEventListener("click",function(){
 
 
     function init(clubname, loc, temp) {
-        club=clubname;
+        club = clubname;
         parent = loc;
         parentel = sel(loc);
-      
-        parentel.children[0].innerHTML="";
-        surr=parent;
-        surrel=parentel;
+
+        parentel.children[0].innerHTML = "";
+        surr = parent;
+        surrel = parentel;
         template = temp.innerHTML;
-        var flag=1;
+        var flag = 1;
         if (localStorage.getItem(clubname) && flag === 0) {
             let e = JSON.parse(localStorage.getItem(clubname));
             gatherEvents(e);
 
-        }
-         else {
-            fetch("assets/json/"+clubname+".json").then(function (response) {
+        } else {
+            fetch("assets/json/" + clubname + ".json").then(function (response) {
                 return response.json();
             }).then(function (e) {
                 localStorage.setItem(e.title, JSON.stringify(e));
-          
+
                 gatherEvents(e);
             });
         }
@@ -228,7 +226,7 @@ var arr = [
     "linear-gradient(to top, #f77062 0%, #fe5196 100%);",
     "linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);",
     "linear-gradient(to right, #00dbde 0%, #fc00ff 100%);"
-  ];
+];
 
 
 // //////////////////
@@ -239,16 +237,16 @@ var arr = [
 
 
 function randomGen(master) {
-  let o = rand(master.length);
-  while (master[o].used) {
-    o = rand(arr.length);
-  }
-  master[o].used=true;
-  return arr[o];
+    let o = rand(master.length);
+    while (master[o].used) {
+        o = rand(arr.length);
+    }
+    master[o].used = true;
+    return arr[o];
 }
 
 function rand(n) {
-  return Math.floor(Math.random() * (n - 0) + 0);
+    return Math.floor(Math.random() * (n - 0) + 0);
 }
 
 // function render(master, n) {

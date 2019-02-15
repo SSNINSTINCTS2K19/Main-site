@@ -12,15 +12,26 @@
     url("fonts/Fipps-Regular.otf") format("opentype");
 
 }
-
+.white{
+  color:white;
+}
+@font-face {
+src: url('./fonts/proxima.ttf');
+font-family: 'proxima';
+}
 @font-face {
   src: url("assets/fonts/font.ttf");
   font-family: 'primary';
 }
 
+.primary1{
+  font-family: 'League Spartan';
+  font-size: 1rem !important;
+}
+
 .primary {
   font-family: 'League Spartan';
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .fon {
@@ -1446,7 +1457,37 @@ display: none;
 .modal-content i{
 font-size: 40px;
 }
+.modal-content .fa{
+  font-size: 18px;
+
+}
 
 .swiper-pagination{
 display: none;
+}
+
+#boxclose{
+  font-size: 40px;
+  background-color: black;
+}
+#maincontent h3{
+  font-weight: 900;
+}
+#maincontent  ul li{
+  padding-bottom: 15px;
+}
+#maincontent ul{
+  padding-left: 15px;
+}
+.headingclub{
+
+  position: absolute;
+  top: 0;
+  left: 50vw;
+  transform: translate(-40%,0);
+
+}
+
+.btn:focus{
+  outline:none;
 }

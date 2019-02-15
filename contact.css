@@ -8,7 +8,15 @@
 
 @media(min-width:768px){
     #contact-container {
-        bottom: -10% !important;
+        /* bottom: -10% !important; */
+        position: absolute;
+        /* min-height: 46.25vw; */
+        text-align: center;
+        bottom: -16%;
+        left: 50%;
+        font-size: 2vh;
+        transform: translate(-50%,-50%);
+        top:101%;
     }
 }
 /* @media(min-width:450px) and (max-width:768px){
@@ -29,6 +37,7 @@
     /* min-height: 46.25vw; */
     text-align: center;
     bottom: -16%;
+    top: 98%;
     left: 50%;
     font-size: 2vh;
     transform: translate(-50%,-50%);

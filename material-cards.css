@@ -304,6 +304,7 @@
 }
 .material-card.Red .mc-btn-action {
     background-color: #f44336;
+    border:5px solid white;
 }
 .material-card.Red .mc-btn-action:hover {
     background-color: #b71c1c;

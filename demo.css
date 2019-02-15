@@ -58,7 +58,6 @@ a.global-menu__item:hover, :active {
 	transition-delay: 0s;
 	border: none;
 	outline: none;
-	color: black;
 }
 .hidden {
 	position: absolute;
