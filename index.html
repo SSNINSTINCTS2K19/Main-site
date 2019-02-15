@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="normalize.css" />
 <link rel="stylesheet" type="text/css" href="demo.css" />
 <link rel="stylesheet" type="text/css" href="contact.css" />
+<link rel="stylesheet" href="./vendor/swiper.min.css">
 <link rel="stylesheet" type="text/css" href="Slicebox/css/slicebox.css" />
 <link rel="stylesheet" type="text/css" href="Slicebox/css/custom.css" />
 <style type="text/css">
@@ -80,22 +81,52 @@
             <div class="relative">
                 <img class="img-fluid extend" style="visibility: hidden" src="./svg/background.svg" alt="">
                 <!-- <img class="thala" src="./svg/thalaivar.png" alt=""> -->
+                <a id="modal01" href="#starEventsModal">
                 <img class="sebuilding" src="./svg/star_events.svg" alt="">
+                </a>
+                <a id="modal02" href="#eventsModal">
                 <img id="event" class="evebuilding" src="./svg/events.svg" alt="">
+                </a>
+                <a id="modal03" href="#LopModal">
                 <img id="SFC" class="flmbuilding" src="./svg/film.svg" alt="">
+                </a>
+                <a id="modal04" href="#SpcModal">
                 <img id="SPC" class="potobuilding" src="./svg/photography.svg" alt="">
+                </a>
+                <a id="modal05" href="#DesignModal">
                 <img id="DesignClub" class="desbuilding" src="./svg/design.svg" alt="">
+                </a>
+                <a id="modal06" href="#FineArtsModal">
                 <img id="farts" class="fabuilding" src="./svg/fine_arts.svg" alt="">
+                </a>
+                <a id="modal07" href="#DanceModal">
                 <img id="N2K" class="dcbuilding" src="./svg/dance.svg" alt="">
+                </a>
+                <a id="modal08" href="#FilmClubModal">
                 <img id="LightsOutPlease" class="lopbuilding" src="./svg/LOP.svg" alt="">
+                </a>
+                <a id="modal09" href="#ElcModal">
                 <img id="EnglishLiteraryClub" class="elcbuilding" src="./svg/ELC.svg" alt="">
+                </a>
+                <a id="modal10" href="#LiteratureModal">
                 <img id="Saaral" class="sabuilding" src="./svg/saaral.svg" alt="">
+                </a>
                 <img class="building" src="./svg/buildings.svg" alt="">
+                <a id="modal12" href="#MusicModal">
                 <img id="SMC" class="mbuilding" src="./svg/music.svg" alt="">
+                </a>
+                <a id="modal13" href="#QuizModal">
                 <img id="Q!" class="qbuilding" src="./svg/quiz.svg" alt="">
+                </a>
+                <a id="modal11" href="#HospitalityModal">
                 <img id="hosp" class="hbuilding" src="./svg/hospitality.svg" alt="">
+                </a>
+                <a id="modal15" href="#BusModal">
                 <img class="bus" src="./svg/bus.svg" alt="">
+                </a>
+                <a id="modal16" href="#SponsorsModal">
                 <img id="spid" class="sponsors" src="./svg/sponsors.svg" alt="">
+                </a>
                 <img class="mario" src="./svg/Mario_300x375.svg" alt="">
                 <img class="owl1" src="./svg/Mario_enemy_300x375.svg" alt="">
                 <img class="owl2" src="./svg/Mario_enemy_300x375.svg" alt="">
@@ -127,7 +158,7 @@
 
                 <!-- <img id="mj1" class="dan1off" src="./svg/jackson-1.svg" alt=""> -->
                 <!-- <img id="mj2" class="dan2off" src="./svg/jackson-2.svg" alt=""> -->
-                <a id="credits" href="#animatedModal">
+                <a id="credits" href="#devModal">
                     <img style="position: absolute; bottom: 0; width: 30vw;" class="credits" src="title-contributors.png"
                         alt="">
                 </a>
@@ -295,58 +326,450 @@
         </div>
 
     </main>
-    <div>
-        <input id="inp" class="tasktxtclose" type="text" name="task" placeholder=" Search">
-        <button class="plusdisplay" href="#"><i class="fas fa-search"></i></button>
-        <button class="closeboxclose"><i class="far fa-times-circle"></i></button>
-        <ul id="query">
 
-        </ul>
-    </div>
-    <div class="content content--demo-3">
-        <div class="hamburger hamburger--demo-3 js-hover">
-            <div class="hamburger__line hamburger__line--01">
-                <div class="hamburger__line-in hamburger__line-in--01"></div>
+    <!-- Modal windows -->
+
+    <!--DEMO01-->
+    <div id="starEventsModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+
+        <div class="modal-content">
+            <!--Your modal content goes here-->
+            <div class="close-starEventsModal">
+                <i class="fas fa-arrow-circle-left"></i>
             </div>
-            <div class="hamburger__line hamburger__line--02">
-                <div class="hamburger__line-in hamburger__line-in--02"></div>
+            <!-- Swiper -->
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
             </div>
-            <div class="hamburger__line hamburger__line--03">
-                <div class="hamburger__line-in hamburger__line-in--03"></div>
-            </div>
-            <div class="hamburger__line hamburger__line--cross01">
-                <div class="hamburger__line-in hamburger__line-in--cross01"></div>
-            </div>
-            <div class="hamburger__line hamburger__line--cross02">
-                <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+            <div class="swiper-container m01">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card" style="position:relative">
+
+                            <div class="card-body">
+                                <h3 class="text-center">Reel of fire</h3>
+
+                            </div>
+
+                            <button class="btn text-center extend">Explore</button>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card" style="position:relative">
+                            <div class="card-body">
+                            </div>
+                            <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)"
+                                class="text-center">Reel
+                                of fire</h3>
+
+                            <button class="btn text-center extend">Explore</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" style="position:relative">
+                            <div class="card-body">
+                            </div>
+                            <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)"
+                                class="text-center">Reel
+                                of fire</h3>
+
+                            <button class="btn text-center extend">Explore</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" style="position:relative">
+                            <div class="card-body">
+                            </div>
+                            <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)"
+                                class="text-center">Reel
+                                of fire</h3>
+
+                            <button class="btn text-center extend">Explore</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" style="position:relative">
+                            <div class="card-body">
+                            </div>
+                            <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)"
+                                class="text-center">Reel
+                                of fire</h3>
+
+                            <button class="btn text-center extend">Explore</button>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6"></div>
+                            <div class="col-sm-6"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" style="position:relative">
+                            <div class="card-body">
+                            </div>
+                            <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)"
+                                class="text-center"></h3>
+
+                            <button class="btn text-center extend">Explore</button>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
         </div>
-        <div class="global-menu">
-            <div style="width: 50%;
-        /* padding-left: 20%; */
-        top: 50%;
-        transform: translate(-50%,-50%);
-        left: 50%;
-        position: absolute;"
-                class="global-menu__wrap">
-                <a class="global-menu__item global-menu__item--demo-3" href="#">About</a>
-                <a class="global-menu__item global-menu__item--demo-3" href="#">Home</a>
-                <a class="global-menu__item global-menu__item--demo-3" href="#event">Events</a>
-                <a class="global-menu__item global-menu__item--demo-3" href="#hosp">Hospitality</a>
-                <a class="global-menu__item global-menu__item--demo-3" href="#spid">Sponsors</a>
-                <a class="global-menu__item global-menu__item--demo-3" href="#Gal">Gallery</a>
-                <a class="global-menu__item global-menu__item--demo-3" href="#contact-container">Contact</a>
-                <!-- <a class="global-menu__item global-menu__item--demo-3" href="#">Schedule</a>
-                <a class="global-menu__item global-menu__item--demo-3" href="#">Register</a> -->
+    </div>
+    <!-- Exceptional -->
+    <div id="eventsModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+        <div class="modal-content">
+            <div class="close-LopModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Mohan pierce</h3>
+
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+
+            <div class="swiper-container m02">
+                <div class="swiper-wrapper">
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination ok1"></div>
+
             </div>
         </div>
-        <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path class="shape-overlays__path"></path>
-            <path class="shape-overlays__path"></path>
-            <path class="shape-overlays__path"></path>
-        </svg>
+
     </div>
-    <div id="animatedModal">
+
+    <div id="LopModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+        <div class="modal-content">
+            <div class="close-LopModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Mohan pierce</h3>
+
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+
+            <div class="swiper-container m03">
+                <div class="swiper-wrapper">
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination ok1"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="SpcModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+        <div class="modal-content">
+            <div class="close-SpcModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Mohan pierce</h3>
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-container m04">
+                <div class="swiper-wrapper">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="DesignModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+
+        <div class="modal-content">
+            <div class="close-DesignModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Mohan pierce</h3>
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-container m05">
+                <div class="swiper-wrapper">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="FineArtsModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+
+        <div class="modal-content">
+            <div class="close-FineArtsModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Default</h3>
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-container m06">
+                <div class="swiper-wrapper">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="DanceModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+
+        <div class="modal-content">
+            <div class="close-DanceModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Default</h3>
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-container m07">
+                <div class="swiper-wrapper">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="FilmClubModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+
+        <div class="modal-content">
+            <div class="close-FilmClubModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Default</h3>
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-container m08">
+                <div class="swiper-wrapper">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="ElcModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+
+        <div class="modal-content">
+            <div class="close-ElcModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Default</h3>
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-container m09">
+                <div class="swiper-wrapper">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="LiteratureModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+        <div class="modal-content">
+            <div class="close-LiteratureModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Default</h3>
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-container m10">
+                <div class="swiper-wrapper">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="MusicModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+
+        <div class="modal-content">
+            <div class="close-MusicModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Default</h3>
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-container m11">
+                <div class="swiper-wrapper">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="QuizModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+
+        <div class="modal-content">
+            <div class="close-QuizModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Default</h3>
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-container m12">
+                <div class="swiper-wrapper">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="HospitalityModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+
+        <div class="modal-content">
+            <div class="close-HospitalityModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Default</h3>
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-container m13">
+                <div class="swiper-wrapper">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="SponsorsModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+
+        <div class="modal-content">
+            <div class="close-SponsorsModal">
+                <i class="fas fa-arrow-circle-left"></i>
+            </div>
+            <h3 class="text-center" id="headingclub">Default</h3>
+            <div class="bottom">
+                <div class="flex">
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
+                    <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-right"></i></button>
+                </div>
+            </div>
+            <div class="swiper-container m14">
+                <div class="swiper-wrapper">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="devModal">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
         <div class="close-animatedModal">
             CLOSE MODAL
@@ -643,6 +1066,7 @@
                             <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
                         </div>
                     </article>
+            
                 </div>
                 <!-- one element -->
                 <!-- one element -->
@@ -763,99 +1187,181 @@
 
     </div>
     </div>
+
+    <!-- ---------------------------- -->
+    <div>
+        <input id="inp" class="tasktxtclose" type="text" name="task" placeholder=" Search">
+        <button class="plusdisplay" href="#"><i class="fas fa-search"></i></button>
+        <button class="closeboxclose"><i class="far fa-times-circle"></i></button>
+        <ul id="query">
+
+        </ul>
+    </div>
+    <div class="content content--demo-3">
+        <div class="hamburger hamburger--demo-3 js-hover">
+            <div class="hamburger__line hamburger__line--01">
+                <div class="hamburger__line-in hamburger__line-in--01"></div>
+            </div>
+            <div class="hamburger__line hamburger__line--02">
+                <div class="hamburger__line-in hamburger__line-in--02"></div>
+            </div>
+            <div class="hamburger__line hamburger__line--03">
+                <div class="hamburger__line-in hamburger__line-in--03"></div>
+            </div>
+            <div class="hamburger__line hamburger__line--cross01">
+                <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+            </div>
+            <div class="hamburger__line hamburger__line--cross02">
+                <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+            </div>
+        </div>
+        <div class="global-menu">
+            <div style="width: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        position: absolute;"
+                class="global-menu__wrap">
+                <a class="global-menu__item global-menu__item--demo-3" href="#">About</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#">Home</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#event">Events</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#hosp">Hospitality</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#spid">Sponsors</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#Gal">Gallery</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#contact-container">Contact</a>
+                <!-- <a class="global-menu__item global-menu__item--demo-3" href="#">Schedule</a>
+                <a class="global-menu__item global-menu__item--demo-3" href="#">Register</a> -->
+            </div>
+        </div>
+        <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path class="shape-overlays__path"></path>
+            <path class="shape-overlays__path"></path>
+            <path class="shape-overlays__path"></path>
+        </svg>
+    </div>
+    
+    <!-- Master modal -->
+
+    <div id="masterModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-masterModal">
+            CLOSE MODAL
+        </div>
+        <div class="coll">
+            <div class="modal-content">
+                <h3 class="text-center" id="mtitle"></h3>
+                <p id="maincontent"></p>
+            </div>
+        </div>
+    </div>
+    </a>
+
+
+    <!-- ---------------------------- -->
+    <a id="mastersof" class="hidden" href="#masterModal">
+        <button class="btn text-center extend">Explore</button>
+    </a>
+    <!-- Template -->
+    <script id="cardtemplate" type="text/template">
+        <div class="swiper-slide">
+            <div class="card" style="position:relative">
+                <div class="card-body" style="background:{{pl}}">
+                </div>
+                <h3 style="position:absolute;top:45%;color:white;left:50%;transform:translate(-50%,-50%)"
+                    class="text-center">{{title}}</h3>
+
+                
+                            <button class="btn text-center extend">Explore</button>
+                                </div>
+        </div>
+      </script>
+      <script src="vendor/swiper.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="vendor/animatedModal.js-master/animatedModal.min.js"></script>
+    <script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script>
     <script type="text/javascript" src="Slicebox/js/jquery.slicebox.js"></script>
     <!-- <script src="./start.js"></script> -->
     <script src="./sponsor.js"></script>
     <script src="demo.js"></script>
-    <script src="easings.js"></script>
     <script src="demo3.js"></script>
+    <script src="easings.js"></script>
     <script src="./dance.js"></script>
     <script src="search.js"></script>
+
     <script src="vendor/bootstrap/bootstrap.min.js"></script>
-    <script></script>
+    <script>
     $('.carousel').carousel();
     </script>
-    <script type="text/javascript">
-        $(function () {
+   <script>
+    var swiper = new Swiper(".swiper-container", {
+        effect: 'coverflow',
+        preventInteractionOnTransition: true,
+        allowSlidePrev: true,
+        allowSlideNext: true,
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 3,
+        breakpoints: {
+            // when window width is <= 320px
+            320: {
+                slidesPerView: 1,
+            },
+            // when window width is <= 480px
+            480: {
+                slidesPerView: 1,
+            },
+            // when window width is <= 640px
+            768: {
+                slidesPerView: 2,
+            }
+        },
+        coverflowEffect: {
+            rotate: 10,
+            stretch: -50,
+            depth: 250,
+            modifier: 1,
+            slideShadows: true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: false
+        },
+    });
 
-            var Page = (function () {
-
-                var $navArrows = $('#nav-arrows').hide(),
-                    $navDots = $('#nav-dots').hide(),
-                    $nav = $navDots.children('span'),
-                    $shadow = $('#shadow').hide(),
-                    slicebox = $('#sb-slider').slicebox({
-                        onReady: function () {
-
-                            $navArrows.show();
-                            $navDots.show();
-                            $shadow.show();
-
-                        },
-                        onBeforeChange: function (pos) {
-
-                            $nav.removeClass('nav-dot-current');
-                            $nav.eq(pos).addClass('nav-dot-current');
-
-                        }
-                    }),
-
-                    init = function () {
-
-                        initEvents();
-
-                    },
-                    initEvents = function () {
-
-                        // add navigation events
-                        $navArrows.children(':first').on('click', function () {
-
-                            slicebox.next();
-                            return false;
-
-                        });
-
-                        $navArrows.children(':last').on('click', function () {
-
-                            slicebox.previous();
-                            return false;
-
-                        });
-
-                        $nav.each(function (i) {
-
-                            $(this).on('click', function (event) {
-
-                                var $dot = $(this);
-
-                                if (!slicebox.isActive()) {
-
-                                    $nav.removeClass('nav-dot-current');
-                                    $dot.addClass('nav-dot-current');
-
-                                }
-
-                                slicebox.jump(i + 1);
-                                return false;
-
-                            });
-
-                        });
-
-
-                    };
-                return {
-                    init: init
-                };
-
-            })();
-
-            Page.init();
-
-        });
-    </script>
+    $("#modal01").animatedModal();
+    $("#modal02").animatedModal();
+    $("#modal03").animatedModal();
+    $("#modal04").animatedModal();
+    $("#modal05").animatedModal();
+    $("#modal06").animatedModal();
+    $("#modal07").animatedModal();
+    $("#modal08").animatedModal();
+    $("#modal09").animatedModal();
+    $("#modal10").animatedModal();
+    $("#modal11").animatedModal();
+    $("#modal12").animatedModal();
+    $("#modal13").animatedModal();
+    $("#modal15").animatedModal();
+    $("#mastersof").animatedModal();
+    $("#modal16").animatedModal();
+    $("#credits").animatedModal();
+</script>
+<script src="events.js"></script>
+<script>
+    eventModule().start("LightsOutPlease", ".m03", document.querySelector("#cardtemplate"));
+    eventModule().start("DesignClub", ".m05", document.querySelector("#cardtemplate"));
+    eventModule().start("EnglishLiteraryClub", ".m09", document.querySelector("#cardtemplate"));
+    eventModule().start("FineArtsClub", ".m06", document.querySelector("#cardtemplate"));
+    eventModule().start("N2K", ".m07", document.querySelector("#cardtemplate"));
+    eventModule().start("Q!", ".m12", document.querySelector("#cardtemplate"));
+    eventModule().start("Saaral", ".m10", document.querySelector("#cardtemplate"));
+    eventModule().start("SFC", ".m08", document.querySelector("#cardtemplate"));
+    eventModule().start("SMC", ".m11", document.querySelector("#cardtemplate"));
+    eventModule().start("SPC", ".m04", document.querySelector("#cardtemplate"));
+    eventModule().start("VarietyClub", ".m02", document.querySelector("#cardtemplate"));
+</script>
+<script src="navbar.js"></script>
     <script>
         $(function () {
             $('.material-card > .mc-btn-action').click(function () {
@@ -886,9 +1392,6 @@
                 }
             });
         });
-    </script>
-    <script>
-        $("#credits").animatedModal();
     </script>
 </body>
 

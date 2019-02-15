@@ -512,7 +512,7 @@
 
 			this.cuboids = [];
 
-			this.$el.css( 'overflow', 'visible' );
+			this.$el.css( 'overflow', 'hidden' );
 
 			for( var i = 0; i < this.options.cuboidsCount; ++i ) {
 
