@@ -27,10 +27,18 @@
 
 .section-title {
     padding: 2rem 0;
-    font-size: 5rem;
-    line-height: 5rem;
-    
+    font-size: 2rem;
+    line-height: 1rem;
     color: #2d5f73;
+}
+
+@media(min-width:768px){
+    .section-title {
+        padding: 2rem 0;
+        font-size: 5rem;
+        line-height: 5rem;
+        color: #2d5f73;
+    }
 }
 
 /* #contact-container {
@@ -102,9 +110,10 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    line-height: 1.5;
-    padding-left: 1rem;
-    padding-bottom: 2rem;
+    line-height: 24px;
+    font-family: "proxima";
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
 .contact-ext-links {

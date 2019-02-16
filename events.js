@@ -189,7 +189,7 @@ let eventModule = function () {
                 return response.json();
             }).then(function (e) {
                 localStorage.setItem(e.title, JSON.stringify(e));
-
+            
                 gatherEvents(e);
             });
         }
