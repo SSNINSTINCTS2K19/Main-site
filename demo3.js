@@ -105,8 +105,8 @@ class ShapeOverlays {
       }
     }
     var ever = document.querySelector(".sebuilding");
-    console.log(ever);
-    console.log(k);
+    // console.log(ever);
+    // console.log(k);
     if(k===0){
       ever.scrollIntoView();
     }

@@ -57,7 +57,7 @@
             'height': settings.height,
             'top': settings.top,
             'left': settings.left,
-            'background-color': settings.color,
+            'background-color': "transparent",
             'overflow-y': settings.overflow,
             'z-index': settings.zIndexOut,
             'opacity': settings.opacityOut,

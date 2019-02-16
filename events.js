@@ -152,7 +152,7 @@ let eventModule = function () {
                     let ruleitem;
                     rulelist.forEach((rule, j) => {
                         ruleitem = document.createElement("li");
-                        ruleitem.textContent = rule;
+                        ruleitem.innerHTML = rule;
                         list.appendChild(ruleitem);
                     })
                     masterify.appendChild(list);

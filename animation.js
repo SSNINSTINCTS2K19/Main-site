@@ -157,7 +157,9 @@ $(window).scroll(function() {
 (function(){
     var mj1 = document.querySelector("#mj1");
     var mj2 = document.querySelector("#mj2");
-    
+    window.addEventListener("scroll",function(){
+        console.log("Hitttt");
+    });
     $(window).scroll(function() {
         var hT = $('#farts').offset().top,
             hH = $('#farts').outerHeight(),
@@ -237,4 +239,28 @@ $(window).scroll(function() {
             }
         });
     });
+})();
+(function(){
+        var arr=document.querySelectorAll("a[id^='modal']");
+var gold=$("a[id^='modal']")[2].children[0].offsetTop;
+
+   arr.forEach(function(data,i){
+
+    $(window).scroll(function() {
+        var hT = $("a[id^='modal']")[i].children[0].offsetTop,
+            hH = $("a[id^='modal']")[i].children[0].offsetHeight,
+            wH = $(window).height(),
+            wS = $(this).scrollTop();
+            console.log(hT,hH,wH/2,wS);
+        if (wS+wH/2>hT){
+            arr[i].children[0].classList.add("zoomIn07");
+        }
+        if(wS>hT){
+            arr[i].children[0].classList.remove("zoomIn07");
+        }
+        if (wS+wH/2<hT){
+            arr[i].children[0].classList.remove("zoomIn07");
+        }
+      });
+   });
 })();
