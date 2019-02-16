@@ -18,41 +18,6 @@
 <link rel="stylesheet" href="./vendor/swiper.min.css">
 <link rel="stylesheet" type="text/css" href="Slicebox/css/slicebox.css" />
 <link rel="stylesheet" type="text/css" href="Slicebox/css/custom.css" />
-<style type="text/css">
-    .zoom {
-        background-color: green;
-        transition: transform .2s;
-        /* Animation */
-        width: 200px;
-        height: 200px;
-        margin: 0 auto;
-    }
-
-    .zoom:hover {
-        transform: scale(1.5);
-        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    }
-
-    html {
-        position: relative;
-        min-height: 100%;
-    }
-
-    body {
-        background-color: #ECEFF1;
-        color: #37474F;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 300;
-        font-size: 14px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        font-weight: 200;
-    }
-</style>
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="material-cards.css">
 <link rel="stylesheet" href="animate.css">
@@ -81,6 +46,7 @@
             <img id="nod" class="nodoff abs" src="./svg/Noddy_plane_300x375.svg" alt="">
             <div class="relative">
                 <img class="img-fluid extend" style="visibility: hidden" src="./svg/background.svg" alt="">
+                <img class="img-fluid extend part2"  src="./svg/background2.svg" alt="">
                 <!-- <img class="thala" src="./svg/thalaivar.png" alt=""> -->
                 <a id="modal01" href="#starEventsModal">
                     <img class="sebuilding" src="./svg/star_events.svg" alt="">
@@ -148,7 +114,7 @@
                 <span ID="elctxt" class="fon">ELC</span>
                 <span ID="saaraltxt" class="fon">SAARAL</span>
                 <span ID="smctxt" class="fon">MUSIC</span>
-                <span ID="quiztxt" class="fon">Q! (QUIZ)</span>
+                <span ID="quiztxt" class="fon">Q! QUIZ</span>
                 <span ID="hostxt" class="fon">HOSPITALITY</span>
                 <span ID="spontxt" class="fon">SPONSORS</span>
                 <span ID="tspontxt">TITLE SPONSORS</span>
@@ -721,54 +687,124 @@
 
         <div class="modal-content">
 
-                <div  class="close-devModal" id="boxclose" style="position:absolute;top:0;left:0;color:white">
+                <div  class="close-devModal" id="boxclose" style="position:absolute;top:0;left:0;color:black;background: white">
                         <i class="fas fa-times-circle"></i>
                     </div>
             <!--Your modal content goes here-->
-            <section style="padding:10px;width: 80%;margin-top: 10%" class="container">
+            <section style="width: 80%;margin-top: 7%" class="container">
                 <div class="page-header">
-                    <h1>Development Team<br>
+                    <h1  class="primary">Development Team<br>
                     </h1>
                 </div>
 
-                <div class="row active-with-click">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <article class="material-card Purple">
-                            <h2>
-                                <span>Nitin Nikamanth</span>
-                                <strong>
-                                    <i class="fa fa-fw fa-star"></i>
-                                    Web Dev
-                                </strong>
-                            </h2>
-                            <div class="mc-content">
-                                <div class="img-container">
-                                    <img class="img-responsive" src="./photos/nitin.jpg">
-                                </div>
-                                <div class="mc-description">
-                                    <!-- <h5>Contact:</h5> -->
-                                    <a hre\f="mailto:nitinnikamanth@gmail.com">nitinnikamanth@gmail.com</a>
-                                    <!-- <p>Ph No: 9840740948</p> -->
-                                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <article class="material-card Red">
+                        <h2>
+                            <span  class="primary3">Mohana Sundar M</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Web Dev
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="./photos/mohanpierce.jpg">
                             </div>
-                            <a class="mc-btn-action">
-                                <i class="fa fa-bars"></i>
-                            </a>
-                            <div class="mc-footer">
-                                <h4>
-                                    Social
-                                </h4>
-                                <a class="fa fa-fw fa-github-square zoom" href="https://github.com/nikamanthab"></a>
-                                <a class="fa fa-fw fa-linkedin zoom" href="https://www.linkedin.com/in/nitin-nikamanth-appiah-23744b143/"></a>
-                                <!-- <a class="fa fa-fw fa-google-plus-square zoom"></a> -->
+                            <div class="mc-description">
+                                <!-- <h5>Contact:</h5> -->
+                                <a href="mailto:itsmohanpierce@gmail.com">itsmohanpierce@gmail.com</a>
+                                <!-- <p>Ph No: +91 95518 48851</p> -->
                             </div>
-                        </article>
-                    </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+
+                            <a class="fa fa-fw fa-github-square zoom" href="https://github.com/mohanpierce99"></a>
+                            <!-- <a class="fa fa-fw fa-linkedin zoom"></a> -->
+                            <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <article class="material-card Blue">
+                        <h2>
+                            <span  class="primary3">Kanishq S</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Web Dev
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="./photos/kanishq.jpg">
+                            </div>
+                            <div class="mc-description">
+                                <!-- <h5>Contact:</h5> -->
+                                <a href="mailto:sunilkanishq@gmail.com">sunilkanishq@gmail.com</a>
+                                <!-- <p>Ph No: 99402 69259 </p> -->
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+
+                            <a class="fa fa-fw fa-github-square zoom" href="https://github.com/Stalemate99"></a>
+                            <a class="fa fa-fw fa-linkedin zoom" href="https://www.linkedin.com/in/sunil-kanishq-3478a4131/"></a>
+                            <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
+                        </div>
+                    </article>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <article class="material-card Green">
+                        <h2>
+                            <span  class="primary3">Rakesh M</span>
+                            <strong>
+                                <i class="fa fa-fw fa-star"></i>
+                                Web Dev
+                            </strong>
+                        </h2>
+                        <div class="mc-content">
+                            <div class="img-container">
+                                <img class="img-responsive" src="./photos/rakesh.jpg">
+                            </div>
+                            <div class="mc-description">
+                                <!-- <h5>Contact:</h5> -->
+                                <a href="mailto:rakesh.avm@gmail.com">rakesh.avm@gmail.com</a>
+                                <!-- <p>Ph No: +91 80726 96493</p> -->
+                            </div>
+                        </div>
+                        <a class="mc-btn-action">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <div class="mc-footer">
+                            <h4>
+                                Social
+                            </h4>
+
+                            <a class="fa fa-fw fa-github-square" href="https://github.com/rakeshavm"></a>
+                            <a class="fa fa-fw fa-linkedin" href="https://www.linkedin.com/in/rakesh-m-69474b170/"></a>
+                            <!-- <a class="fa fa-fw fa-google-plus-square"></a> -->
+                        </div>
+                    </article>
+                </div>
+
                     <!-- one element -->
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <article class="material-card Orange">
                             <h2>
-                                <span>Kandavel A</span>
+                                <span  class="primary3">Kandavel A</span>
                                 <strong>
                                     <i class="fa fa-fw fa-star"></i>
                                     Web Dev
@@ -798,159 +834,98 @@
                         </article>
                     </div>
 
-                    <!-- one element -->
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <article class="material-card Red">
-                            <h2>
-                                <span>Mohana Sundar M</span>
-                                <strong>
-                                    <i class="fa fa-fw fa-star"></i>
-                                    Web Dev
-                                </strong>
-                            </h2>
-                            <div class="mc-content">
-                                <div class="img-container">
-                                    <img class="img-responsive" src="./photos/mohanpierce.jpg">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            <article class="material-card Purple">
+                                <h2>
+                                    <span  class="primary3">Nitin Nikamanth</span>
+                                    <strong>
+                                        <i class="fa fa-fw fa-star"></i>
+                                        Web Dev
+                                    </strong>
+                                </h2>
+                                <div class="mc-content">
+                                    <div class="img-container">
+                                        <img class="img-responsive" src="./photos/nitin.jpg">
+                                    </div>
+                                    <div class="mc-description">
+                                        <!-- <h5>Contact:</h5> -->
+                                        <a hre\f="mailto:nitinnikamanth@gmail.com">nitinnikamanth@gmail.com</a>
+                                        <!-- <p>Ph No: 9840740948</p> -->
+                                    </div>
                                 </div>
-                                <div class="mc-description">
-                                    <!-- <h5>Contact:</h5> -->
-                                    <a href="mailto:itsmohanpierce@gmail.com">itsmohanpierce@gmail.com</a>
-                                    <!-- <p>Ph No: +91 95518 48851</p> -->
+                                <a class="mc-btn-action">
+                                    <i class="fa fa-bars"></i>
+                                </a>
+                                <div class="mc-footer">
+                                    <h4>
+                                        Social
+                                    </h4>
+                                    <a class="fa fa-fw fa-github-square zoom" href="https://github.com/nikamanthab"></a>
+                                    <a class="fa fa-fw fa-linkedin zoom" href="https://www.linkedin.com/in/nitin-nikamanth-appiah-23744b143/"></a>
+                                    <!-- <a class="fa fa-fw fa-google-plus-square zoom"></a> -->
                                 </div>
-                            </div>
-                            <a class="mc-btn-action">
-                                <i class="fa fa-bars"></i>
-                            </a>
-                            <div class="mc-footer">
-                                <h4>
-                                    Social
-                                </h4>
+                            </article>
+                        </div>
 
-                                <a class="fa fa-fw fa-github-square zoom" href="https://github.com/mohanpierce99"></a>
-                                <!-- <a class="fa fa-fw fa-linkedin zoom"></a> -->
-                                <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
-                            </div>
-                        </article>
-                    </div>
-                    <!-- one element -->
-                    <!-- one element -->
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <article class="material-card Green">
-                            <h2>
-                                <span>Rakesh M</span>
-                                <strong>
-                                    <i class="fa fa-fw fa-star"></i>
-                                    Web Dev
-                                </strong>
-                            </h2>
-                            <div class="mc-content">
-                                <div class="img-container">
-                                    <img class="img-responsive" src="./photos/rakesh.jpg">
-                                </div>
-                                <div class="mc-description">
-                                    <!-- <h5>Contact:</h5> -->
-                                    <a href="mailto:rakesh.avm@gmail.com">rakesh.avm@gmail.com</a>
-                                    <!-- <p>Ph No: +91 80726 96493</p> -->
-                                </div>
-                            </div>
-                            <a class="mc-btn-action">
-                                <i class="fa fa-bars"></i>
-                            </a>
-                            <div class="mc-footer">
-                                <h4>
-                                    Social
-                                </h4>
+  <!-- one element -->
+  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    <article class="material-card Pink">
+        <h2>
+            <span  class="primary3">Pooja S</span>
+            <strong>
+                <i class="fa fa-fw fa-star"></i>
+                Web Dev
+            </strong>
+        </h2>
+        <div class="mc-content">
+            <div class="img-container">
+                <img class="img-responsive" src="./photos/pooja.jpg">
+            </div>
+            <div class="mc-description">
+                <!-- <h5>Contact:</h5> -->
+                <a href="mailto:reachpj99@gmail.com">reachpj99@gmail.com</a>
+                <!-- <p>Ph No: </p> -->
+            </div>
+        </div>
+        <a class="mc-btn-action">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div class="mc-footer">
+            <h4>
+                Social
+            </h4>
 
-                                <a class="fa fa-fw fa-github-square" href="https://github.com/rakeshavm"></a>
-                                <a class="fa fa-fw fa-linkedin" href="https://www.linkedin.com/in/rakesh-m-69474b170/"></a>
-                                <!-- <a class="fa fa-fw fa-google-plus-square"></a> -->
-                            </div>
-                        </article>
-                    </div>
-
+            <a class="fa fa-fw fa-github-square zoom" href="https://github.com/Pooja-Sudhakar"></a>
+            <a class="fa fa-fw fa-linkedin zoom" href="https://www.linkedin.com/in/pooja-sudhakar-5b505b17a/"></a>
+            <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
+        </div>
+    </article>
+</div>
                     <!-- one element -->
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <article class="material-card Blue">
-                            <h2>
-                                <span>Kanishq S</span>
-                                <strong>
-                                    <i class="fa fa-fw fa-star"></i>
-                                    Web Dev
-                                </strong>
-                            </h2>
-                            <div class="mc-content">
-                                <div class="img-container">
-                                    <img class="img-responsive" src="./photos/kanishq.jpg">
-                                </div>
-                                <div class="mc-description">
-                                    <!-- <h5>Contact:</h5> -->
-                                    <a href="mailto:sunilkanishq@gmail.com">sunilkanishq@gmail.com</a>
-                                    <!-- <p>Ph No: 99402 69259 </p> -->
-                                </div>
-                            </div>
-                            <a class="mc-btn-action">
-                                <i class="fa fa-bars"></i>
-                            </a>
-                            <div class="mc-footer">
-                                <h4>
-                                    Social
-                                </h4>
-
-                                <a class="fa fa-fw fa-github-square zoom" href="https://github.com/Stalemate99"></a>
-                                <a class="fa fa-fw fa-linkedin zoom" href="https://www.linkedin.com/in/sunil-kanishq-3478a4131/"></a>
-                                <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
-                            </div>
-                        </article>
-                    </div>
-                    <!-- one element -->
+                  
 
                     <!-- one element -->
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <article class="material-card Pink">
-                            <h2>
-                                <span>Pooja S</span>
-                                <strong>
-                                    <i class="fa fa-fw fa-star"></i>
-                                    Web Dev
-                                </strong>
-                            </h2>
-                            <div class="mc-content">
-                                <div class="img-container">
-                                    <img class="img-responsive" src="./photos/pooja.jpg">
-                                </div>
-                                <div class="mc-description">
-                                    <!-- <h5>Contact:</h5> -->
-                                    <a href="mailto:reachpj99@gmail.com">reachpj99@gmail.com</a>
-                                    <!-- <p>Ph No: </p> -->
-                                </div>
-                            </div>
-                            <a class="mc-btn-action">
-                                <i class="fa fa-bars"></i>
-                            </a>
-                            <div class="mc-footer">
-                                <h4>
-                                    Social
-                                </h4>
+                    <!-- one element -->
+                   
 
-                                <a class="fa fa-fw fa-github-square zoom" href="https://github.com/Pooja-Sudhakar"></a>
-                                <a class="fa fa-fw fa-linkedin zoom" href="https://www.linkedin.com/in/pooja-sudhakar-5b505b17a/"></a>
-                                <!-- <a class="fa fa-fw fa-google-plus-square zoom" href=""></a> -->
-                            </div>
-                        </article>
-                    </div>
+                    <!-- one element -->
+                   
+                    <!-- one element -->
+
+                  
                     <!-- one element -->
             </section>
             <section style="padding:10px;width: 80%;margin-top: 10%" class="container">
 
                 <div class="page-header">
-                    <h1>Design Team<br>
+                    <h1  class="primary">Design Team<br>
                     </h1>
                 </div>
                 <!-- one element -->
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <article class="material-card Pink">
                         <h2>
-                            <span>Siddique</span>
+                            <span class="primary3">Siddique</span>
                             <strong>
                                 <i class="fa fa-fw fa-star"></i>
                                 Design
@@ -985,7 +960,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <article class="material-card Pink">
                         <h2>
-                            <span>Divya Sanchana</span>
+                            <span class="primary3">Divya Sanchana</span>
                             <strong>
                                 <i class="fa fa-fw fa-star"></i>
                                 Design
@@ -1021,7 +996,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <article class="material-card Pink">
                         <h2>
-                            <span>Deva</span>
+                            <span class="primary3">Deva</span>
                             <strong>
                                 <i class="fa fa-fw fa-star"></i>
                                 Design
@@ -1053,17 +1028,17 @@
                 </div>
                 <!-- one element -->
             </section>
-            <section style="padding:10px;width: 80%;margin-top: 10%" class="container">
+            <section style="padding:10px;width: 80%;margin-top: 5%" class="container">
 
                 <div class="page-header">
-                    <h1>Co Ordinators<br>
+                    <h1 class="primary">Co Ordinators<br>
                     </h1>
                 </div>
                 <!-- one element -->
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <article class="material-card Pink">
                         <h2>
-                            <span>Suriyakanth</span>
+                            <span class="primary3">Suriyakanth</span>
                             <strong>
                                 <i class="fa fa-fw fa-star"></i>
                                 coordinator
@@ -1098,7 +1073,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <article class="material-card Pink">
                         <h2>
-                            <span>Swaminathan</span>
+                            <span class="primary3">Swaminathan</span>
                             <strong>
                                 <i class="fa fa-fw fa-star"></i>
                                 Co Ordinator

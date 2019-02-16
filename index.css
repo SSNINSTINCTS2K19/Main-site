@@ -28,7 +28,10 @@ font-family: 'proxima';
   font-family: 'League Spartan';
   font-size: 1rem !important;
 }
-
+.primary3{
+  font-family: 'League Spartan';
+  font-size: 2rem !important;
+}
 .primary {
   font-family: 'League Spartan';
   font-size: 3rem;
@@ -387,8 +390,8 @@ button {
 .ssn {
   position: fixed;
   width: 14%;
-  top: 1vh;
-  left: 85vw;
+  top: 3vh;
+  left: 81vw;
 }
 
 .sponoff {
@@ -798,7 +801,7 @@ button {
 #spctxt {
   position: absolute;
     top: 23.2%;
-    left: 40vw;
+    left: 30vw;
     width: 10%;
 }
 
@@ -922,7 +925,7 @@ button {
   #tspontxt {
     position: absolute;
     top: 77%;
-    left: 35vw;
+    left: 38vw;
     width: 70%;
     font-family: Fipps;
     font-size: 3vh;
@@ -1234,7 +1237,7 @@ button {
   #stareventstxt {
     position: absolute;
     top: 8.2%;
-    left: 55vw;
+    left: 52vw;
     width: 36%;
   }
 
@@ -1489,4 +1492,48 @@ display: none;
 
 .btn:focus{
   outline:none;
+}
+
+
+.zoom {
+  background-color: green;
+  transition: transform .2s;
+  /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #ECEFF1;
+  color: #37474F;
+  font-family: 'proxima', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 200;
+}
+
+.part2{
+  position: absolute;
+  bottom: -10% ;
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
 }

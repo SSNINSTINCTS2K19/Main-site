@@ -231,7 +231,7 @@ a.demo--current {
 	padding: 0.30rem;
 	color: var(--color-menu);
 	font-family: 'League Spartan', sans-serif;
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight: var(--font-weight-menu);
 	opacity: 0;
 	transform: translateY(-100%);
