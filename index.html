@@ -9,16 +9,14 @@
 <link rel="stylesheet" type="text/css" href="./vendor/bootstrap/css/bootstrap.min.css" />
 
 <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-<!-- <link rel="stylesheet" href="./vendor/animatedModal.js-master/demo/css/animate.min.css"> -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
     crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="normalize.css" />
-<link rel="stylesheet" type="text/css" href="demo.css" />
+<!-- <link rel="stylesheet" type="text/css" href="demo.css" /> -->
 <link rel="stylesheet" type="text/css" href="contact.css" />
 <link rel="stylesheet" href="./vendor/swiper.min.css">
 <link rel="stylesheet" type="text/css" href="Slicebox/css/slicebox.css" />
 <link rel="stylesheet" type="text/css" href="Slicebox/css/custom.css" />
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="material-cards.css">
 <link rel="stylesheet" href="animate.css">
 <script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script>
@@ -26,11 +24,10 @@
 
 <body>
     <main id="panel">
-        <!-- <img style="visibilty:hidden" class="extend" src="./svg/sky.svg" alt=""> -->
         <div class="svg-hero">
             <img class="extend" src="./svg/sky.svg" alt="">
             <img class="gate" src="./svg/gate.svg" alt="">
-            <img id="logo" class="logoon" src="./Page logo/All-01.svg" alt="">
+            <img id="logo" class="logoon" src="All-01.svg" alt="">
             <img class="torch" src="./svg/instincts-logo-white.svg" alt="">
             <img class="ssn" src="./svg/SSN.svg" alt="">
             <div class="relative">
@@ -85,10 +82,10 @@
                 <a id="modal13" href="#QuizModal">
                     <img id="Q!" class="qbuilding" src="./svg/quiz.svg" alt="">
                 </a>
-                <a id="modal11" href="#HospitalityModal">
-                    <img id="hosp" class="hbuilding" src="./svg/hospitality.svg" alt="">
+                <a id="modal15" href="#HospitalityModal">
+                    <img id="busroutes" class="hbuilding" src="./svg/hospitality.svg" alt="">
                 </a>
-                <a id="modal15" href="#BusModal">
+                <a id="modal17" href="#HospitalityModal">
                     <img class="bus" src="./svg/bus.svg" alt="">
                 </a>
                 <a id="modal16" href="#SponsorsModal">
@@ -105,16 +102,16 @@
                 <img class="ball" src="./svg/Pokeball_300x375.svg" alt="">
                 <span id="stareventstxt" class="fon">VARIETY CLUB</span>
                 <span ID="eventtxt" class="fon">EVENTS</span>
-                <span id="filmtxt" class="fon">FILM</span>
-                <span ID="spctxt" class="fon">SPC(PHOTO)</span>
+                <span id="filmtxt" class="fon">SFC</span>
+                <span ID="spctxt" class="fon">SPC</span>
                 <span ID="destxt" class="fon">DESIGN</span>
                 <span ID="finartstxt" class="fon">FINE ARTS</span>
-                <span ID="n2ktxt" class="fon">N2K(DANCE)</span>
-                <span ID="loptxt" class="fon">LOP(THEATRE)</span>
+                <span ID="n2ktxt" class="fon">N2K</span>
+                <span ID="loptxt" class="fon">LOP</span>
                 <span ID="elctxt" class="fon">ELC</span>
                 <span ID="saaraltxt" class="fon">SAARAL</span>
-                <span ID="smctxt" class="fon">MUSIC</span>
-                <span ID="quiztxt" class="fon">Q! QUIZ</span>
+                <span ID="smctxt" class="fon">SMC</span>
+                <span ID="quiztxt" class="fon">QUIZ Q!</span>
                 <span ID="hostxt" class="fon">HOSPITALITY</span>
                 <span ID="spontxt" class="fon">SPONSORS</span>
                 <span ID="tspontxt">TITLE SPONSORS</span>
@@ -635,7 +632,7 @@
             <div class="close-HospitalityModal">
                 <i class="fas fa-arrow-circle-left"></i>
             </div>
-            <h3 class="text-center headingclub"></h3>
+            <h3 class="text-center primary headingclub">Accomodation & Busroutes</h3>
             <div class="bottom">
                 <div class="flex">
                     <button class="extend btn btn-primary"><i class="fa-2x fas fa-caret-left"></i></button>
@@ -1274,12 +1271,12 @@
         $("#modal08").animatedModal();
         $("#modal09").animatedModal();
         $("#modal10").animatedModal();
-        $("#modal11").animatedModal();
         $("#modal12").animatedModal();
         $("#modal13").animatedModal();
         $("#modal15").animatedModal();
         $("#mastersof").animatedModal();
         $("#modal16").animatedModal();
+        $("#modal17").animatedModal();
         $("#credits").animatedModal();
     </script>
     <script src="events.js"></script>
@@ -1295,6 +1292,8 @@
         eventModule().start("SMC", ".m11", document.querySelector("#cardtemplate"));
         eventModule().start("SPC", ".m04", document.querySelector("#cardtemplate"));
         eventModule().start("VarietyClub", ".m01", document.querySelector("#cardtemplate"));
+        eventModule().start("busroutes", ".m13", document.querySelector("#cardtemplate"));
+
     </script>
     <script src="navbar.js"></script>
     <script>

@@ -122,7 +122,6 @@ let eventModule = function () {
 
 
     function controller(e) {
-        if (e.target.tagName === "BUTTON") {
             // sel("#mtitle").innerHTML="";
             sel("#maincontent").innerHTML = "";
           
@@ -134,10 +133,10 @@ let eventModule = function () {
             $("#mastersof").trigger('click');
 
         }
-    }
 
     function rendercontent(d, pre) {
         var title, ruleitem, rulelist;
+        console.log(d);
         var b = d.events.find((data) => data.title.includes(pre));
         for (let property in b) {
             let a;
@@ -186,6 +185,7 @@ let eventModule = function () {
 
         } else {
             fetch("assets/json/" + clubname + ".json").then(function (response) {
+                console.log(response);
                 return response.json();
             }).then(function (e) {
                 localStorage.setItem(e.title, JSON.stringify(e));
