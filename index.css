@@ -1542,7 +1542,7 @@ background: rgba(0,0,0,0.5);
 }
 
 .swiper-pagination {
-  display: none;
+  display: block;
 }
 
 #boxclose {
@@ -2469,4 +2469,13 @@ a[id^="modal"] img {
 }
 .bgforce{
   background:white;
+}
+
+.swiper-pagination-bullet{
+  opacity: 1 !important;
+  /* background: white !important; */
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom: -3px !important;
 }
