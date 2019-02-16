@@ -57,11 +57,23 @@ font-family: 'proxima';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border:2px solid blue; */
 }
 
 html {
   width: 100%;
   height: 100%;
+}
+
+.cus{
+  position: absolute;
+    top: 85%;
+    left: 19vw;
+    width: 65%;
+}
+
+#contact-container{
+  font-size: 1rem;
 }
 
 #panel {
@@ -278,6 +290,7 @@ button {
 .building {
   position: absolute;
   width: 100%;
+  left: 0vw;
   top: 54%;
 }
 
@@ -447,8 +460,8 @@ button {
   }
 
   100% {
-    transform: translateX(159vw);
-    opacity: 1;
+    transform: translateX(100vw);
+    opacity: 0;
   }
 }
 
@@ -679,11 +692,13 @@ button {
   0% {}
 
   60% {
-    transform: translateX(84vw)
+    transform: translateX(84vw);
+    opacity: 1;
   }
 
   100% {
-    transform: translate(200vw);
+    transform: translate(100vw);
+    opacity: 0;
   }
 }
 
@@ -707,10 +722,9 @@ button {
 
 #credits {
   position: absolute;
-  width: 20%;
-  left: 31vw;
-  top: 105%;
-  /* bottom:0%; */
+  width: 100%;
+  left: 0vw;
+  top: 100%;
 }
 
 .dan1on{
@@ -886,7 +900,14 @@ button {
     left: 4vw;
     } */
 
-
+    .cus{
+      top: 85%;
+      width: 70%;
+      left: 20vw;
+    }
+    #contact-container{
+      font-size: 2rem;
+    }
   #spctxt {
     position: absolute;
     top: 22.6%;
@@ -1194,6 +1215,7 @@ button {
   .building {
     position: absolute;
     width: 100%;
+    left: 0vw;
   }
 
   .hbuilding {
@@ -1335,7 +1357,7 @@ button {
 
 @media(max-width:695px) and (min-width:475px) {
   .plusdisplay {
-    top: 2%;
+    top: -1%;
     left: 74%;
   }
 }
@@ -1349,7 +1371,7 @@ button {
 
 @media(min-width:300px) and (max-width:400px) {
   .plusdisplay {
-    top: 2%;
+    top: -1%;
     left: 60%;
   }
 }
@@ -1536,4 +1558,20 @@ h3 {
   -moz-transform: rotateX(180deg);
   -ms-transform: rotateX(180deg);
   -o-transform: rotateX(180deg);
+}
+
+@media(min-width:400px) and (max-width:500px){
+  .cus{
+    top:90%;
+  }
+}
+@media(min-width:500px) and (max-width:767px){
+  .cus{
+    top: 85%;
+    width: 90%;
+    left: 8vw;
+  }
+  #contact-container{
+    font-size: 2rem;
+  }
 }
