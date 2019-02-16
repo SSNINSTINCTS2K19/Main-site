@@ -2477,5 +2477,5 @@ a[id^="modal"] img {
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
-  bottom: -3px !important;
+  bottom: -4px !important;
 }
