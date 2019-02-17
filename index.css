@@ -1848,8 +1848,6 @@ background: rgba(0,0,0,0.5);
   padding-bottom: 50px;
   top: 40%;
   left: 50%;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0px, 0%, 0px);
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
