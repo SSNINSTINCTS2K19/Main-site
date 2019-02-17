@@ -66,6 +66,7 @@
 * {
   margin: 0;
   padding: 0;
+    -webkit-overflow-scrolling: touch;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   /* border:2px solid blue; */
