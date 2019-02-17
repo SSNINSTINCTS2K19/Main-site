@@ -1,0 +1,24 @@
+{
+    "title":"SPC",
+    "name":"SPC ",
+    "events":[
+        {
+            "title":"Online Photography Competition",
+            "description":"We want to see the world in your eyes, but behind a computer screen. Do you think you can woo us with just two snaps? Sign up for this event and sign in with your emails; our prompts are ready. But do you have the photos?  ",
+            "rules":"Open to everyone;Two entries per person(can be on the same theme);No photo manipulation is allowed;No watermarks;Plagiarism will not be tolerated;The entries should be aligned with the theme;Send the entries to ssnphotographyclub@ssn.edu.in with your name, college and phone number;DEADLINE - March 3, 2019;THEME - Patterns, Long Exposure",
+            "prize":"First place - 5000; Second place - 3000;Third place - 2000",            
+	        "contact":"Harshal - 8124434454; Supraja - 9444782639"
+        },
+        {
+            "title":"Live Photography Competition",
+            "description":" Capture the essence of Instincts 2019 with your camera. Show us a side we've never seen before.Explore, experiment and exceed expectations with our Live Photography Event.  ",
+            "rules":"This is an individual event and is open to everyone attending Instincts;Any device can be used to capture the photo;Under any circumstance, entries once submitted cannot be taken back for modifications;Participants are to submit details of the device used and the editing app used, along with the photographs;Participants can submit a maximum of 2 photographs each day and the same photograph cannot be submitted again;The photographs have to be submitted to ssnphotographyclub@ssn.edu.in with your name, college and phone number before 8pm on each day of Instincts.;GENERAL REGISTRATION IS MANDATORY",
+            "prize":"First place - 5000; Second place - 3000;Third place - 2000",   
+            "contact":"Harshal - 8124434454; Supraja - 9444782639"
+        },
+        {
+            "title":" Let Experts Talk",
+            "description":"Participate in discussions, engage with fellow enthusiasts and learn from experts in our exclusive talk show. Listen and learn as leading professionals of the industry explain the nuance and subtlety behind the perfect photograph."
+        }
+    ]
+}
