@@ -65,7 +65,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border:2px solid blue; */
+  transform: translate3d(0px, 0%, 0px);
+  -webkit-transform: translate3d(0px, 0%, 0px);
+  -moz-transform: translate3d(0px, 0%, 0px);
+  -ms-transform: translate3d(0px, 0%, 0px);
+  -o-transform: translate3d(0px, 0%, 0px);  /* border:2px solid blue; */
 }
 
 html {
@@ -95,7 +99,6 @@ html {
 }
 
 body {
-
   width: 100%;
   line-height: 1;
   scroll-behavior: smooth;
@@ -123,6 +126,10 @@ body {
   overflow-x: hidden;
   -webkit-backface-visibility: hidden;
   transform: translate3d(0px, 0%, 0px);
+  -webkit-transform: translate3d(0px, 0%, 0px);
+  -moz-transform: translate3d(0px, 0%, 0px);
+  -ms-transform: translate3d(0px, 0%, 0px);
+  -o-transform: translate3d(0px, 0%, 0px);
 }
 
 .bgcheck {}

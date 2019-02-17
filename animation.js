@@ -241,14 +241,14 @@ $(window).scroll(function() {
     });
 })();
 (function(){
-        var arr=document.querySelectorAll("a[id^='modal']");
+        var arr=document.querySelectorAll("a[class^='modal']");
 var gold=$("a[class^='modal']")[2].children[0].offsetTop;
 
    arr.forEach(function(data,i){
 
     $(window).scroll(function() {
-        var hT = $("a[id^='modal']")[i].children[0].offsetTop,
-            hH = $("a[id^='modal']")[i].children[0].offsetHeight,
+        var hT = $("a[class^='modal']")[i].children[0].offsetTop,
+            hH = $("a[class^='modal']")[i].children[0].offsetHeight,
             wH = $(window).height(),
             wS = $(this).scrollTop();
             console.log(hT,hH,wH/2,wS);
