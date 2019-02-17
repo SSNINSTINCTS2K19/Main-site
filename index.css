@@ -122,6 +122,7 @@ body {
   --button-line: #222;
   overflow-x: hidden;
   -webkit-backface-visibility: hidden;
+  transform: translate3d(0px, 0%, 0px);
 }
 
 .bgcheck {}
@@ -836,7 +837,7 @@ button {
 
 #destxt {
   position: absolute;
-  top: 27.4%;
+  top: 28.4%;
   left: 8vw;
   width: 10%;
 }
@@ -907,8 +908,8 @@ button {
 
 #hostxt {
   position: absolute;
-  top: 60.5%;
-  left: 13.5vw;
+  top: 60%;
+  left: 7.5vw;
   width: 18%;
 }
 
@@ -1324,6 +1325,7 @@ button {
     top: 8.3%;
     left: 58vw;
     width: 36%;
+    font-size: 1.2vh;
   }
 
   #tspontxt {
@@ -1334,7 +1336,12 @@ button {
     font-family: Fipps;
     font-size: 1.5vh;
   }
-
+  #finartstxt {
+    position: absolute;
+    top: 32%;
+    left: 17vw;
+    width: 30%;
+}
 
   .fon {
     font-size: 1.3vh;
@@ -2476,7 +2483,7 @@ a.global-menu__item:hover,
   -o-transform: scale(1.10);
 }
 
-a[id^="modal"] img {
+a[class^="modal"] img {
   transition: transform 0.6s;
   -webkit-transition: transform 0.6s;
   -moz-transition: transform 0.6s;

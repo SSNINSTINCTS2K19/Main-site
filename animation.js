@@ -177,21 +177,21 @@ $(window).scroll(function() {
 })();
 (function(){
     $('.carousel').carousel();
-    $("#modal01").animatedModal();
-    $("#modal03").animatedModal();
-    $("#modal04").animatedModal();
-    $("#modal05").animatedModal();
-    $("#modal06").animatedModal();
-    $("#modal07").animatedModal();
-    $("#modal08").animatedModal();
-    $("#modal09").animatedModal();
-    $("#modal10").animatedModal();
-    $("#modal12").animatedModal();
-    $("#modal13").animatedModal();
-    $("#modal15").animatedModal();
+    $(".modal01").animatedModal();
+    $(".modal03").animatedModal();
+    $(".modal04").animatedModal();
+    $(".modal05").animatedModal();
+    $(".modal06").animatedModal();
+    $(".modal07").animatedModal();
+    $(".modal08").animatedModal();
+    $(".modal09").animatedModal();
+    $(".modal10").animatedModal();
+    $(".modal12").animatedModal();
+    $(".modal13").animatedModal();
+    $(".modal15").animatedModal();
     $("#mastersof").animatedModal();
-    $("#modal16").animatedModal();
-    $("#modal17").animatedModal();
+    $(".modal16").animatedModal();
+    $(".modal17").animatedModal();
     $("#credits").animatedModal();
 
     eventModule().start("LightsOutPlease", ".m03", document.querySelector("#cardtemplate"));
@@ -242,7 +242,7 @@ $(window).scroll(function() {
 })();
 (function(){
         var arr=document.querySelectorAll("a[id^='modal']");
-var gold=$("a[id^='modal']")[2].children[0].offsetTop;
+var gold=$("a[class^='modal']")[2].children[0].offsetTop;
 
    arr.forEach(function(data,i){
 
