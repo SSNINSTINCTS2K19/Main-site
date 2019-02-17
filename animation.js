@@ -234,26 +234,26 @@ $(window).scroll(function() {
         });
     });
 })();
-(function(){
-        var arr=document.querySelectorAll("a[class^='modal']");
-var gold=$("a[class^='modal']")[2].children[0].offsetTop;
+// (function(){
+//         var arr=document.querySelectorAll("a[class^='modal']");
+// var gold=$("a[class^='modal']")[2].children[0].offsetTop;
 
-   arr.forEach(function(data,i){
+//    arr.forEach(function(data,i){
 
-    $(window).scroll(function() {
-        var hT = $("a[class^='modal']")[i].children[0].offsetTop,
-            hH = $("a[class^='modal']")[i].children[0].offsetHeight,
-            wH = $(window).height(),
-            wS = $(this).scrollTop();
-        if (wS+wH/2>hT){
-            arr[i].children[0].classList.add("zoomIn07");
-        }
-        if(wS>hT){
-            arr[i].children[0].classList.remove("zoomIn07");
-        }
-        if (wS+wH/2<hT){
-            arr[i].children[0].classList.remove("zoomIn07");
-        }
-      });
-   });
-})();
+//     $(window).scroll(function() {
+//         var hT = $("a[class^='modal']")[i].children[0].offsetTop,
+//             hH = $("a[class^='modal']")[i].children[0].offsetHeight,
+//             wH = $(window).height(),
+//             wS = $(this).scrollTop();
+//         if (wS+wH/2>hT){
+//             arr[i].children[0].classList.add("zoomIn07");
+//         }
+//         if(wS>hT){
+//             arr[i].children[0].classList.remove("zoomIn07");
+//         }
+//         if (wS+wH/2<hT){
+//             arr[i].children[0].classList.remove("zoomIn07");
+//         }
+//       });
+//    });
+// })();
