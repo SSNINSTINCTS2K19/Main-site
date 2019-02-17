@@ -1,4 +1,3 @@
-let swiper99;
 
 let eventModule = function () {
     let flag = 1;
@@ -141,7 +140,6 @@ let eventModule = function () {
 
     function rendercontent(d, pre) {
         var title, ruleitem, rulelist;
-        console.log(d);
         var b = d.events.find((data) => data.title.includes(pre));
         for (let property in b) {
             let a;
@@ -190,7 +188,6 @@ let eventModule = function () {
 
         } else {
             fetch("assets/json/" + clubname + ".json").then(function (response) {
-                console.log(response);
                 return response.json();
             }).then(function (e) {
                 localStorage.setItem(e.title, JSON.stringify(e));
