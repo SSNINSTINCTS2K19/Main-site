@@ -34,7 +34,7 @@
 
 <body>
     <main id="panel">
-        <div class="svg-hero">
+        <div class="svg-hero" id="layer1">
             <img class="extend" src="./svg/sky.svg" alt="">
             <img class="gate" src="./svg/gate.svg" alt="">
             <img id="logo" class="logoon" src="svg/All-01.svg" alt="">
@@ -48,10 +48,10 @@
                 <img style="position: absolute;top: 60%" class="road1" src="./svg/road_4.svg" alt="">
             </div>
         </div>
-        <div class="svg-hero" style="transform: translate3d(0px, 0%, 0px);">
+        <div class="svg-hero" id="layer2">
             <img class="clock_tower" src="./svg/clock_tower.svg" alt="">
             <img id="nod" class="nodoff abs" src="./svg/Noddy_plane_300x375.svg" alt="">
-            <div class="relative">
+            <div class="relative" id="main-layer">
                 <a id="aboutify2" href="#about" data-pref="white"> <img class="torch" src="./svg/instincts-logo-white.svg"
                         alt="">
                 </a>
@@ -1256,6 +1256,7 @@
     <script src="events.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="animation.js"></script>
+    <script src="parallax.js"></script>
     <script src="navbar.js"></script>
     <script>
         $("#aboutify").animatedModal();
