@@ -181,7 +181,7 @@ let eventModule = function () {
         surr = parent;
         surrel = parentel;
         template = temp.innerHTML;
-        var flag = 1;
+        var flag = 0;
         if (localStorage.getItem(clubname) && flag === 0) {
             let e = JSON.parse(localStorage.getItem(clubname));
             gatherEvents(e);
