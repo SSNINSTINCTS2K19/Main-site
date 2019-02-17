@@ -731,9 +731,33 @@ button {
 
 #credits {
   position: absolute;
+  font-family: 'League Spartan';
   width: 100%;
   left: 0vw;
   top: 100%;
+  transition: all 0.5s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  animation: colorchange 2s infinite;
+  -webkit-animation: colorchange 5s infinite;
+}
+
+@keyframes colorchange{
+  0%{
+    color:#337ab7;
+  }
+  40%{
+    color:white;
+  }
+  80%{
+    color:#e91e63;
+  }
+  100%{
+    color:#337ab7;
+  }
+
 }
 
 .dan1on {
