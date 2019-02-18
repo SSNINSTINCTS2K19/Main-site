@@ -131,12 +131,15 @@ let eventModule = function () {
           
             var previous2 = e.target.parentElement.children[1].innerHTML;
             previous = previous2.replace(/\s+/g, "");
-            let data = JSON.parse(localStorage.getItem(club));
+            // let data = JSON.parse(localStorage.getItem(club));
+            fetch("assets/json/" + club + ".json").then(function (response) {
+                return response.json();
+            }).then(function (data) {
             sel("#mtitle").innerHTML = previous2;
             rendercontent(data, previous2);
             $("#mastersof").trigger('click');
-
-        }
+        });
+    }
 
     function rendercontent(d, pre) {
         var title, ruleitem, rulelist;
@@ -182,19 +185,19 @@ let eventModule = function () {
         surrel = parentel;
         template = temp.innerHTML;
         var flag = 0;
-        if (localStorage.getItem(clubname) && flag === 0) {
-            let e = JSON.parse(localStorage.getItem(clubname));
-            gatherEvents(e);
+        // if (localStorage.getItem(clubname) && flag === 0) {
+        //     let e = JSON.parse(localStorage.getItem(clubname));
+        //     gatherEvents(e);
 
-        } else {
+        // } else {
             fetch("assets/json/" + clubname + ".json").then(function (response) {
                 return response.json();
             }).then(function (e) {
-                localStorage.setItem(e.title, JSON.stringify(e));
+                // localStorage.setItem(e.title, JSON.stringify(e));
             
                 gatherEvents(e);
             });
-        }
+        // }
 
     }
 
