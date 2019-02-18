@@ -3024,3 +3024,6 @@ a[class^="modal"] img {
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
   bottom: -4px !important;
 }
+.closeboxclose{
+  display: none;
+}
