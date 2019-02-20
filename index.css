@@ -50,6 +50,7 @@
   padding: 20px;
 }
 
+
 .bottom {
   position: absolute;
   bottom: 0;
@@ -83,7 +84,12 @@ html {
   left: 4vw;
   width: 96%;
 }
-
+.wrapper {
+  width: 50%;
+  /* height: 30vh; */
+  object-fit: contain;
+  margin: 100px auto;
+}
 #contact-container {
   font-size: 1rem;
 }

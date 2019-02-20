@@ -115,22 +115,22 @@ $(window).scroll(function() {
                 });
             });
         });
-    function set(){
-        timer=setInterval(()=>{
-            document.querySelector("#arrow").click();
-        },3000);
-    }
-    function clear(){
-        clearInterval(timer);
-    }
-    set();
-    document.querySelector(".wrapper").addEventListener("mouseover",function(){
-        clear();
-    });
-    document.querySelector(".wrapper").addEventListener("mouseout",function(){
-        set();
-    });
-})();
+//     function set(){
+//         timer=setInterval(()=>{
+//             document.querySelector("#arrow").click();
+//         },3000);
+//     }
+//     function clear(){
+//         clearInterval(timer);
+//     }
+//     set();
+//     document.querySelector(".wrapper").addEventListener("mouseover",function(){
+//         clear();
+//     });
+//     document.querySelector(".wrapper").addEventListener("mouseout",function(){
+//         set();
+//     });
+ })();
 
 
 (function(){

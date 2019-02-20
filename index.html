@@ -22,6 +22,9 @@
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
     <link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <!-- Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
     <!-- <link rel="stylesheet" type="text/css" href="demo.css" /> -->
     <link rel="stylesheet" type="text/css" href="contact.css" />
     <link rel="stylesheet" href="./vendor/swiper.min.css">
@@ -196,64 +199,26 @@
                 <div id="Gal" class="wrapper position">
                     <h3 style="align-content: center;text-align: center;line-height: 1.5;font-family: Fipps"> GALLERY
                     </h3>
-                    <ul id="sb-slider" style="overflow: hidden !important" class="sb-slider">
-                        <li>
-                            <img src="Slicebox/images/15.jpg" alt="image1" /></a>
-
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/25.jpg" alt="image2" /></a>
-
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/35.jpg" alt="image1" /></a>
-
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/45.jpg" alt="image1" /></a>
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/55.jpg" alt="image1" /></a>
-
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/65.jpg" alt="image1" /></a>
-
-
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/75.jpg" alt="image1" /></a>
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/85.jpg" alt="image1" /></a>
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/95.jpg" alt="image1" /></a>
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/105.jpg" alt="image1" /></a>
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/115.jpg" alt="image1" /></a>
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/125.jpg" alt="image1" /></a>
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/135.jpg" alt="image1" /></a>
-                        </li>
-                        <li>
-                            <img src="Slicebox/images/145.jpg" alt="image1" /></a>
-                        </li>
-                    </ul>
-
-                    <br>
-                    <br>
-
-                    <div id="nav-arrows" class="nav-arrows">
+                    <div class="single-item">
+                            <img src="images/15.jpg" alt="image1" />
+                            <img src="images/25.jpg" alt="image2" />
+                            <img src="images/35.jpg" alt="image1" />
+                            <img src="images/45.jpg" alt="image1" />
+                            <img src="images/55.jpg" alt="image1" />
+                            <img src="images/65.jpg" alt="image1" />
+                            <img src="images/75.jpg" alt="image1" />
+                            <img src="images/85.jpg" alt="image1" />
+                            <img src="images/95.jpg" alt="image1" />
+                            <img src="images/105.jpg" alt="image1" />
+                            <img src="images/115.jpg" alt="image1" />
+                            <img src="images/125.jpg" alt="image1" />
+                            <img src="images/135.jpg" alt="image1" />
+                            <img src="images/145.jpg" alt="image1" />
+                    </div>
+                    <!-- <div id="nav-arrows" class="nav-arrows">
                         <a href="#" id="arrow"><img class="imgs" src="Slicebox/images/ra.svg" /></a>
                         <a href="#"><img class="imgs" src="Slicebox/images/la.svg" /></a>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="row cus">
                     <div class="col-sm-12"></div>
@@ -1266,19 +1231,27 @@
       </script>
     <script src="vendor/swiper.min.js"></script>
     <script src="jquery-3.3.1.min.js"></script>
-
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
     <script src="vendor/animatedModal.js-master/animatedModal.min.js"></script>
-    <script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script>
-    <script type="text/javascript" src="Slicebox/js/jquery.slicebox.js"></script>
+    <!-- <script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script>
+    <script type="text/javascript" src="Slicebox/js/jquery.slicebox.js"></script> -->
     <!-- <script src="./start.js"></script> -->
     <script src="demo.js"></script>
     <script src="demo3.js"></script>
     <script src="easings.js"></script>
     <script src="events.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script>
+    <!-- <script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script> -->
     <script src="animation.js"></script>
-    <script src="navbar.js"></script>
+    <!-- <script src="navbar.js"></script> -->
+    <script>
+        $(document).ready(function(){
+  $('.single-item').slick({
+     autoplay: true,
+     autoplaySpeed: 2000,
+  });
+});
+    </script>
     <script>
         $("#aboutify").animatedModal();
         $("#aboutify2").animatedModal();
