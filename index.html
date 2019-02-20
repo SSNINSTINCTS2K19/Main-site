@@ -18,20 +18,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./vendor/bootstrap-4.0.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./vendor/bootstrap/css/bootstrap.min.css" />
-
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
     <link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="normalize.css" />
-    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
-    <!-- Add the new slick-theme.css if you want the default styling -->
-    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
-    <!-- <link rel="stylesheet" type="text/css" href="demo.css" /> -->
     <link rel="stylesheet" type="text/css" href="contact.css" />
     <link rel="stylesheet" href="./vendor/swiper.min.css">
-    <link rel="stylesheet" type="text/css" href="Slicebox/css/slicebox.css" />
-    <link rel="stylesheet" type="text/css" href="Slicebox/css/custom.css" />
     <link rel="stylesheet" href="material-cards.css">
     <link rel="stylesheet" href="animate.css">
+    <script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script>
 </head>
 
 <body>
@@ -43,15 +39,14 @@
 
             <img class="ssn" src="./svg/SSN.svg" alt="">
             <div class="relative">
-                   <img style="position: absolute;top: 0" class="road1" src="./svg/road_1.svg" alt="">
+                <img class="img-fluid extend" src="./svg/background.svg" alt="">
+                <img style="position: absolute;top: 0" class="road1" src="./svg/road_1.svg" alt="">
                 <img style="position: absolute;top: 17.5%" class="road2" src="./svg/road_2.svg" alt="">
                 <img style="position: absolute;top: 45%" class="road1" src="./svg/road_3.svg" alt="">
                 <img style="position: absolute;top: 60%" class="road1" src="./svg/road_4.svg" alt="">
-                <img class="img-fluid extend" src="./svg/background.svg" alt="">
-             
             </div>
         </div>
-        <div class="svg-hero" style="transform: translate3d(0px, 0%, 0px);">
+        <div class="svg-hero">
             <img class="clock_tower" src="./svg/clock_tower.svg" alt="">
             <img id="nod" class="nodoff abs" src="./svg/Noddy_plane_300x375.svg" alt="">
             <div class="relative">
@@ -60,7 +55,6 @@
                 </a>
                 <img class="img-fluid extend" style="visibility: hidden" src="./svg/background.svg" alt="">
                 <img class="img-fluid extend part2" src="./svg/background2.svg" alt="">
-                <!-- <img class="thala" src="./svg/thalaivar.png" alt=""> -->
                 <a class="modal01" href="#starEventsModal">
                     <img class="sebuilding" src="./svg/star_events.svg" alt="">
                 </a>
@@ -142,7 +136,7 @@
                     <img style="position: absolute; bottom: 0; width: 30vw;" class="credits" src="title-contributors.png"
                         alt="">
                 </a> -->
-                <div id="carouselExampleSlidesOnly" style="position: absolute;display:none;
+                <div id="carouselExampleSlidesOnly" style="position: absolute;
                 top: 60.56%;
                 left: 57vw;
                 width: 25%;
@@ -199,26 +193,22 @@
                 <div id="Gal" class="wrapper position">
                     <h3 style="align-content: center;text-align: center;line-height: 1.5;font-family: Fipps"> GALLERY
                     </h3>
-                    <div class="single-item">
-                            <img src="images/15.jpg" alt="image1" />
-                            <img src="images/25.jpg" alt="image2" />
-                            <img src="images/35.jpg" alt="image1" />
-                            <img src="images/45.jpg" alt="image1" />
-                            <img src="images/55.jpg" alt="image1" />
-                            <img src="images/65.jpg" alt="image1" />
-                            <img src="images/75.jpg" alt="image1" />
-                            <img src="images/85.jpg" alt="image1" />
-                            <img src="images/95.jpg" alt="image1" />
-                            <img src="images/105.jpg" alt="image1" />
-                            <img src="images/115.jpg" alt="image1" />
-                            <img src="images/125.jpg" alt="image1" />
-                            <img src="images/135.jpg" alt="image1" />
-                            <img src="images/145.jpg" alt="image1" />
+                    <div class="autoplay">
+                        <img src="images/15.jpg" alt="image1" />
+                        <img src="images/25.jpg" alt="image2" />
+                        <img src="images/35.jpg" alt="image1" />
+                        <img src="images/45.jpg" alt="image1" />
+                        <img src="images/55.jpg" alt="image1" />
+                        <img src="images/65.jpg" alt="image1" />
+                        <img src="images/75.jpg" alt="image1" />
+                        <img src="images/85.jpg" alt="image1" />
+                        <img src="images/95.jpg" alt="image1" />
+                        <img src="images/105.jpg" alt="image1" />
+                        <img src="images/115.jpg" alt="image1" />
+                        <img src="images/125.jpg" alt="image1" />
+                        <img src="images/135.jpg" alt="image1" />
+                        <img src="images/145.jpg" alt="image1" />
                     </div>
-                    <!-- <div id="nav-arrows" class="nav-arrows">
-                        <a href="#" id="arrow"><img class="imgs" src="Slicebox/images/ra.svg" /></a>
-                        <a href="#"><img class="imgs" src="Slicebox/images/la.svg" /></a>
-                    </div> -->
                 </div>
                 <div class="row cus">
                     <div class="col-sm-12"></div>
@@ -281,33 +271,12 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
     </main>
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
-    <img src="./svg/placeholder.svg" alt="">
+
     <!-- Modal windows -->
 
-    <!-- <a id="demo0" href="#animatedModal">DEMO01</a> -->
+    <a id="demo0" href="#animatedModal">DEMO01</a>
 
     <!--DEMO01-->
     <div id="about" style="border: none;">
@@ -1231,26 +1200,29 @@
       </script>
     <script src="vendor/swiper.min.js"></script>
     <script src="jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="vendor/animatedModal.js-master/animatedModal.min.js"></script>
-    <!-- <script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script>
-    <script type="text/javascript" src="Slicebox/js/jquery.slicebox.js"></script> -->
+    <script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script>
+    <script type="text/javascript" src="Slicebox/js/jquery.slicebox.js"></script>
     <!-- <script src="./start.js"></script> -->
     <script src="demo.js"></script>
     <script src="demo3.js"></script>
     <script src="easings.js"></script>
     <script src="events.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <!-- <script type="text/javascript" src="Slicebox/js/modernizr.custom.46884.js"></script> -->
     <script src="animation.js"></script>
-    <!-- <script src="navbar.js"></script> -->
+    <script src="navbar.js"></script>
     <script>
-        $(document).ready(function(){
-  $('.single-item').slick({
-     autoplay: true,
-     autoplaySpeed: 2000,
-  });
-});
+        $(document).ready(function () {
+            $('.autoplay').slick({
+                // slidesToShow: 3,
+                // slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+        });
     </script>
     <script>
         $("#aboutify").animatedModal();
