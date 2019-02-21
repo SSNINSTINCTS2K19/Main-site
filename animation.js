@@ -88,6 +88,7 @@ $(window).scroll(function() {
                         item.addEventListener("click",function(){
                             ul.style.display="none";
                             var srch = element.replace(/\s+/g,"");
+                            console.log(srch);
                             document.getElementById(srch).scrollIntoView();
                         });
                     }
@@ -108,6 +109,7 @@ $(window).scroll(function() {
                             item.addEventListener("click",function(){
                                 ul.style.display="none";
                                 var srch = element.replace(/\s+/g,"");
+                            console.log(srch);
                                 document.getElementById(srch).scrollIntoView();
                             });
                         }
@@ -115,21 +117,23 @@ $(window).scroll(function() {
                 });
             });
         });
-    function set(){
-        timer=setInterval(()=>{
-            document.querySelector("#arrow").click();
-        },3000);
-    }
-    function clear(){
-        clearInterval(timer);
-    }
-    set();
-    document.querySelector(".wrapper").addEventListener("mouseover",function(){
-        clear();
-    });
-    document.querySelector(".wrapper").addEventListener("mouseout",function(){
-        set();
-    });
+    // function set(){
+    //     timer=setInterval(()=>{
+    //         document.querySelector("#arrow").click();
+    //     },3000);
+    // }
+    // function clear(){
+    //     clearInterval(timer);
+    // }
+    // set();
+    // document.querySelector(".wrapper").addEventListener("mouseover",function(){
+    //     console.log(1);
+    //     clear();
+    // });
+    // document.querySelector(".wrapper").addEventListener("mouseout",function(){
+    //     console.log(2);
+    //     set();
+    // });
 })();
 
 
@@ -145,6 +149,7 @@ $(window).scroll(function() {
             wH = $(window).height(),
             wS = $(this).scrollTop();
         if (wS > (hT+hH-wH)){
+          console.log("Pacman!")
         }
       });
 })();
@@ -153,6 +158,7 @@ $(window).scroll(function() {
     var mj1 = document.querySelector("#mj1");
     var mj2 = document.querySelector("#mj2");
     window.addEventListener("scroll",function(){
+        console.log("Hitttt");
     });
     $(window).scroll(function() {
         var hT = $('#farts').offset().top,
@@ -234,26 +240,27 @@ $(window).scroll(function() {
         });
     });
 })();
-// (function(){
-//         var arr=document.querySelectorAll("a[class^='modal']");
-// var gold=$("a[class^='modal']")[2].children[0].offsetTop;
+(function(){
+        var arr=document.querySelectorAll("a[class^='modal']");
+var gold=$("a[class^='modal']")[2].children[0].offsetTop;
 
-//    arr.forEach(function(data,i){
+   arr.forEach(function(data,i){
 
-//     $(window).scroll(function() {
-//         var hT = $("a[class^='modal']")[i].children[0].offsetTop,
-//             hH = $("a[class^='modal']")[i].children[0].offsetHeight,
-//             wH = $(window).height(),
-//             wS = $(this).scrollTop();
-//         if (wS+wH/2>hT){
-//             arr[i].children[0].classList.add("zoomIn07");
-//         }
-//         if(wS>hT){
-//             arr[i].children[0].classList.remove("zoomIn07");
-//         }
-//         if (wS+wH/2<hT){
-//             arr[i].children[0].classList.remove("zoomIn07");
-//         }
-//       });
-//    });
-// })();
+    $(window).scroll(function() {
+        var hT = $("a[class^='modal']")[i].children[0].offsetTop,
+            hH = $("a[class^='modal']")[i].children[0].offsetHeight,
+            wH = $(window).height(),
+            wS = $(this).scrollTop();
+            console.log(hT,hH,wH/2,wS);
+        if (wS+wH/2>hT){
+            arr[i].children[0].classList.add("zoomIn07");
+        }
+        if(wS>hT){
+            arr[i].children[0].classList.remove("zoomIn07");
+        }
+        if (wS+wH/2<hT){
+            arr[i].children[0].classList.remove("zoomIn07");
+        }
+      });
+   });
+})();
