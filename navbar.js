@@ -190,9 +190,6 @@ const ease = {
           else if(k===6){
             document.querySelector("").scrollIntoView();
           }
-          else if(k===7){
-            document.querySelector("").scrollIntoView();
-          }
           else if(k===8){
             document.querySelector("").scrollIntoView();
           }

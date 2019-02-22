@@ -25,7 +25,14 @@ button {
 ::before {
     box-sizing: border-box
 }
-
+.black{
+    color: black;
+}
+.centerhoriz{
+    position: absolute;
+    left:50vw;
+    transform: translateX(-50%);
+}
 @font-face {
     font-family: "League Spartan";
     src: url(fonts/leaguespartan-bold.woff) format("woff"), url(fonts/LeagueSpartan-Bold.otf) format("opentype"), url(fonts/leaguespartan-bold.ttf) format("truetype")
@@ -118,7 +125,13 @@ button {
 .flex {
     display: flex
 }
-
+.loa{
+    width: 100vw;
+    height: 100vh;
+}
+.mainbody{
+    display: none;
+}
 .closeboxhide,
 .dan1off,
 .dan2off,
@@ -156,10 +169,10 @@ html {
     position: absolute
 }
 
-.d-block {
+/* .d-block {
     width: 100%;
     height: 50%;
-}
+} */
 
 .cus {
     top: 65%;
@@ -174,7 +187,9 @@ html {
 #panel {
     will-change: transform
 }
-
+.flex{
+    display: flex;
+}
 .sponchar {
     top: 58%;
     left: 55.7vw;
@@ -182,6 +197,10 @@ html {
     height: 2.5%;
 }
 
+.imagesvara{
+    display: block !important;
+    width: 100% !important;
+}
 .extend,
 .svg-hero,
 body {
@@ -218,7 +237,204 @@ body {
     --button-circle: #ada4a4;
     --button-line: #222;
     overflow-x: hidden;
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    margin: 0;
+    background: #1c163a;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    left: 42%;
+    top: 41%;
+    font-family: 'fipps', serif;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 60px;
+    width: 160px;
+    margin: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.circles {
+    position: absolute;
+    left: -5px;
+    top: 0;
+    height: 60px;
+    width: 180px;
+}
+
+.circles span {
+    position: absolute;
+    top: 25px;
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+    background-color: #efefef;
+}
+
+.circles span.one {
+    right: 80px;
+}
+
+.circles span.two {
+    right: 40px;
+}
+
+.circles span.three {
+    right: 0px;
+}
+
+.circles {
+    -webkit-animation: animcircles 0.5s infinite linear;
+    animation: animcircles 0.5s infinite linear;
+}
+
+@-webkit-keyframes animcircles {
+    0% {
+        -webkit-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        -webkit-transform: translate(-40px, 0px);
+        transform: translate(-40px, 0px);
+    }
+}
+
+@keyframes animcircles {
+    0% {
+        -webkit-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        -webkit-transform: translate(-40px, 0px);
+        transform: translate(-40px, 0px);
+    }
+}
+
+.pacman {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 60px;
+    width: 60px;
+}
+
+.pacman .eye {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    background-color: #1c163a;
+}
+
+.pacman span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 60px;
+}
+
+.pacman span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 30px;
+    width: 60px;
+    background-color: #fffb16;
+}
+
+.pacman .top::before {
+    top: 0;
+    border-radius: 60px 60px 0px 0px;
+}
+
+.pacman .bottom::before {
+    bottom: 0;
+    border-radius: 0px 0px 60px 60px;
+}
+
+.pacman .left::before {
+    bottom: 0;
+    height: 60px;
+    width: 30px;
+    border-radius: 60px 0px 0px 60px;
+}
+
+.pacman .top {
+    -webkit-animation: animtop 0.5s infinite;
+    animation: animtop 0.5s infinite;
+}
+
+@-webkit-keyframes animtop {
+
+    0%,
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes animtop {
+
+    0%,
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+}
+
+.pacman .bottom {
+    -webkit-animation: animbottom 0.5s infinite;
+    animation: animbottom 0.5s infinite;
+}
+
+@-webkit-keyframes animbottom {
+
+    0%,
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes animbottom {
+
+    0%,
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
 }
 
 .svg-hero {
@@ -488,6 +704,11 @@ a {
     left: 30vw;
     width: 41%;
     animation: move 4s
+}
+.pusher p{
+    text-align: center;
+    padding:8px;
+    font-family: arial;
 }
 
 .pwron1 {
@@ -1455,7 +1676,6 @@ a {
     height: 100%;
     padding: 24px
 }
-
 .center {
     top: 50%;
     left: 50%;

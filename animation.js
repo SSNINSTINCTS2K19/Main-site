@@ -1,23 +1,27 @@
 (function () {
 
-    var noddy = document.querySelector("#nod");
-    var logo = document.querySelector("#logo");
+    window.onload = function(){ 
+        var noddy = document.querySelector("#nod");
+        var logo = document.querySelector("#logo");
 
-    setTimeout(() => {
+        // document.querySelector(".loa").classList.add("zoomOut");
+        document.querySelector(".loa").style.display = "none";
+        document.querySelector(".mainbody").style.display = "block";
+        noddy.classList.add("nodoff");
+        logo.classList.add("logoon");
+        setTimeout(() => {
         logo.classList.remove("logooff");
         logo.classList.add("logoon");
-    }, 800);
+        }, 800);
 
-    setTimeout(() => {
+        setTimeout(() => {
         noddy.classList.remove("nodoff");
-        noddy.classList.add("nodon");
-    }, 4000);
-
-    var pwr1 = document.querySelector("#pwr1");
-    var s1 = document.querySelector("#spon1");
-    var t1 = document.querySelector("#tag1");
-
-
+        noddy.classList.add("nodon"); 
+        }, 4000);
+     };
+      var pwr1=document.querySelector("#pwr1");
+      var s1=document.querySelector("#spon1");
+      var t1=document.querySelector("#tag1");
 
     $(window).scroll(function () {
         var hT = $('#Gal').offset().top,
@@ -41,12 +45,12 @@
 (function () {
     var a = document.querySelector("#inp");
     var sicon = document.querySelector(".plusdisplay");
-    var cb = document.querySelector(".closeboxclose");
+    var cb = document.querySelector(".closeboxhide");
     var ul = document.querySelector("#query");
     sicon.addEventListener("click", function () {
         a.classList.remove("tasktxtclose");
         a.classList.add("tasktxtdisplay");
-        cb.classList.remove("closeboxclose");
+        cb.classList.remove("closeboxhide");
         cb.classList.add("closeboxdisplay");
         sicon.classList.remove("plusdisplay");
         sicon.classList.add("plusclose");
@@ -58,7 +62,7 @@
         sicon.classList.remove("plusclose");
         sicon.classList.add("plusdisplay");
         cb.classList.remove("closeboxdisplay");
-        cb.classList.add("closeboxclose");
+        cb.classList.add("closeboxhide");
         a.value = "";
         ul.innerHTML = "";
 
@@ -148,9 +152,6 @@
             hH = $('#LightsOutPlease').outerHeight(),
             wH = $(window).height(),
             wS = $(this).scrollTop();
-        if (wS > (hT + hH - wH)) {
-            console.log("Pacman!")
-        }
     });
 })();
 
@@ -158,7 +159,6 @@
     var mj1 = document.querySelector("#mj1");
     var mj2 = document.querySelector("#mj2");
     window.addEventListener("scroll", function () {
-        console.log("Hitttt");
     });
     $(window).scroll(function () {
         var hT = $('#farts').offset().top,
@@ -179,33 +179,73 @@
     $('.carousel').carousel();
     $(".modal01").animatedModal();
     $(".modal03").animatedModal();
-    $(".modal04").animatedModal();
-    $(".modal05").animatedModal();
-    $(".modal06").animatedModal();
-    $(".modal07").animatedModal();
-    $(".modal08").animatedModal();
-    $(".modal09").animatedModal();
-    $(".modal10").animatedModal();
-    $(".modal12").animatedModal();
-    $(".modal13").animatedModal();
-    $(".modal15").animatedModal();
     $("#mastersof").animatedModal();
-    $(".modal16").animatedModal();
-    $(".modal17").animatedModal();
     $("#credits").animatedModal();
+    var x=document.querySelector("#topic");
 
+document.querySelector("#SFC").addEventListener("click",function() {
+    x.innerHTML="SSN Film Club";
+    eventModule().start("SFC", ".m03", document.querySelector("#cardtemplate"));
+});
+
+
+document.querySelector("#SPC").addEventListener("click", function () {
+    x.innerHTML = "SSN Photography Club";
+    eventModule().start("SPC", ".m03", document.querySelector("#cardtemplate"));
+});
+
+document.querySelector("#DesignClub").addEventListener("click", function () {
+    x.innerHTML = "Design Club";
+    eventModule().start("DesignClub", ".m03", document.querySelector("#cardtemplate"));
+});
+
+document.querySelector("#farts").addEventListener("click", function () {
+    x.innerHTML = "Fine Arts Club";
+    eventModule().start("FineArtsClub", ".m03", document.querySelector("#cardtemplate"));
+});
+
+document.querySelector("#N2K").addEventListener("click", function () {
+    x.innerHTML = "Dance Club";
+    eventModule().start("N2K", ".m03", document.querySelector("#cardtemplate"));
+});
+
+document.querySelector("#LightsOutPlease").addEventListener("click", function () {
+    x.innerHTML = "Lights Out Please";
     eventModule().start("LightsOutPlease", ".m03", document.querySelector("#cardtemplate"));
-    eventModule().start("DesignClub", ".m05", document.querySelector("#cardtemplate"));
-    eventModule().start("EnglishLiteraryClub", ".m09", document.querySelector("#cardtemplate"));
-    eventModule().start("FineArtsClub", ".m06", document.querySelector("#cardtemplate"));
-    eventModule().start("N2K", ".m07", document.querySelector("#cardtemplate"));
-    eventModule().start("Q!", ".m12", document.querySelector("#cardtemplate"));
-    eventModule().start("Saaral", ".m10", document.querySelector("#cardtemplate"));
-    eventModule().start("SFC", ".m08", document.querySelector("#cardtemplate"));
-    eventModule().start("SMC", ".m11", document.querySelector("#cardtemplate"));
-    eventModule().start("SPC", ".m04", document.querySelector("#cardtemplate"));
+});
+
+document.querySelector("#EnglishLiteraryClub").addEventListener("click", function () {
+    x.innerHTML = "English Literary Club";
+    eventModule().start("EnglishLiteraryClub", ".m03", document.querySelector("#cardtemplate"));
+});
+
+document.querySelector("#Saaral").addEventListener("click", function () {
+    x.innerHTML = "தமிழ் சாரல் மன்றம்";
+    eventModule().start("Saaral", ".m03", document.querySelector("#cardtemplate"));
+});
+
+document.querySelector("#SMC").addEventListener("click", function () {
+    x.innerHTML = "SSN Music Club";
+    eventModule().start("SMC", ".m03", document.querySelector("#cardtemplate"));
+});
+
+document.querySelector("#Quiz").addEventListener("click", function () {
+    x.innerHTML = "Quiz Club";
+    eventModule().start("Q!", ".m03", document.querySelector("#cardtemplate"));
+});
+
+document.querySelector("#busroutes").addEventListener("click", function () {
+    x.innerHTML = "Accomodation & Busroutes";
+    eventModule().start("busroutes", ".m03", document.querySelector("#cardtemplate"));
+});
+
+document.querySelector("#bus").addEventListener("click", function () {
+    x.innerHTML = "Accomodation & Busroutes";
+    eventModule().start("busroutes", ".m03", document.querySelector("#cardtemplate"));
+});
+  
     eventModule().start("VarietyClub", ".m01", document.querySelector("#cardtemplate"));
-    eventModule().start("busroutes", ".m13", document.querySelector("#cardtemplate"));
+ 
 
 })();
 
@@ -251,7 +291,6 @@
                 hH = $("a[class^='modal']")[i].children[0].offsetHeight,
                 wH = $(window).height(),
                 wS = $(this).scrollTop();
-            console.log(hT, hH, wH / 2, wS);
             if (wS + wH / 2 > hT) {
                 arr[i].children[0].classList.add("zoomIn07");
             }
@@ -271,5 +310,6 @@
         autoplaySpeed: 2000,
     });
     $("#aboutify").animatedModal();
-$("#aboutify2").animatedModal();
+
+$(".core").animatedModal();
 })();
