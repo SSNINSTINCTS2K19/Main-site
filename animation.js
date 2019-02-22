@@ -4,7 +4,6 @@
         var noddy = document.querySelector("#nod");
         var logo = document.querySelector("#logo");
 
-        // document.querySelector(".loa").classList.add("zoomOut");
         document.querySelector(".loa").style.display = "none";
         document.querySelector(".mainbody").style.display = "block";
         noddy.classList.add("nodoff");
@@ -310,6 +309,8 @@ document.querySelector("#bus").addEventListener("click", function () {
         autoplaySpeed: 2000,
     });
     $("#aboutify").animatedModal();
+    $("#aboutify3").animatedModal();
+
 
 $(".core").animatedModal();
 })();
