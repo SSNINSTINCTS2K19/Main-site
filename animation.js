@@ -180,6 +180,7 @@
     $(".modal03").animatedModal();
     $("#mastersof").animatedModal();
     $("#credits").animatedModal();
+    $(".modal04").animatedModal();
     var x=document.querySelector("#topic");
 
 document.querySelector("#SFC").addEventListener("click",function() {
