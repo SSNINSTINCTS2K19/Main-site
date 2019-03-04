@@ -244,7 +244,7 @@ document.querySelector("#bus").addEventListener("click", function () {
     eventModule().start("busroutes", ".m03", document.querySelector("#cardtemplate"));
 });
   
-    eventModule().start("VarietyClub", ".m01", document.querySelector("#cardtemplate"));
+    eventModule().start("FunClub", ".m01", document.querySelector("#cardtemplate"));
  
 
 })();
