@@ -2,10 +2,11 @@
     "title":"Fun Club",
     "name":"Fun Club",
     "events":[
+       
         {
             "title":"Variety Show",
             "description":"It doesn't matter what you're good at as long as you set the stage on fire. Mime, mimicry or even a skit, it doesn't matter as long as it's creative.Bring the band together, get them juices flowing and come up with the wittiest set possible.  ",
-            "rules":"Prelims will be conducted;Participating teams can have their own theme;Each team will be given 12 min for performance and 3min for stage setting;A team may have a Minimum of 6 members and maximum of 20;Only one team is allowed from one college;The Final Judgment will be mainly based on their Performance, Humor, Theme and Creativity;REGISTRATION FEE - 100 PER HEAD",           
+            "rules":"Prelims will be conducted;Participating teams can have their own theme;Each team will be given 12 min for performance and 3min for stage setting;A team may have a Minimum of 6 members and maximum of 20;The Final Judgment will be mainly based on their Performance, Humor, Theme and Creativity;REGISTRATION FEE - 100 PER HEAD",           
             "contact":"Pown Krishnan B -8056138281"
 		
         },
@@ -22,6 +23,25 @@
             "rules":"Number of players: 2-4 per team;Number of rounds: 2 (prelims and finals);Prelims -Written test on general questions(30 minutes);Finals – Hunt for your treasure;Registration FEE- Rs 60 per head",
             
             "contact":"Pown Krishnan B -8056138281"
+        },
+        {
+            "title":"PUBG",
+            "rules":"2 per team.;Only duo.;Map will be fixed by organizers.;Prelims and finals on the same day"
+        },
+        {
+            "title":"NFS-Most Wanted",
+            "location":"Alan Turing Lab - IT Department",
+            "rules":"Tracks will be decided by the organizers.;Any car can be chosen.;The right to modify the rules at any time.;Rs.50 per head.;The fastest 16 will make it to the next round.;LAN game for the finalists."
+        },
+        {
+            "title":"FIFA",
+            "location":"OS Lab - IT Department",
+            "rules":"Keyboards will be available.;Players are advised to bring their own joysticks (if needed).;Only Default gameplay settings are allowed.;Only tactical defending is allowed.;Organizers reserve the right to modify the rules at any time.;Rs.50 per head."
+        },
+        {
+            "title":"Call of Duty",
+            "location":"Von Neumann Lab - IT Department",
+            "rules":"Each team should contain 4 members.;The match will contain three rounds.;Rs.200 per team.;The first match will be a team deathmatch between two teams and the timing will be 10 minutes.;The teams will be filtered according to the highest point basis i.e., the 4 teams which scored the highest score in deathmatch will move forward for the next round.;The 4 teams will clash with any other team in a sabotage match for 2 points i.e., the team which scores 2 points in the sabotage match wins (the timing will be 10 minutes).;The final round will also be a sabotage match with 10 min timing and the first team which scores 2 points win."
         },
         {
             "title":"Adzap",
@@ -50,26 +70,7 @@
             "rules":"Only two members per team;Teams should only use the resources provided to them;On the spot registration;Judges decision are the final;REGISTRATION - GENERAL REGISTRATION",
             
             "contact":"Pown Krishnan B -8056138281"
-        },
-        {
-            "title":"PUBG",
-            "rules":"2 per team. Only duo. Map will be fixed by organizers. Prelims and finals on the same day"
-        },
-        {
-            "title":"NFS-Most Wanted",
-            "location":"Alan Turing Lab - IT Department",
-            "rules":"Tracks will be decided by the organizers. Any car can be chosen. The right to modify the rules at any time. Rs.50 per head. The fastest 16 will make it to the next round. LAN game for the finalists."
-        },
-        {
-            "title":"FIFA",
-            "location":"OS Lab - IT Department",
-            "rules":"Keyboards will be available. Players are advised to bring their own joysticks (if needed). Only Default gameplay settings are allowed. Only tactical defending is allowed. Organizers reserve the right to modify the rules at any time. Rs.50 per head."
-        },
-        {
-            "title":"Call of Duty",
-            "location":"Von Neumann Lab - IT Department",
-            "rules":"Each team should contain 4 members. The match will contain three rounds.Rs.200 per team. The first match will be a team deathmatch between two teams and the timing will be 10 minutes. The teams will be filtered according to the highest point basis i.e., the 4 teams which scored the highest score in deathmatch will move forward for the next round. The 4 teams will clash with any other team in a sabotage match for 2 points i.e., the team which scores 2 points in the sabotage match wins (the timing will be 10 minutes). The final round will also be a sabotage match with 10 min timing and the first team which scores 2 points win."
-        }
+        }        
     
 
 
