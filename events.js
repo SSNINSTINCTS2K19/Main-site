@@ -126,7 +126,7 @@ let eventModule = function () {
             previous = previous2.replace(/\s+/g, "");
             // let data = JSON.parse(localStorage.getItem(club));
             sel("#mtitle").innerHTML = previous2;
-            if(previous2==="SSN BUS ROUTES")
+            if(previous2==="SSN COLLEGE BUS ROUTES")
             {
                 window.open("https://ssninstincts.org.in/Bus_routes.pdf","_self");
                 return ;
